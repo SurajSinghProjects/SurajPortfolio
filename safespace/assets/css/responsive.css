@@ -1,0 +1,649 @@
+@media screen and (max-width: 1699px) {}
+
+@media screen and (max-width: 1499px) {}
+
+@media screen and (max-width: 1199px) {
+    .email-fill-form .form-group .form-control {
+        width: 418px;
+    }
+    /* font size css */
+    h1,
+    .h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+    h2,
+    .h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    h3,
+    .h3 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    h4,
+    .h4 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    h5,
+    .h5 {
+        font-size: 19px;
+        line-height: 24px;
+    }
+    p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .link {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    /* padding */
+    .sec-p-b-140 {
+        padding-bottom: 80px;
+    }
+    .sec-p-t-140 {
+        padding-top: 80px;
+    }
+    .sec-p-b-80 {
+        padding-bottom: 50px;
+    }
+    .sec-p-t-80 {
+        padding-top: 50px;
+    }
+    /* end */
+    .btn-sm {
+        padding: 14px 18px 14px 18px !important;
+        height: 55px;
+    }
+    .btn-md {
+        padding: 14px 28px 14px 28px !important;
+    }
+    .btn-lg {
+        padding: 12px 70px !important;
+    }
+    .navbar .navbar-nav .nav-item {
+        margin-right: 22px;
+    }
+    .navbar .navbar-nav .nav-item:nth-child(6) {
+        margin-right: 60px;
+    }
+    .hero-banner {
+        padding-top: 120px;
+        padding-bottom: 66px;
+    }
+    .banner-links span {
+        margin-right: 30px;
+    }
+    .hero-banner .hero-banner-content h1 {
+        margin-bottom: 24px;
+    }
+    .hero-banner .hero-banner-content p {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 30px;
+    }
+    .hero-banner .hero-banner-content .email-fill-form {
+        margin-bottom: 30px;
+    }
+    .email-fill-form .desk-search-Link {
+        right: 44px;
+    }
+    .work-left h2 {
+        margin-bottom: 20px;
+    }
+    .work-left p {
+        margin-bottom: 20px;
+    }
+    .work-left .work-list {
+        margin-bottom: 30px;
+    }
+    .list-item {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 16px;
+    }
+    .service-heading {
+        margin-bottom: 50px;
+    }
+    .testimonal-content {
+        margin-bottom: 40px;
+    }
+    .testimonal-header-body {
+        padding: 20px 0 0px 20px;
+    }
+    .testomonial-body {
+        padding: 20px 24px 50px 24px;
+    }
+    .enquire-sec .card {
+        padding: 40px 10px 0px 10px;
+        min-height: 600px;
+    }
+    .enquire-sec .card .card-img {
+        margin-bottom: 20px;
+    }
+    .enquire-sec .card .card-content {
+        margin-bottom: 20px;
+    }
+    .account-sec .container {
+        padding: 40px 64px;
+    }
+    .frequently-sec {
+        padding-bottom: 90px;
+        padding-top: 90px;
+    }
+    .frequently-sec .frequently-heading {
+        margin-bottom: 44px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    /* header navigation  css*/
+    .navbar {
+        padding: 0;
+        padding-top: 10px;
+    }
+    .navbar-toggler {
+        padding: 3px;
+        margin-right: 5px;
+    }
+    .navbar-brand {
+        margin-left: 10px;
+    }
+    .header-logo {
+        width: 170px;
+        height: auto;
+    }
+    .navbar-collapse {
+        background-color: #76BBFF;
+        margin-top: 4px;
+    }
+    .navbar-nav {
+        align-items: flex-start !important;
+        padding: 0 10px 30px 10px;
+    }
+    .navbar .navbar-nav .nav-item {
+        width: 100%;
+        border-bottom: 1px solid #ccc;
+    }
+    .navbar .navbar-nav .nav-item .nav-link {
+        padding: 16px 0;
+        width: 100%;
+        display: inline-block;
+    }
+    .navbar .navbar-nav .nav-item {
+        width: 100%;
+    }
+    header .container {
+        padding: 0;
+    }
+    header .btn-shadow {
+        width: 100%;
+        margin-top: 10px;
+    }
+    /* font size css */
+    h1,
+    .h1 {
+        font-size: 38px;
+        line-height: 44px;
+    }
+    h2,
+    .h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    h3,
+    .h3 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    h4,
+    .h4 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    h5,
+    .h5 {
+        font-size: 19px;
+        line-height: 24px;
+    }
+    p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .link {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .card-columns {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+    /* padding */
+    .sec-p-b-140 {
+        padding-bottom: 60px;
+    }
+    .sec-p-t-140 {
+        padding-top: 60px;
+    }
+    .sec-p-b-80 {
+        padding-bottom: 30px;
+    }
+    .sec-p-t-80 {
+        padding-top: 30px;
+    }
+    /* end */
+    .btn-sm {
+        padding: 12px 15px 12px 15px !important;
+        height: 48px;
+    }
+    .hero-banner .hero-banner-content h1 {
+        margin-bottom: 14px;
+    }
+    .hero-banner .hero-banner-content p {
+        font-size: 17px;
+        line-height: 26px;
+        margin-bottom: 20px;
+    }
+    .email-fill-form .form-group .form-control {
+        width: 400px;
+        height: 60px;
+    }
+    .email-fill-form .desk-search-Link {
+        right: 58px;
+        top: 6px;
+    }
+    .hero-banner .hero-banner-content .email-fill-form {
+        margin-bottom: 20px;
+    }
+    .hero-banner .banner-right {
+        overflow: hidden;
+        margin-top: 30px;
+    }
+    .hero-banner .banner-img {
+        width: 370px;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+    }
+    .enquire-sec {
+        padding-bottom: calc(60px - 20px);
+    }
+    .enquire-sec .card {
+        padding: 20px 10px 0px 10px;
+        min-height: 560px;
+        margin-bottom: 20px;
+    }
+    .service-card {
+        margin-bottom: 20px;
+    }
+    .account-sec .container {
+        padding: 30px 34px;
+    }
+    .account-left h3 {
+        line-height: 32px;
+    }
+    .account-left p {
+        margin-bottom: 20px;
+    }
+    .frequently-sec {
+        padding-bottom: 70px;
+        padding-top: 60px;
+    }
+    .frequently-content {
+        margin-bottom: 30px;
+        padding: 20px 20px 20px 30px;
+    }
+    .footer-logo {
+        margin-bottom: 40px;
+    }
+    .footer .footer-form {
+        margin-bottom: 32px;
+    }
+    .footer .email-fill-form .form-group .form-control {
+        height: 65px;
+    }
+    .footer .email-fill-form .desk-search-Link {
+        right: 62px;
+    }
+    .footer .social-media-icons-list {
+        margin-bottom: 20px;
+    }
+    .footer-content {
+        margin-bottom: 30px;
+    }
+    .footer-bottom-links {
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    header {
+        position: fixed;
+        z-index: 9999;
+        width: 100%;
+        background-color: #fff;
+        padding: 4px 0;
+    }
+    .navigation {
+        display: block;
+        position: fixed;
+        left: 20px;
+        top: 60px;
+        background: #373B44;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #4286f4, #373B44);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #4286f4, #373B44);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        border-radius: 10px;
+        width: 60px;
+        min-height: 550px;
+        border-left: 5px solid #4d5bf9;
+        transition: width 0.5s;
+    }
+    .navigation.active,
+    .title.acitve {
+        width: 300px;
+    }
+    .navigation ul {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        padding-left: 5px;
+        padding-top: 40px;
+        margin-bottom: 0;
+    }
+    .navigation ul li {
+        position: relative;
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        margin-bottom: 10px;
+    }
+    .navigation ul li.active {
+        background-color: #fff;
+        color: #000 !important;
+    }
+    .navigation ul li b:nth-child(1) {
+        position: absolute;
+        top: -20px;
+        height: 20px;
+        width: 100%;
+        background-color: #fff;
+        display: none;
+    }
+    .navigation ul li b:nth-child(1)::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -1px;
+        width: 100%;
+        height: 100%;
+        border-bottom-right-radius: 20px;
+        background: #373B44;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #4286f4, #373B44);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #4286f4, #373B44);
+    }
+    .navigation ul li b:nth-child(2) {
+        position: absolute;
+        bottom: -20px;
+        height: 20px;
+        width: 100%;
+        background-color: #fff;
+        display: none;
+    }
+    .navigation ul li b:nth-child(2)::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -1px;
+        width: 100%;
+        height: 100%;
+        border-top-right-radius: 20px;
+        background: #373B44;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #4286f4, #373B44);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #4286f4, #373B44);
+    }
+    .navigation ul .list.active b:nth-child(1),
+    .navigation ul .list.active b:nth-child(2) {
+        display: block;
+    }
+    .navigation ul li a {
+        position: relative;
+        color: #ffff;
+        display: flex;
+        width: 100%;
+        padding: 10px 0;
+    }
+    .navigation ul li.active a {
+        color: #000 !important;
+    }
+    .navigation ul li a .icon {
+        display: block;
+        font-size: 30px;
+        min-width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        margin-right: 20px;
+    }
+    .navigation ul li a .title {
+        font-size: 20px;
+        position: relative;
+        white-space: normal;
+        line-height: 30px;
+    }
+    .toggle {
+        position: fixed;
+        top: 10px;
+        right: 20px;
+        width: 40px;
+        height: 40px;
+        background: #2193b0;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #6dd5ed, #2193b0);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        border-radius: 10px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .toggle.active {
+        background: #00B4DB;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #0083B0, #00B4DB);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+    .toggle ion-icon {
+        position: absolute;
+        font-size: 32px;
+        line-height: 40px;
+        color: #fff;
+        opacity: 1;
+        display: none;
+    }
+    .toggle ion-icon.open,
+    .toggle.active ion-icon.close {
+        display: block;
+    }
+    .toggle ion-icon.close,
+    .toggle.active ion-icon.open {
+        display: none;
+    }
+    .toggle .close:hover {
+        color: #fff;
+    }
+    /* font size css */
+    h1,
+    .h1 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    h2,
+    .h2 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    h3,
+    .h3 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    h4,
+    .h4 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    h5,
+    .h5 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .link {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .card-columns {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+    .btn-sm {
+        padding: 10px 12px 10px 12px !important;
+        height: 43px;
+    }
+    .btn-md {
+        padding: 14px 20px 14px 20px !important;
+    }
+    /* padding */
+    .sec-p-b-140 {
+        padding-bottom: 40px;
+    }
+    .sec-p-t-140 {
+        padding-top: 40px;
+    }
+    .sec-p-b-80 {
+        padding-bottom: 20px;
+    }
+    .sec-p-t-80 {
+        padding-top: 20px;
+    }
+    /* end */
+    .navbar .navbar-nav .nav-item .nav-link {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .email-fill-form .form-group .form-control {
+        width: 400px;
+        height: 50px;
+    }
+    .hero-banner {
+        padding-top: 90px;
+        padding-bottom: 56px;
+    }
+    .hero-banner .hero-banner-content p {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 16px;
+    }
+    .list-item {
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 10px;
+    }
+    .work-right {
+        margin-top: 20px;
+    }
+    .deliver-right {
+        overflow: hidden;
+        margin-top: 20px;
+    }
+    .frequently-ques:after {
+        font-size: 30px;
+    }
+    .testomonial-body {
+        padding: 24px;
+    }
+    .enquire-sec .card .card-img {
+        height: 127px;
+        margin-bottom: 20px;
+    }
+    .enquire-sec .card p {
+        margin-bottom: 20px;
+    }
+    .enquire-sec .card {
+        padding: 20px 10px 20px 10px;
+        min-height: 0;
+        margin-bottom: 20px;
+    }
+    .account-sec {
+        padding: 0 10px;
+    }
+    .account-right {
+        margin-top: 20px;
+    }
+    .frequently-sec {
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+    .frequently-sec .frequently-heading {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .email-fill-form .form-group .form-control {
+        width: 100%;
+        height: 50px;
+        padding: 24px 30px 24px 10px;
+    }
+    .hero-banner .hero-banner-content .email-fill-form {
+        margin-bottom: 20px;
+        display: inline;
+    }
+    .email-fill-form .form-group {
+        margin-bottom: 10px;
+    }
+    .btn-sm {
+        padding: 10px 12px 10px 12px !important;
+        height: 43px;
+        width: 100%;
+    }
+    .email-fill-form .desk-search-Link {
+        position: unset;
+    }
+    .footer .email-fill-form {
+        display: inline;
+    }
+    .footer .email-fill-form .form-group .form-control {
+        height: 50px;
+    }
+    .footer .email-fill-form .desk-search-Link {
+        right: 15px;
+        top: 44px;
+    }
+    .footer-bottom-links .bottom-link {
+        margin-right: 20px;
+    }
+    .banner-links {
+        margin-top: 16px;
+    }
+}

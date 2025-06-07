@@ -1,0 +1,1228 @@
+@media (min-width:1615px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1320px
+    }
+}
+
+@media screen and (max-width: 1699px) {
+    .learn-eclipse-2 {
+        width: 170px;
+    }
+}
+
+@media screen and (max-width: 1499px) {
+    .hero-banner {
+        padding-top: 90px;
+        padding-bottom: 168px;
+    }
+    .hero-banner .banner-img {
+        right: -20px;
+    }
+    .hero-banner .banner-card .card-item {
+        padding: 15px 25px 15px 17px;
+    }
+    .brands_next {
+        right: 0;
+        top: 24%;
+    }
+    .loan-form {
+        margin-top: -74px;
+    }
+    .why-use-myloan .loan-use-heading {
+        padding-bottom: 90px;
+    }
+    .about-bg-cricle {
+        background-position: 0 760px;
+    }
+    .learn-eclipse-2 {
+        width: 150px;
+    }
+    .learn-eclipse-1 {
+        width: 220px;
+    }
+    .banner-content h1 {
+        margin-bottom: 30px;
+        font-size: 54px;
+    }
+    .card .card-img img {
+        height: 230px;
+    }
+    /* partners page css */
+    .partners-logo.sec-p-b-240 {
+        padding-bottom: calc(210px - 40px);
+    }
+    .partners-heading {
+        margin-bottom: 60px;
+    }
+    .partners-logo-content .p-logo-text {
+        min-height: 203px;
+        margin-bottom: 20px;
+    }
+}
+
+
+/* 1499 */
+
+@media screen and (max-width: 1199px) {
+    /* header css start */
+    .navbar {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    .navbar .nav-item {
+        padding-right: 30px;
+    }
+    .hero-banner {
+        padding-top: 60px;
+        padding-bottom: 148px;
+    }
+    .hero-banner .banner-img {
+        width: 440px;
+    }
+    .hero-banner .banner-card .card-item {
+        padding: 14px 20px 20px 20px;
+    }
+    .hero-list-card {
+        width: 100%;
+        display: grid;
+    }
+    .hero-banner .banner-card {
+        margin-bottom: 30px;
+        margin-top: 0;
+    }
+    .banner-content h1 {
+        font-size: 52px;
+        line-height: 62px;
+    }
+    .comparison-card .compar-img {
+        margin-bottom: 20px;
+    }
+    .compare-loan .comparison-card {
+        padding: 56px 0px 40px 16px;
+    }
+    .comparison-card .compare-text {
+        max-width: 254px;
+    }
+    .why-use-myloan .loan-use-heading {
+        padding-bottom: 40px;
+    }
+    .why-use-myloan .loan-right-content {
+        margin-bottom: 10px;
+    }
+    .why-use-myloan .loan-img img {
+        height: 430px;
+    }
+    .quick-link-section .quick-link-bg {
+        padding: 20px 20px;
+    }
+    .quick-link-section ul li a {
+        font-size: 18px;
+    }
+    .about-page-content h5 {
+        margin-bottom: 8px;
+    }
+    .about-page-content p {
+        line-height: 28px;
+    }
+    .about-bg-cricle {
+        background-position: -140px 600px;
+    }
+    .comparison-card .compare-text h4 {
+        font-size: 22px;
+        line-height: 26px;
+        margin-bottom: 14px;
+    }
+    .compare-text p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .footer-section .footer-widget ul li .footer-icon {
+        margin-bottom: 0;
+    }
+    .learn-eclipse-1 {
+        width: 160px;
+        bottom: -45px;
+        left: -40px;
+    }
+    .learn-heading {
+        margin-bottom: 40px;
+    }
+    .card .card-img img {
+        height: 190px;
+    }
+    .card {
+        min-height: 405px;
+    }
+    .back {
+        margin-bottom: 48px;
+    }
+    .tem-main-heading {
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    .tem-sub-heading {
+        line-height: 20px;
+    }
+    .tem-loan-heading ul li h3 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .page-section-bg {
+        padding: 70px 0;
+    }
+    .breadcrumbs ol {
+        margin-bottom: 0;
+    }
+    .breadcrumbs ol a {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .breadcrumbs ol li+li {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .contact-left-side .contact-details {
+        left: 15px;
+    }
+    .contact-left-side .contact-details img {
+        margin-right: 10px;
+    }
+    .contact-bg-sec {
+        background: url(../images/contact-orange-right-mob.svg);
+        background-repeat: no-repeat;
+        background-position: right -63px;
+        position: relative;
+    }
+    .personal-bg-sec::after {
+        width: 450px;
+        height: 260px;
+    }
+    /* partners page css */
+    .partners-logo.sec-p-b-240 {
+        padding-bottom: calc(170px - 40px);
+    }
+    .partners-logo-content {
+        padding: 20px 20px 36px 20px;
+    }
+    .p-logo-img {
+        margin-bottom: 10px;
+        padding: 23px 30px 30px 0;
+    }
+    .partners-heading h4 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    /* term page css start */
+    .term-list {
+        margin-bottom: 40px;
+    }
+    .condition-list {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 1099px) {
+    .about-bg-cricle {
+        background-position: -210px 610px;
+    }
+}
+
+
+/* 1199 */
+
+@media screen and (max-width: 991px) {
+    body {
+        padding-top: 70px;
+    }
+    .navbar {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    header .navbar-light .navbar-toggler {
+        border-color: transparent;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    header .navbar .nav-item {
+        padding-right: 20px;
+    }
+    .btn-md {
+        padding: 12px 30px !important;
+        height: 44px;
+    }
+    header .navbar .navbar-nav .dropdown-menu {
+        position: absolute;
+        top: 56px;
+    }
+    header .navbar .navbar-nav .dropdown-menu {
+        box-shadow: 0px 2px 3px rgb(0 0 0 / 10%);
+    }
+    .header-logo {
+        width: 87px;
+    }
+    header .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    header .navbar .nav-item .nav-link {
+        padding: 0.7rem 0;
+    }
+    header .navbar .navbar-nav .dropdown-item {
+        padding: 0.7rem 1rem;
+    }
+    .banner-content h1 {
+        font-size: 48px;
+        line-height: 54px;
+    }
+    .hero-banner .banner-img {
+        right: -32px;
+    }
+    .hero-banner .banner-card .card-item {
+        padding: 14px;
+    }
+    .hero-banner .banner-img {
+        width: 340px;
+    }
+    .hero-banner .banner-card .loan-name h6 {
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 20px;
+    }
+    .hero-banner .banner-card .loan-name {
+        max-width: 102px;
+    }
+    .hero-banner .list-item {
+        font-size: 14px;
+        padding-left: 29px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    .hero-banner .list-item::before {
+        width: 24px;
+        height: 24px;
+        top: 0;
+    }
+    /* loan form section */
+    .brands_next {
+        right: 0;
+        top: 21px;
+    }
+    .form-heading h3 {
+        font-size: 22px;
+        line-height: 44px;
+    }
+    .loan-form-sec .form-para {
+        margin-top: 30px;
+    }
+    .loan-form-sec .btn {
+        margin-top: 0;
+        height: 70px;
+    }
+    .compare-loan .comparison-card {
+        padding: 37px 0px 33px 13px;
+        margin-top: 40px;
+        min-height: 260px;
+    }
+    .comparison-card .compar-img {
+        margin-bottom: 16px;
+    }
+    .comparison-card .compare-text {
+        max-width: 184px;
+    }
+    .comparison-card .compare-text h4 {
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+    .compare-text p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .card {
+        border: none;
+        min-height: 277px;
+    }
+    .card .card-body .card-content {
+        width: 100%;
+        max-width: 311px;
+    }
+    .card .card-body .card-content .card-title {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .card .card-body .card-content .card-heading {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .card .card-body .card-content .card-link {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .work-left {
+        width: 100%;
+        max-width: 100% !important;
+    }
+    /* home page End */
+    .page-section-bg {
+        padding: 70px 0;
+    }
+    .breadcrumbs ol {
+        margin-bottom: 0;
+    }
+    .why-use-myloan .loan-img img {
+        width: 350px;
+        height: 320px;
+        object-fit: cover;
+    }
+    .about-bg-cricle {
+        background-position: -80px 470px;
+    }
+    .footer-section .footer-widget ul li .footer-icon {
+        margin-bottom: 40px;
+    }
+    .learn-eclipse-2 {
+        width: 130px;
+        top: 280px;
+    }
+    .learn-eclipse-1 {
+        width: 160px;
+        bottom: 0;
+    }
+    .about-page .align-items-center {
+        align-items: flex-start !important;
+    }
+    /* learn details page css start */
+    .temporary-loan {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .tem-sub-heading {
+        line-height: 20px;
+        margin-bottom: 5px;
+    }
+    .tem-main-heading {
+        font-size: 26px;
+        line-height: 32px;
+        margin-bottom: 20px;
+    }
+    .temporary-img {
+        margin-bottom: 20px;
+    }
+    .tem-loan-heading ul li h3 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .pros-ques h4 {
+        font-size: 22px;
+    }
+    .document-requ {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 10px;
+    }
+    .document-requ::before {
+        top: 7px;
+    }
+    .tem-loan-heading p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .temporary-loan .m-b-30 {
+        margin-bottom: 40px !important;
+    }
+    .card .card-img img {
+        height: 140px;
+    }
+    .back {
+        margin-bottom: 28px;
+    }
+    .contact-page-bg {
+        padding: 30px 24px 30px 20px;
+    }
+    .contact-left-side .contact-details {
+        left: 30px;
+    }
+    .contact-desktop {
+        display: none;
+    }
+    .contact-mobile {
+        display: block;
+        width: 100%;
+        margin-top: 40px;
+    }
+    .mobile-view-hidden {
+        display: none;
+    }
+    .desktop-view-hidden {
+        display: block;
+    }
+    .contact-bg-sec::after {
+        bottom: 10px;
+        background: url(../images/contact-blue-left-mob.svg);
+        background-repeat: no-repeat;
+        width: 210px;
+        height: 220px;
+    }
+    .contact-sect .m-t-80 {
+        margin-top: 40px;
+    }
+    .contact-left-side .contact-details h4 {
+        font-size: 22px;
+    }
+    /* partner page css  */
+    .partners-logo.sec-p-b-240 {
+        padding-bottom: calc(150px - 0px);
+    }
+    .loader {
+        text-align: center;
+    }
+    .partner-page .partners-content {
+        margin-left: 10px;
+    }
+    .partners-logo-content {
+        padding: 20px 20px 36px 20px;
+    }
+    .partners-logo-content .p-logo-text {
+        font-size: 16px;
+        line-height: 32px;
+        min-height: 256px;
+        margin-bottom: 0px;
+    }
+    .p-logo-img {
+        margin-bottom: 10px;
+        padding: 23px 30px 30px 0;
+    }
+    .partners-heading h4 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    /* privacy page css start */
+    .privacy-list-sec .document-requ::before {
+        top: 10px;
+    }
+}
+
+
+/* 991 */
+
+@media screen and (max-width: 810px) {
+    .hero-banner .banner-card {
+        margin-bottom: 20px;
+        margin-top: 0;
+    }
+    .hero-banner .banner-img {
+        width: 330px;
+    }
+    .why-use-myloan .loan-img img {
+        height: 370px;
+    }
+    .about-list-img {
+        width: 72px;
+        height: 72px;
+    }
+    .about-bg-cricle {
+        background-position: -190px 470px;
+    }
+    .brands_next {
+        right: 0;
+        top: 8px;
+    }
+    .banner-content h1 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+    .contact-left-side .contact-details {
+        bottom: 20px;
+        left: 15px;
+    }
+}
+
+
+/* 810 */
+
+@media screen and (max-width: 767px) {
+    body {
+        padding-top: 50px;
+    }
+    .order-mob-2 {
+        order: 2;
+    }
+    .order-mob-1 {
+        order: 1;
+    }
+    .card {
+        margin-bottom: 40px;
+        min-height: 0;
+        height: auto !important;
+    }
+    /* header css */
+    .navbar {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .header-logo {
+        width: 87px;
+        height: 30px;
+    }
+    ul.navbar-nav.align-items-center {
+        align-items: flex-start !important;
+    }
+    /* moblie menu design */
+    .navbar-nav {
+        margin-top: 16px;
+    }
+    header .navbar .nav-item {
+        padding-right: 0;
+        border-bottom: 1px solid #D8D8D8;
+        width: 100%;
+    }
+    header .navbar .nav-item .nav-link {
+        padding: 16px 0;
+    }
+    header .navbar .nav-item:nth-child(4) {
+        border-bottom: none;
+    }
+    header .navbar .nav-item:last-child {
+        margin-bottom: 30px;
+        border-bottom: none;
+        margin-top: 14px;
+    }
+    .btn-md {
+        padding: 12px 30px !important;
+        height: 44px;
+        width: 100%;
+    }
+    header .navbar-nav .dropdown-menu {
+        position: unset !important;
+        float: none !important;
+        padding-right: 20px;
+    }
+    header .navbar .navbar-nav .dropdown-item {
+        padding: 0.7rem 1rem;
+        padding-left: 0;
+    }
+    header .navbar .navbar-nav .dropdown-menu li {
+        border-bottom: 1px solid #D8D8D8;
+        padding-left: 0;
+        margin-left: 20px;
+    }
+    header .navbar .navbar-nav .dropdown-menu {
+        box-shadow: none;
+        padding: 0;
+        margin: 0;
+    }
+    .navbar .nav-item .nav-link::after {
+        display: none;
+    }
+    header .navbar .navbar-nav .dropdown-menu li:last-child {
+        border-bottom: none;
+        padding-bottom: 6px;
+    }
+    .navbar .mobile-img-group {
+        position: absolute;
+        right: 0;
+        top: 14px;
+        left: auto;
+        bottom: 0;
+    }
+    .navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+        background-image: url(../images/close.svg);
+        background-repeat: no-repeat;
+    }
+    .navbar .navbar-toggler[aria-expanded="false"] .navbar-toggler-icon {
+        background-image: url(../images/toggler-icon.svg);
+        background-repeat: no-repeat;
+    }
+    .navbar .navbar-toggler .navbar-toggler-icon {
+        background-image: url(../images/toggler-icon.svg);
+        background-repeat: no-repeat;
+    }
+    .navbar .nav-item .nav-link[aria-expanded='true'] {
+        color: #FB9644;
+    }
+    .navbar .nav-item .nav-link[aria-expanded='true'] .down-chevron {
+        display: none;
+    }
+    .navbar .nav-item .nav-link[aria-expanded='true'] .chevron-orange-show {
+        display: inline-block;
+        transform: rotate(180deg);
+    }
+    header .navbar .navbar-nav .dropdown-item:focus,
+    header .navbar .navbar-nav .dropdown-item:hover {
+        background: transparent !important;
+        color: var(--primary-color) !important;
+    }
+    /* end */
+    .hero-banner {
+        background: url(../images/bg-banner-mob.svg) no-repeat;
+        background-size: cover;
+        padding-top: 40px;
+        padding-bottom: 247px;
+        display: block;
+    }
+    .hero-list-card {
+        width: 100%;
+        display: grid;
+    }
+    .hero-banner .banner-card .card-c-img {
+        padding: 0;
+        width: 34px;
+        height: 34px;
+        text-align: center;
+    }
+    .banner-content {
+        max-width: 420px;
+    }
+    .banner-card .card-item .card-c-img img {
+        width: 19px;
+    }
+    .why-use-myloan .float-right {
+        float: unset !important;
+    }
+    .banner-content h1 {
+        margin-bottom: 20px;
+    }
+    .hero-banner .banner-img {
+        right: -22px;
+    }
+    .hero-banner .banner-card .loan-name h6 {
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 0;
+    }
+    .hero-banner .banner-card .loan-name {
+        max-width: 80px;
+    }
+    .form-heading {
+        margin-bottom: 0;
+    }
+    .form-heading h3 {
+        font-size: 20px;
+        line-height: 32px;
+        margin-bottom: 0;
+    }
+    .form-amount {
+        margin-bottom: 20px;
+    }
+    .form-amount h6 {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 0;
+    }
+    .form-amount h6 span {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .form-group {
+        margin-bottom: 20px;
+    }
+    .form-group .form-input .enter-amnt {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .form-group .form-style-icon {
+        width: 44px;
+        height: 44px;
+        padding: 6px;
+    }
+    .form-group .form-control {
+        font-size: 18px;
+        line-height: 20px;
+        height: 60px;
+    }
+    .enter-amnt {
+        top: 9px;
+    }
+    .hero-banner .banner-card .card-item {
+        padding: 14px 6px;
+        width: 102px;
+    }
+    .loan-form {
+        padding: 20px;
+    }
+    .loan-form-sec .form-para {
+        margin-top: 10px;
+    }
+    .loan-form-sec .btn {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        height: 48px;
+        padding: 15px 0;
+    }
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .hero-banner .banner-img {
+        width: 260px;
+    }
+    .top-lenders .brands {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .brands_prev {
+        left: 10px;
+    }
+    .brands_next {
+        right: 10px;
+        top: 26px;
+    }
+    .brands_nav img {
+        width: 24px;
+    }
+    .form-amount {
+        text-align: left;
+    }
+    /* compare loan css */
+    .comparison-card .compar-img {
+        margin-bottom: 15px;
+    }
+    .compare-loan .comparison-card {
+        padding: 30px 20px 30px 20px;
+        min-height: 0px;
+        margin-top: 30px;
+    }
+    .com-img {
+        width: 32px;
+        height: 32px;
+    }
+    .comparison-card .compare-text h4 {
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    .compare-top-lenders .lenders {
+        max-width: 340px;
+        margin-bottom: 30px;
+    }
+    .comparison-card .compare-text {
+        max-width: 232px;
+    }
+    .compare-text p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .why-use-myloan .loan-img img {
+        height: 275px;
+    }
+    /* how it works  */
+    .work-left {
+        width: 100%;
+        max-width: 100%;
+    }
+    /* our learn */
+    .learn-heading {
+        margin-bottom: 40px;
+    }
+    .our-learn .card {
+        margin-bottom: 40px;
+        min-height: 0px;
+        height: auto !important;
+    }
+    .card .card-body .card-content {
+        width: 100%;
+        max-width: 311px;
+    }
+    .card .card-body.card-content .card-heading {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 40px;
+    }
+    section.why-use-myloan.sec-p-t-80.sec-p-b-240.bg-alice-blue .loan-img {
+        margin-bottom: 40px;
+    }
+    /* Quick Link */
+    .quick-link-section .quick-link-bg {
+        background-image: linear-gradient(92.69deg, #FF560E -8.38%, rgba(255, 121, 12, 0.8) 34.84%), url('../images/quick-link-footer.png');
+        padding: 30px 20px;
+    }
+    .quick-link-section .quick-link-bg h3 {
+        margin-bottom: 30px;
+        font-size: 28px;
+        line-height: 36px;
+        font-weight: 700;
+    }
+    .quick-link-section ul {
+        margin-bottom: 0;
+    }
+    .quick-link-section ul li a {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .quick-link-section ul li {
+        margin-bottom: 10px;
+    }
+    .footer-section .footer-text p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .footer-section .footer-widget ul li {
+        margin-bottom: 10px;
+        font-size: 16px;
+        line-height: 22px;
+        display: flex;
+    }
+    .footer-section .footer-widget ul li a {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .footer-section .copyright-area .copyright-text p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .footer-section .footer-widget ul li .footer-icon {
+        margin: 0;
+        margin-right: 10px;
+        margin-bottom: 40px;
+        width: 24px;
+    }
+    .footer-section .copyright-area {
+        padding-top: 10px;
+    }
+    .footer-section .copyright-text {
+        margin-top: 5px;
+    }
+    .footer-section .copyright-area .footer-menu ul {
+        padding-left: 0;
+    }
+    .footer-section .copyright-area .footer-menu ul li {
+        margin-left: 10px;
+    }
+    .footer-section .copyright-area .footer-menu ul li a {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .footer-menu {
+        text-align: center !important;
+        margin-bottom: 10px;
+    }
+    .copyright-text {
+        text-align: center !important;
+    }
+    .about-bg-cricle {
+        background-position: -180px 780px;
+    }
+    .breadcrumbs h2 {
+        line-height: 40px;
+    }
+    .breadcrumbs ol a,
+    .breadcrumbs ol li+li {
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 0.1em;
+    }
+    .about-page-content {
+        margin-bottom: 20px;
+    }
+    .about-page-content h5 {
+        margin-bottom: 5px;
+    }
+    .about-page-content h2 {
+        margin-bottom: 20px;
+    }
+    .about-page-content p,
+    .about-list-content p {
+        margin-bottom: 20px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .loan-img {
+        margin-bottom: 0;
+    }
+    section.why-use-myloan.sec-p-t-80.sec-p-b-80 {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .loan-properties p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .about-page-content p,
+    .about-list-content p {
+        margin-bottom: 0;
+    }
+    .faq-sect .sec-heading {
+        text-align: left;
+    }
+    .accordion .accordion-item {
+        margin-bottom: 20px;
+    }
+    .accordion button {
+        padding: 20px 40px 20px 22px;
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 500;
+    }
+    .accordion button .icon {
+        right: 25px;
+    }
+    .accordion .faq-padding {
+        padding: 0 20px 22px;
+    }
+    .accordion .faq-padding p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .learn-eclipse-1 {
+        width: 130px;
+        bottom: 70px;
+    }
+    .loader-img img {
+        width: 32px;
+    }
+    /*  learn details page */
+    .tem-main-heading {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .temporary-img {
+        margin-bottom: 20px;
+    }
+    .tem-loan-heading ul li h3 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .pros-ques h4 {
+        font-size: 20px;
+    }
+    .document-requ {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 10px;
+    }
+    .document-requ::before {
+        top: 7px;
+    }
+    .tem-loan-heading p {
+        line-height: 22px;
+    }
+    .temporary-loan .m-b-20 {
+        margin-bottom: 10px !important;
+    }
+    .card .card-img img {
+        height: 256px;
+    }
+    .contact-sect .sec-heading {
+        text-align: left;
+    }
+    .personal-bg-sec::after {
+        background: url(../images/personal-blue-left-mob.svg) no-repeat;
+        width: 200px;
+        height: 250px;
+    }
+    .personal-text {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    .personal-faq-sec {
+        margin-bottom: 30px;
+    }
+    .personal-faq-sec p {
+        font-size: 16px;
+        margin-bottom: 20px;
+        line-height: 22px;
+    }
+    /* ------- Login ---------- */
+    .login-part .modal-dialog .modal-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .login-part .modal-header button.close {
+        padding: 0 1rem 1rem;
+        font-size: 40px;
+    }
+    .login-part .heading-login {
+        font-size: 24px;
+    }
+    .forgot-password,
+    .footer-login {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .create-account {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    /* partner page css  */
+    .partners-logo {
+        padding-bottom: 120px;
+    }
+    .partner-page .partners-content {
+        margin-left: 0px;
+    }
+    .partners-logo-content .p-logo-text {
+        font-size: 16px;
+        line-height: 22px;
+        min-height: 0;
+        margin-bottom: 10px;
+    }
+    .partners-logo-content {
+        padding: 30px 20px 20px 20px;
+    }
+    .partners-logo-content .p-text-link {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .p-logo-img {
+        margin-bottom: 10px;
+        padding: 0;
+        height: 55px;
+    }
+    .partners-heading {
+        margin-bottom: 40px;
+    }
+    .partners-heading h4 {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    /* privacy page css start */
+    .common-term-list h4 {
+        margin-bottom: 10px;
+    }
+    .privacy-list {
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+    .privacy-list-sec .privacy-list .m-b-16 {
+        margin-bottom: 20px !important;
+    }
+    /* Terms page css start */
+    .terms-sec .term-list .m-b-16 {
+        margin-bottom: 20px !important;
+    }
+    .terms-sec .term-list {
+        margin-bottom: 40px;
+    }
+    .term-list h5 {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .term-list h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .term-list h6 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .terms-sec .condition-list {
+        margin-bottom: 40px;
+    }
+    .common-term-list h4 {
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    .common-term-list p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .brands_next {
+        right: 0;
+        top: 14px;
+    }
+    .page-section-bg {
+        background: url(../images/page-bg-mob.png) no-repeat;
+        min-height: auto;
+        background-size: cover;
+    }
+    .about-bg-cricle {
+        background: url(../images/about-ellipse-bg-mob.svg);
+        background-repeat: no-repeat;
+        background-position: 0 880px;
+    }
+    .faq-bg-sec {
+        background: url(../images/faq-orange-right-mob.svg);
+        background-repeat: no-repeat;
+        background-position: right 470px !important;
+        position: relative;
+    }
+    .faq-bg-sec::after {
+        bottom: 570px;
+        background: url(../images/faq-blue-left-mob.svg);
+        background-repeat: no-repeat;
+        width: 210px;
+        height: 140px;
+    }
+    .contact-left-side .contact-details a {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .contact-left-side .contact-details img {
+        margin-right: 6px;
+        width: 20px;
+    }
+    .personal-bg-sec .faq-sect {
+        padding-bottom: 160px;
+    }
+}
+
+
+/* 767 */
+
+@media screen and (max-width: 374px) {
+    .hero-banner {
+        padding-bottom: 280px;
+    }
+    .banner-content h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .form-heading h3 {
+        font-size: 19px;
+        line-height: 30px;
+    }
+    .hero-banner .banner-card .card-item {
+        padding: 15px 0px 15px 5px;
+        width: 88px;
+    }
+    .hero-banner .banner-card .loan-name {
+        max-width: 76px;
+    }
+    .hero-banner .banner-card .loan-name h6 {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .quick-link-section .quick-link-bg {
+        padding: 10px;
+    }
+    .card .card-img img {
+        height: 196px;
+    }
+    .enter-amnt {
+        left: 70px;
+    }
+    .form-control {
+        padding: 31px 30px 8px 68px;
+    }
+    .form-group .form-style-icon {
+        top: 7px;
+    }
+}
+
+
+/* 374 */
+
+@media screen and (max-width: 357px) {
+    .footer-section .footer-widget ul li .footer-icon {
+        margin-bottom: 60px;
+    }
+    .footer-section .footer-widget ul li:last-child .footer-icon {
+        margin-bottom: 0;
+    }
+}
+
+
+/* 357 */

@@ -1,0 +1,318 @@
+@media screen and (max-width: 1699px) {}
+
+@media screen and (max-width: 1499px) {}
+
+@media screen and (max-width: 1199px) {
+    /* font css start */
+    h1,
+    .h1 {
+        font-size: 60px;
+        line-height: 80px;
+    }
+    h2,
+    .h2 {
+        font-size: 30px;
+        line-height: 41px;
+    }
+    h4,
+    .h4 {
+        font-size: 20px;
+        line-height: 21px;
+    }
+    h5,
+    .h5 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    h6,
+    .h6 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    /* end */
+    .btn-md {
+        padding: 13px 40px !important;
+    }
+    /* section padding css */
+    .sec-p-t-120 {
+        padding-top: 80px;
+    }
+    .sec-p-b-120 {
+        padding-bottom: 80px;
+    }
+    .sec-p-t-160 {
+        padding-top: 120px;
+    }
+    .sec-p-b-160 {
+        padding-bottom: 120px;
+    }
+    .p-t-36 {
+        padding-top: 36px;
+    }
+    .p-b-36 {
+        padding-bottom: 36px;
+    }
+    /* end */
+    .slideshow .slide .hero-banner-content p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .product-box {
+        margin-bottom: 20px;
+    }
+    .production-box {
+        margin-bottom: 40px;
+    }
+    .our-digital-heading {
+        margin-bottom: 40px;
+    }
+    .production-content {
+        margin-bottom: 40px;
+    }
+    .product-box {
+        padding: 40px 20px;
+        min-height: 0;
+    }
+    .product-box .product-box-top {
+        margin-bottom: 20px;
+    }
+    .product-box ul {
+        margin-bottom: 30px;
+    }
+    .brands-content {
+        margin-bottom: 40px;
+    }
+    .our-solution p {
+        color: #373737;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    /* font css start */
+    h1,
+    .h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    h2,
+    .h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    h4,
+    .h4 {
+        font-size: 18px;
+        line-height: 21px;
+    }
+    h5,
+    .h5 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    h6,
+    .h6 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    /* end */
+    .btn-md {
+        padding: 13px 40px !important;
+    }
+    /* section padding css */
+    .sec-p-t-120 {
+        padding-top: 60px;
+    }
+    .sec-p-b-120 {
+        padding-bottom: 60px;
+    }
+    .sec-p-t-160 {
+        padding-top: 100px;
+    }
+    .sec-p-b-160 {
+        padding-bottom: 100px;
+    }
+    .p-t-36 {
+        padding-top: 36px;
+    }
+    .p-b-36 {
+        padding-bottom: 36px;
+    }
+    /* end */
+    .navbar {
+        padding: 20px 0;
+    }
+    .navbar-nav {
+        align-items: flex-start !important;
+    }
+    .navbar-toggler {
+        padding: 2px;
+        background-color: #fff;
+    }
+    .navbar-collapse {
+        margin-top: 5px;
+        background: #373737;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        box-shadow: 0 4px 6px rgb(0 0 0 / 25%);
+    }
+    .production-box {
+        padding: 8px;
+    }
+    .production-box .box-content .box-description {
+        margin-left: 16px;
+    }
+    .product-box {
+        padding: 30px 20px;
+    }
+    .product-box .box-top-img {
+        margin-bottom: 20px;
+    }
+    .brands-content {
+        margin-bottom: 30px;
+    }
+    .brands-promotion {
+        width: 156px;
+        height: 156px;
+        padding: 52px 16px;
+    }
+    .policy-sec .policy-box {
+        padding: 30px 20px 30px;
+        min-height: 280px;
+    }
+    .social-media-icons-list a {
+        margin-left: 16px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        padding-left: 10px;
+    }
+    .navbar-toggler {
+        margin-right: 10px;
+    }
+    header .container {
+        padding: 0;
+    }
+    .navbar .navbar-nav .nav-item .nav-link {
+        padding: 16px 0;
+    }
+    .navbar .navbar-nav .custom-drop-menu>.drop-menu {
+        position: relative;
+        left: 0;
+    }
+    .navbar .navbar-nav .nav-item {
+        margin-right: 0px;
+        border-bottom: 1px solid #ccc;
+        width: 100%;
+    }
+    .navbar .navbar-nav .nav-item:nth-child(4) {
+        margin-bottom: 5px;
+    }
+    .navbar .navbar-nav .nav-item:last-child {
+        border-bottom: none;
+    }
+    header .navbar {
+        padding: 10px 0;
+    }
+    /* font css start */
+    h1,
+    .h1 {
+        font-size: 30px;
+        line-height: 37px;
+    }
+    h2,
+    .h2 {
+        font-size: 20px;
+        line-height: 27px;
+    }
+    h4,
+    .h4 {
+        font-size: 18px;
+        line-height: 21px;
+    }
+    h5,
+    .h5 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    h6,
+    .h6 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    /* end */
+    .btn-md {
+        padding: 13px 20px !important;
+    }
+    /* section padding css */
+    .sec-p-t-120 {
+        padding-top: 30px;
+    }
+    .sec-p-b-120 {
+        padding-bottom: 30px;
+    }
+    .sec-p-t-160 {
+        padding-top: 80px;
+    }
+    .sec-p-b-160 {
+        padding-bottom: 80px;
+    }
+    .p-t-36 {
+        padding-top: 26px;
+    }
+    .p-b-36 {
+        padding-bottom: 26px;
+    }
+    /* end */
+    .slideshow .slide .hero-banner-content p {
+        font-size: 18px;
+        line-height: 26px;
+        margin-bottom: 20px;
+    }
+    .production-sec .production-content h2 {
+        margin-bottom: 10px;
+    }
+    .our-digital-heading {
+        margin-bottom: 20px;
+    }
+    .slideshow {
+        height: 80vh;
+    }
+    .production-box {
+        margin-bottom: 20px;
+    }
+    .production-content {
+        margin-bottom: 20px;
+    }
+    .brands-promotion {
+        margin-bottom: 10px;
+    }
+    .policy-sec .policy-box {
+        padding: 20px;
+        min-height: 0;
+        margin-bottom: 10px;
+    }
+    .our-solution a {
+        margin-bottom: 10px;
+    }
+    .footer-logo {
+        margin-bottom: 20px;
+    }
+    .copyright {
+        margin-bottom: 5px;
+    }
+}

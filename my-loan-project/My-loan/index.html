@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- owl carousel css link -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.css">
+    <!-- general css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Custom css -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <!-- Responsive css -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <title>Myloan</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-md navbar-light">
+                <a class="navbar-brand" href="index.html"><img src="assets/images/header-logo.svg" alt="dark-logo" class="img-fluid header-logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav align-items-center ml-auto mb-lg-0">
+                        <li class="nav-item c-dropdown">
+                            <a class="nav-link  dropdown-toggle" id="navbardrop" data-toggle="dropdown" aria-current="page" href="#">Compare 
+                            <div class="mobile-img-group">
+                                <img src="assets/images/down-chevron.svg" alt="down-chevron" class="down-chevron">
+                                <img src="assets/images/down-chevron-orange.svg" alt="down-chevron" class="chevron-orange-show">
+                            </div>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <li> <a class="dropdown-item" href="personal-loan.html">Personal Loan</a></li>
+                                <li> <a class="dropdown-item" href="#">Consolidation Loan</a></li>
+                                <li> <a class="dropdown-item" href="#">Short Term Loan</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="faq.html">FAQ’s</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#myModal" data-toggle="modal" data-target="#myModal">
+                                <img src="assets/images/user-icon.svg" alt="user-icon" class="user-i img-fluid">
+                                <img src="assets/images/user-icon-orange.svg" alt="user-icon" class="user-i-oranges img-fluid">
+                                <span class="text-navy-blue">Login</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="btn btn-md btn-primary link">Find loan offers</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- hero banner seciton start -->
+    <section class="hero-banner">
+        <div class="img-group">
+            <img src="assets/images/banner-right-side.png" alt="banner-img" class="img-fluid banner-img">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-6 col-xl-6 col-lg-7 col-md-8 col-sm-9">
+                    <div class="banner-content">
+                        <h2 class="event-title text-orange">Do you need a loan?</h2>
+                        <h1>Be smart - Compare Loan Offers</h1>
+                        <div class="hero-list-card">
+                            <ul class="banner-list order-mob-2 order-md-2 order-lg-2">
+                                <li class="list-item">
+                                    Compare multiple loan offers
+                                </li>
+                                <li class="list-item">
+                                    100% free with no extra fees
+                                </li>
+                                <li class="list-item">
+                                    Loan offers are non-binding
+                                </li>
+                            </ul>
+                            <div class="banner-card order-mob-1 order-md-1 order-lg-1">
+                                <a class="text-black" href="personal-loan.html">
+                                    <div class="card-item">
+
+                                        <div class="card-c-img">
+                                            <img src="assets/images/personal-loan.svg" alt="personal-loan" class="loan">
+                                        </div>
+                                        <div class="loan-name">
+                                            <h6>Personal Loan</h6>
+                                        </div>
+
+
+                                    </div>
+                                </a>
+                                <a class="text-black" href="#">
+                                    <div class="card-item">
+
+                                        <div class="card-c-img">
+                                            <img src="assets/images/consolidation-loan.svg" alt="consolidation-loan" class="loan">
+                                        </div>
+                                        <div class="loan-name">
+                                            <h6>Consolidation Loan</h6>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="text-black" href="#">
+                                    <div class="card-item">
+
+                                        <div class="card-c-img">
+                                            <img src="assets/images/short-term-loan.svg" alt="short-term-loan" class="loan">
+                                        </div>
+                                        <div class="loan-name">
+                                            <h6>Short Term Loan</h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end -->
+    <!-- top lenders section start -->
+    <section class="loan-form-sec ">
+        <div class="container">
+            <div class="loan-form">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="form-heading">
+                            <h3>How much Loan you need ?</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-6 ">
+                        <div class="form-amount text-end">
+                            <h6 class="d-inline-block">Get a Loan up to <span class="text-orange"> R250,000</span></h6>
+                        </div>
+                    </div>
+                </div>
+
+                <form>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="form-group">
+                                <div class="form-style-icon">
+                                    <img src="assets/images/amount.svg" alt="form-amnt-img" class="amnt-img">
+                                </div>
+                                <label for="formGroupExampleInput2" class="enter-amnt  ">Amount (R500 - R250,000)</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="180,000">
+
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="form-group">
+                                <div class="form-style-icon">
+                                    <img src="assets/images/email.svg" alt="form-amnt-img" class="amnt-img">
+                                </div>
+                                <label for="formGroupExampleInput2" class="enter-amnt ">Email</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="E.g.xyz@gmail.com">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="form-group">
+                                <div class="form-style-icon">
+                                    <img src="assets/images/phone.svg" alt="form-amnt-img" class="amnt-img">
+                                </div>
+                                <label for="formGroupExampleInput3" class="enter-amnt  ">Mobile</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput3" placeholder="E.g.35293432526">
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-12 order-mob-2 order-md-2 order-lg-1">
+                            <div class="form-para">
+                                <p class="circular-book small">Reprsentvative example: estimated repayments of a loan of r30,000 over 36 months at a maximum interest rate including fees of 27,5% apr would be r1,232.82 per month. repayment terms can range from 2 - 72 months. myloan
+                                    is an online loan broker and not a lender.our service is free, and we work with ncr licensed lenders in south africa. interest rates charged by lenders can start as low as 20% apr, including an initiation and service
+                                    fee determined by the lender. the interest rate offered depends on the applicants' credit score and other factors at the lender's discretion.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 order-mob-1 order-md-1 order-lg-2">
+                            <button type="submit" class="btn btn-lg btn-primary link">Find loan offers</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </section>
+    <!-- top lenders section start -->
+    <section class="top-lenders sec-p-b">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="lenders sec-p-t ">
+                        <h4 class="h5 text-orange">Compare top lenders</h4>
+                        <h3 class="h2">We only partner with NCR certified lenders</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="brands">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="brands_slider_container">
+                            <div class="owl-carousel owl-theme brands_slider">
+                                <div class="owl-item">
+                                    <div class="brands_item d-flex flex-column justify-content-center">
+                                        <img src="assets/images/partner-logo1.png" alt="partner-logo" class="lenders-logo img-fluid">
+                                    </div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="brands_item d-flex flex-column justify-content-center">
+                                        <img src="assets/images/partner-logo2.png" alt="partner-logo" class="lenders-logo img-fluid">
+                                    </div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="brands_item d-flex flex-column justify-content-center">
+                                        <img src="assets/images/partner-logo3.png" alt="partner-logo" class="lenders-logo img-fluid">
+                                    </div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="brands_item d-flex flex-column justify-content-center">
+                                        <img src="assets/images/partner-logo4.png" alt="partner-logo" class="lenders-logo img-fluid">
+                                    </div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="brands_item d-flex flex-column justify-content-center">
+                                        <img src="assets/images/partner-logo5.png" alt="partner-logo" class="lenders-logo img-fluid">
+                                    </div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="brands_item d-flex flex-column justify-content-center">
+                                        <img src="assets/images/partner-logo6.png" alt="partner-logo" class="lenders-logo img-fluid">
+                                    </div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="brands_item d-flex flex-column justify-content-center">
+                                        <img src="assets/images/partner-logo7.png" alt="partner-logo" class="lenders-logo img-fluid">
+                                    </div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="brands_item d-flex flex-column justify-content-center">
+                                        <img src="assets/images/partner-logo8.png" alt="partner-logo" class="lenders-logo img-fluid">
+                                    </div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="brands_item d-flex flex-column justify-content-center">
+                                        <img src="assets/images/partner-logo9.png" alt="partner-logo" class="lenders-logo img-fluid">
+                                    </div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="brands_item d-flex flex-column justify-content-center">
+                                        <img src="assets/images/partner-logo10.png" alt="partner-logo" class="lenders-logo img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Brands Slider Navigation -->
+                            <div class="brands_nav brands_prev"><img src="assets/images/silder-left.svg" alt="Prev icon"></div>
+                            <div class="brands_nav brands_next"><img src="assets/images/silder-left.svg" alt="Next icon"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- end -->
+    <!-- compare loan section start -->
+    <section class="compare-loan bg-light-orange sec-p-t sec-p-b">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="compare-content sec-heading">
+                        <h4 class="h5 text-orange">Compare Loan</h4>
+                        <h2 class="h2">Compare Loan offers instantly from of your phone</h2>
+                        <p class="circular-book text-para mb-0">Getting a loan through MyLoan literally happens in 3 easy steps.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="comparison-card">
+                        <div class="compar-img">
+                            <img src="assets/images/comparison.svg" alt="comparison" class="com-img">
+                        </div>
+                        <div class="compare-text">
+                            <h4 class="">Comparison</h4>
+                            <p class="p-disclaimer-text">Complete the Loan comparison form</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="comparison-card">
+                        <div class="compar-img">
+                            <img src="assets/images/see-loan-offers.svg" alt="see-loan-offers" class="com-img">
+                        </div>
+                        <div class="compare-text">
+                            <h4 class="">See Loan offers</h4>
+                            <p class="p-disclaimer-text">Select the best offer and finalise your application</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="comparison-card">
+                        <div class="compar-img">
+                            <img src="assets/images/get-the-money.svg" alt="get-the-money" class="com-img">
+                        </div>
+                        <div class="compare-text">
+                            <h4 class="">Get the money</h4>
+                            <p class="p-disclaimer-text">Get the cash into your account. Possibly on the same day!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end -->
+    <!-- loan-use first section (MultiTimes use section start) -->
+    <section class="why-use-myloan sec-p-t sec-p-b-80">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-12">
+                    <div class="loan-use-heading text-center">
+                        <h3 class="h2">Why use MyLoan</h3>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 order-mob-2">
+                    <div class="loan-img">
+                        <img src="assets/images/free-to-use.png" alt="free-to-use" class="free-use img-fluid">
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 order-mob-1">
+                    <div class="loan-right-content">
+                        <div class="loan-r-icon">
+                            <img src="assets/images/icon-1.png" alt="icon-1" class="right-icon img-fluid">
+                        </div>
+                        <div class="loan-properties pd-t-4">
+                            <h3>100% free to use</h3>
+                            <p>MyLoan will never ask your to pay fees. Our service will always remain free to use.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- loan use second  -->
+    <section class="why-use-myloan sec-p-t-80 sec-p-b-80 bg-alice-blue">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-6 col-lg-6 col-md-6 order-lg-2  order-md-2 order-mob-2">
+                    <div class="loan-img float-right">
+                        <img src="assets/images/no-risk.png" alt="no-risk" class="free-use img-fluid">
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 order-lg-1  order-md-1 order-mob-1">
+                    <div class="loan-right-content">
+                        <div class="loan-r-icon">
+                            <img src="assets/images/icon-2.png" alt="icon-2" class="right-icon img-fluid">
+                        </div>
+                        <div class="loan-properties pd-t-4">
+                            <h4 class="h3">No risk</h4>
+                            <p>You can come in and shop around for loan offers. The offers are non-binding, which means you are totally in control at all times.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- loan use third -->
+    <section class="why-use-myloan sec-p-t-80 sec-p-b-80 ">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-6 col-lg-6 col-md-6 order-mob-2">
+                    <div class="loan-img">
+                        <img src="assets/images/transparent.png" alt="transparent" class="free-use img-fluid">
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 order-mob-1">
+                    <div class="loan-right-content">
+                        <div class="loan-r-icon">
+                            <img src="assets/images/icon-3.png" alt="icon-3" class="right-icon img-fluid">
+                        </div>
+                        <div class="loan-properties pd-t-4">
+                            <h4 class="h3">We are transparent</h4>
+                            <p>Many might wonder why a service this good is free. Well, we get a commission from loans disbursed. This model makes sure that we serve you, not the lenders.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- multi times use section end -->
+    <!-- how to work section  -->
+    <section class="work-section bg-works-image sec-p-t sec-p-b">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12">
+                    <div class="work-left">
+                        <h5 class="text-orange">How it works</h5>
+                        <h3 class="h2">How MyLoan comparison work</h3>
+                        <p class="p-disclaimer-text">After you complete the loan application form, we perform a callback to the lenders to see which of our our lenders partners are willing to provide pre-approved loan offers.</p>
+                        <p class="p-disclaimer-text">The process usually takes seconds after which you will be presented will all the loan offers available to you - personalised.</p>
+                        <p class="p-disclaimer-text">Simply select the most convenient loan offer and finalise your application the lender you choose.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="work-right">
+                        <!-- img width 731px height 448px -->
+                        <img src="assets/images/work-right-side.png" alt="work-right-side" class="img-fluid work-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end -->
+
+    <!-- our learn section -->
+    <section class="our-learn sec-p-t sec-p-b-240 bg-smoke-white">
+        <div class="container">
+            <div class="row align-middle">
+                <div class="col-md-8">
+                    <div class="learn-heading">
+                        <h5 class="text-orange">Learn</h5>
+                        <h3 class="h2 pd-t-10">Our latest learns</h3>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="learn-link text-right">
+                        <a href="#" class="text-navy-blue circular-book pd-t-40 d-none d-md-inline-block">View all</a>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card  ">
+                        <div class="card-img">
+                            <img src="assets/images/learn-1.jpg" class="img-fluid learn-img w-100" alt="learn">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <h5 class="card-title text-orange pd-b-18">
+                                    Learn</h5>
+                                <h4 class="card-heading text-eerie-black">How to apply for FNB temporary Loan</h4>
+
+                                <a href="learn-details.html" class="card-link text-navy-blue circular-book">Read more </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card ">
+                        <div class="card-img">
+                            <img src="assets/images/learn-2.png" class="img-fluid learn-img w-100" alt="learn">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <h5 class="card-title text-orange pd-b-18">
+                                    Learn</h5>
+                                <h4 class="card-heading text-eerie-black">Home renovation Loan options</h4>
+                                <a href="#" class="card-link text-navy-blue circular-book">Read more </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card m-b-0">
+                        <div class="card-img">
+                            <img src="assets/images/learn-3.png" class="img-fluid learn-img w-100" alt="learn">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <h5 class="card-title text-orange pd-b-18">
+                                    Learn</h5>
+                                <h4 class="card-heading text-eerie-black">How to improve your credit score</h4>
+
+                                <a href="#" class="card-link text-navy-blue circular-book">Read more </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Start -->
+    <footer class="footer-section bg-dark">
+        <div class="container">
+            <div class="quick-link-section">
+                <div class="col-lg-12 ">
+                    <div class="quick-link-bg">
+                        <div class="row ">
+                            <div class="col-lg-12">
+                                <h3 class="text-center text-white">Quick Links</h3>
+                            </div>
+                            <div class=" col-xl-3 offset-xl-1 col-lg-3 offset-lg-1 col-md-4 col-sm-6 col-6">
+                                <ul class=" ">
+                                    <li><a href="#">5,000 Rand Loan</a></li>
+                                    <li><a href="#">10,000 Rand Loan</a></li>
+                                    <li><a href="#">20,000 Rand Loan</a></li>
+                                </ul>
+                            </div>
+                            <!-- 1 -->
+                            <div class="col-xl-3 offset-xl-1 col-lg-3 offset-lg-1 col-md-4 col-sm-6 col-6">
+                                <ul class=" ">
+                                    <li><a href="#">30,000 Rand Loan</a></li>
+                                    <li><a href="#">50,000 Rand Loan</a></li>
+                                    <li><a href="#">100,000 Rand Loan</a></li>
+                                </ul>
+                            </div>
+                            <!-- 2 -->
+                            <div class="col-xl-3 offset-xl-1 col-lg-3 offset-lg-1 col-md-4 col-sm-6 col-6">
+                                <ul class=" ">
+                                    <li><a href="#">150,000 Rand Loan</a></li>
+                                    <li><a href="#">200,000 Rand Loan</a></li>
+                                    <li><a href="#">250,000 Rand Loan</a></li>
+                                </ul>
+                            </div>
+                            <!-- 3 -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-content">
+                <div class="row ">
+                    <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="footer-widget">
+                            <div class="footer-logo">
+                                <a href="index.html"><img src="assets/images/wh-logo.png" class="img-fluid" alt="logo"></a>
+
+                            </div>
+                            <div class="footer-text">
+                                <p class="text-dark-gray">MyLoan.co.za is an independent comparison services that is totally free to use .MyLoan is not influenced by any lender an is only copensated from loans disbursed to ensure neutrality.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-6 col-md-6 col-sm-6 col-6 mb-30">
+                        <div class="footer-widget">
+                            <h4 class="text-white">Products</h4>
+                            <ul class="pl-0">
+                                <li><a href="personal-loan.html">Personal Laon</a></li>
+                                <li><a href="#">Consolidation Loan</a></li>
+                                <li><a href="#">Short Term Loan</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-6 col-md-6 col-sm-6 col-6 mb-30">
+                        <div class="footer-widget">
+                            <h4 class="text-white">Company</h4>
+                            <ul class="pl-0 ">
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="partners.html">Partners</a></li>
+                                <li><a href="learn.html">Learn</a></li>
+                                <li><a href="faq.html">FAQ's</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12 col-12 mb-50">
+                        <div class="footer-widget">
+                            <h4 class="text-white">Contact details</h4>
+
+                            <ul class="pl-0 ">
+                                <li><img src="assets/images/loction.svg" class="img-fluid footer-icon" /> MyLoan.co.za / Leads Clinic 7th Floor, Mandela Rhodes Place Corner Wale Street and Burg Street Cape Town, 8000</li>
+                                <li><img src="assets/images/email.svg" class="img-fluid footer-icon" /> <a href="mailto:customersupport@myloan.co.za">customersupport@myloan.co.za</a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright-area">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-8 col-sm-7 col-12 order-mob-2 text-left">
+                        <div class="copyright-text ">
+                            <p>@2022 - MyLoan | All Rights Reserved</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-4 col-sm-5 col-12 order-mob-1 text-right">
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="terms.html">Terms</a></li>
+                                <li><a href="privacy.html">Privacy policy</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Part End -->
+    <!-- Start End -->
+    <div class="login-part">
+        <div class="modal fade" id="myModal">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <h3 class="heading-login">Login in to your account</h3>
+                        <form>
+                            <div class="form-group">
+                                <div class="form-style-icon">
+                                    <img src="assets/images/email.svg" alt="Email" class="amnt-img">
+                                </div>
+                                <label for="formGroupExampleInput2" class="enter-amnt">Email</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="e.g.xyz@gmail.com">
+                            </div>
+
+                            <!-- 1 -->
+                            <div class="position-relative">
+                                <div class="form-group m-b-10">
+                                    <div class="form-style-icon">
+                                        <img src="assets/images/password.svg" alt="password" class="amnt-img">
+                                    </div>
+                                    <label for="password" class="enter-amnt">Password</label>
+                                    <input type="password" class="form-control" id='password' placeholder="enter your password">
+
+                                </div>
+                                <span toggle="#password" class="password-icon toggle-password">
+                                    <span class="material-icons"><img src="assets/images/eyes-close.svg" alt="Eye Close"></span>
+                                </span>
+                            </div>
+                            <!-- 2 -->
+                            <div class="w-100 text-right m-b-30">
+                                <a href="#" target="_blank" class="text-navy-blue forgot-password">Forgot Password?</a>
+                            </div>
+                            <!-- Forgot Password -->
+                            <div class="w-100 m-b-40">
+                                <button type="submit" class="btn btn-lg btn-primary link">Login</button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <div class="text-center w-100">
+                            <div class="m-b-12 text-dim-gray footer-login">Don’t have an account yet?</div>
+                            <a href="#" class="text-orange create-account">Create an account</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Login End -->
+
+
+
+
+
+    <!-- jQuery, Popper.js, and Bootstrap JS -->
+
+    <script src="assets/js/jquery-3.6.0.min.js "></script>
+    <script src="assets/js/popper.min.js "></script>
+    <script src="assets/js/bootstrap.min.js "></script>
+    <!-- owl carousel js -->
+    <script src="assets/js/owl.carousel.js"></script>
+    <!-- custom script js -->
+    <script src="assets/js/script.js "></script>
+</body>
+
+</html>

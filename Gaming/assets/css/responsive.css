@@ -1,0 +1,227 @@
+    @media screen and (max-width: 1699px) {}
+    
+    @media screen and (max-width: 1499px) {}
+    
+    @media screen and (max-width: 1199px) {
+        .hero-banner {
+            padding-top: 100px;
+            padding-bottom: 50px;
+        }
+        .oval-img-1 {
+            bottom: 40px;
+            left: 10px;
+        }
+        .oval-img-4 {
+            position: absolute;
+            left: auto;
+            right: 302px;
+            bottom: 0;
+            top: auto;
+        }
+        .banner-icon-2 {
+            position: absolute;
+            left: auto;
+            right: 190px;
+            top: 22px;
+            bottom: auto;
+        }
+        .game-facilities {
+            padding: 60px 0;
+        }
+        .game-f-icon-box {
+            padding: 30px 30px 0px 20px;
+            min-height: 370px;
+            margin-bottom: 70px;
+        }
+        .product-sec {
+            padding: 60px 0;
+            background: #f8f8f8;
+        }
+        .product-content {
+            margin-bottom: 38px;
+        }
+        .product-box {
+            margin-bottom: 50px;
+        }
+        .footer-content form .form-group .form-control {
+            width: 214px;
+        }
+        .footer-content {
+            margin-bottom: 40px;
+        }
+        .footer-content form {
+            margin-bottom: 20px;
+        }
+        .footer-content-list li {
+            margin-bottom: 10px;
+        }
+        .footer-content-list li a {
+            font-size: 16px;
+        }
+        .footer-connect {
+            font-size: 16px;
+            line-height: 22px;
+            margin-bottom: 16px;
+        }
+        .footer-content p {
+            color: #D3D3D3;
+            margin-bottom: 16px;
+        }
+        .social-media-icons-list a {
+            margin-right: 34px;
+        }
+    }
+    
+    @media screen and (max-width: 991px) {
+        .hero-banner-content {
+            margin-left: 16px;
+            margin-top: 110px;
+            margin-bottom: 90px;
+        }
+        .footer-content form {
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            margin-bottom: 30px;
+        }
+        .game-icon {
+            overflow: hidden;
+            margin-bottom: 10px;
+        }
+        .game-f-icon-box {
+            min-height: 375px;
+            margin-bottom: 70px;
+        }
+        .game-facilities {
+            padding: 40px 0;
+        }
+        .main-play-box::before {
+            right: 0px;
+        }
+        .best-product-img {
+            object-fit: contain;
+            height: 302px;
+            margin: 0 auto;
+            display: block;
+        }
+        .offers-description {
+            padding: 30px;
+            text-align: center;
+        }
+        .best-offers {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        .best-offers h2 {
+            margin-bottom: 30px;
+        }
+        .best-star-img {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 10px;
+        }
+    }
+    
+    @media screen and (max-width: 767px) {
+        .navbar-nav {
+            align-items: flex-start !important;
+            background: #8F44EE;
+            padding: 20px 15px;
+            border-radius: 8px;
+            border: 1.5px solid #fff;
+        }
+        .navbar-nav .nav-item {
+            margin-right: 0;
+            margin-bottom: 20px;
+        }
+        .navbar-nav .nav-item:last-child {
+            margin-bottom: 0;
+        }
+        .hero-banner {
+            padding-top: 80px;
+            padding-bottom: 40px;
+        }
+        .navbar {
+            padding: 20px 0;
+        }
+        .navbar-toggler {
+            padding: 0;
+        }
+        .hero-banner-content {
+            margin-left: 10px;
+            margin-top: 110px;
+            margin-bottom: 20px;
+        }
+        .banner-img {
+            margin: 0 auto;
+            display: block;
+        }
+        .hero-banner-content h1 {
+            margin-bottom: 22px;
+        }
+        .offers-glass {
+            margin-bottom: 16px;
+        }
+        .game-f-icon-box {
+            min-height: 0;
+            margin-bottom: 30px;
+            padding: 20px;
+        }
+        .banner-icon-4 {
+            right: 80px;
+            bottom: 30px;
+        }
+        .product-img-box {
+            min-height: 0;
+        }
+        .banner-icon-2 {
+            right: 90px;
+        }
+        .play-box-content {
+            left: 10px;
+            bottom: 20px;
+        }
+        .footer {
+            padding-top: 50px;
+        }
+        .product-content {
+            margin-bottom: 20px;
+        }
+        .product-sec {
+            padding: 40px 0;
+            background: #f8f8f8;
+        }
+        .footer-content {
+            margin-bottom: 40px;
+        }
+        .footer-content h6 {
+            margin-bottom: 20px;
+        }
+        .footer-content form .form-group .form-control {
+            width: 194px;
+        }
+        .footer-content-list li {
+            margin-bottom: 10px;
+        }
+        .footer-content-list li a {
+            font-size: 16px;
+            line-height: 22px;
+        }
+        .footer-content form {
+            margin-bottom: 20px;
+        }
+        .product-box {
+            margin-bottom: 30px;
+        }
+        hr {
+            border-top: 1px solid #979797;
+            margin-top: 0;
+        }
+        .footer-connect {
+            font-size: 16px;
+            line-height: 18px;
+            margin-bottom: 20px;
+        }
+    }
+    
+    @media screen and (max-width: 420px) {}

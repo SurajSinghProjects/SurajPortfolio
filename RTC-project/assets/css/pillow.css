@@ -1,0 +1,1403 @@
+    /* header responsive css start */
+    
+    @media screen and (max-width:1199px) {
+        .nav-before-open header.page-header button.action.nav-tg:after {
+            background: transparent !important;
+        }
+    }
+    /* The shop resoponsive css start*/
+    
+    @media screen and (max-width:1199px) {
+        .block_shop h2 {
+            font-size: 34px;
+            line-height: 42px;
+        }
+        .block_shop p {
+            font-size: 18px !important;
+            line-height: 24px;
+        }
+    }
+    
+    @media screen and (max-width:991px) {
+        .block_shop h2 {
+            font-size: 30px;
+            line-height: 38px;
+        }
+        .block_shop p {
+            font-size: 16px !important;
+            line-height: 22px;
+        }
+    }
+    
+    @media screen and (max-width:767px) {
+        .block_shop {
+            padding-top: 27px;
+        }
+        .block_shop h2 {
+            font-size: 24px;
+            line-height: 32px;
+        }
+        .block_shop p {
+            font-size: 14px !important;
+            line-height: 21px;
+            margin-bottom: 33px;
+        }
+    }
+    /* The shop resoponsive css end*/
+    /* shop category resoponsive css start */
+    
+    @media screen and (max-width:1199px) {
+        .block_cate {
+            padding-top: 70px;
+            padding-bottom: 70px;
+        }
+        .block_cate h2 {
+            font-size: 34px;
+            line-height: 42px;
+        }
+        .block_shop p {
+            font-size: 18px !important;
+            line-height: 24px;
+        }
+    }
+    
+    @media screen and (max-width:991px) {
+        .block_cate {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        .category_menu .col-tb-2 {
+            -webkit-box-flex: 0;
+            -ms-flex: 0 0 33.3333%;
+            flex: 0 0 33.3333%;
+            max-width: 33%;
+        }
+        .block_cate h2 {
+            font-size: 30px;
+            line-height: 38px;
+        }
+        .block_cate p {
+            font-size: 16px !important;
+            line-height: 24px;
+        }
+    }
+    
+    @media screen and (max-width:767px) {
+        .block_cate {
+            background: #f6fbff;
+            padding-top: 32px;
+            padding-bottom: 32px;
+        }
+        .block_cate h2 {
+            font-size: 24px;
+            line-height: 32px;
+        }
+        .block_cate p {
+            font-size: 14px !important;
+            line-height: 21px;
+            margin-bottom: 33px;
+        }
+        .category_menu .col-mb-12 {
+            -webkit-box-flex: 0;
+            -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+    }
+    /* shop category resoponsive css end */
+    /* CUSTOM CURTAINS & TAILORED resoponsive css start*/
+    
+    @media screen and (max-width: 1199px) {
+        .block_cutrain h2 {
+            font-size: 34px;
+            line-height: 42px;
+        }
+        .block_cutrain p {
+            font-size: 18px !important;
+            line-height: 24px;
+        }
+    }
+    
+    @media screen and (max-width: 991px) {
+        .block_cutrain h2 {
+            font-size: 30px;
+            line-height: 40px;
+        }
+        .block_cutrain p {
+            font-size: 16px !important;
+            line-height: 22px;
+        }
+    }
+    
+    @media screen and (max-width:1199px) {
+        .custom_curtain_shades h3.title {
+            font-size: 20px;
+            line-height: 28px;
+            margin-bottom: 10px;
+        }
+    }
+    
+    @media screen and (max-width:991px) {
+        .block_cutrain {
+            padding-top: 52px;
+        }
+        .block_cutrain .banner-text {
+            width: 100%;
+        }
+        .block_cutrain h2 {
+            font-size: 34px;
+            line-height: 42px;
+        }
+        .promobanner .text.middle-center {
+            padding-left: 35px;
+        }
+        .block_cutrain .banner-text p {
+            margin-bottom: 22px;
+            font-size: 18px !important;
+        }
+        .custom_curtain_shades h3.title {
+            font-size: 18px;
+            line-height: 24px;
+        }
+        .block_cutrain .banner-text .btn-default {
+            margin-bottom: 10px;
+        }
+    }
+    
+    @media screen and (max-width:767px) {
+        .block_cutrain {
+            padding-top: 52px;
+        }
+        .block_cutrain h2 {
+            font-size: 24px;
+            line-height: 32px;
+        }
+        .block_cutrain p {
+            font-size: 14px !important;
+            line-height: 21px;
+            margin-bottom: 32px;
+            margin-top: 10px;
+        }
+        .custom_curtain_windo .line img {
+            height: 191px;
+        }
+        .custom_curtain_measureing img {
+            height: 191px !important;
+        }
+        .promobanner .text.middle-center {
+            padding-left: 12px;
+            align-items: center;
+            height: 191px;
+        }
+        .block_cutrain .banner-text {
+            width: 100%;
+        }
+        .block_cutrain .banner-text h3 {
+            font-size: 16px;
+            line-height: 22px;
+        }
+        .block_cutrain .banner-text p {
+            line-height: 21px;
+            margin-bottom: 16px;
+        }
+        .block_cutrain .banner-text .btn-default {
+            height: 34px;
+            padding: 8px 16px;
+        }
+        .custom_curtain_shades h3.title {
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+    
+    @media screen and (max-width:570px) {
+        .promobanner {
+            padding-left: 15px;
+        }
+        .promobanner .text.middle-center {
+            padding-left: 16px;
+            align-items: flex-start;
+            height: 174px;
+        }
+        .promobanner .text {
+            padding: 24px 16px 26px;
+        }
+    }
+    /* CUSTOM CURTAINS & TAILORED resoponsive css end */
+    /* header responsive css end */
+    
+    .page-title-wrapper h1.page-title {
+        font-family: 'Cinzel';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 86px;
+        display: block;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+        text-transform: uppercase;
+    }
+    
+    .toolbar .sorter .sorter-options {
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 24px;
+        letter-spacing: 0.05em;
+        text-transform: capitalize;
+        color: #141618;
+    }
+    
+    .product-item-info .product-top {
+        margin-bottom: 40px;
+    }
+    
+    .product-item-details .show_now {
+        text-align: center;
+        padding: 9px 16px;
+        height: 42px;
+        background: #FFFFFF;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        transition: all 0.3s;
+    }
+    
+    .product-item-details .show_now:hover {
+        background-color: #141618;
+    }
+    
+    .product-item-details .show_now:hover .data.switch {
+        color: #FFFFFF !important;
+    }
+    
+    .product-item-details .show_now .data.switch {
+        /* here font family is not working */
+        font-family: 'Work Sans' !important;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #141618 !important;
+    }
+    
+    .product-item-details .show_now .data.switch:hover .show_now {
+        color: #FFFFFF;
+    }
+    
+    .mgs-products.products-grid .product-item-info .product-item-name {
+        margin: 12px 0;
+    }
+    
+    .mgs-products.products-grid .product-item-info .product-item-name .product-item-link {
+        /* here font family is not working */
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        color: #141618;
+    }
+    
+    .product-item .price-box {
+        /* here font family is not working */
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        color: #141618;
+        margin-bottom: 12px;
+    }
+    /* pillow page responsive css start*/
+    
+    @media screen and (max-width:1199px) {
+        .page-title-wrapper h1.page-title {
+            font-size: 54px!important;
+            line-height: 66px;
+        }
+        .product-item-info .product-top {
+            margin-bottom: 30px;
+        }
+    }
+    
+    @media screen and (max-width:991px) {
+        .page-title-wrapper h1.page-title {
+            font-size: 44px!important;
+            line-height: 56px;
+        }
+        .product-item-info .product-top {
+            margin-bottom: 20px;
+        }
+    }
+    
+    @media screen and (max-width:767px) {
+        .page-title-wrapper h1.page-title {
+            font-size: 28px!important;
+            line-height: 38px;
+        }
+        .product-item-info .product-top {
+            margin-bottom: 8px;
+        }
+        .products-grid .product-item-info .product-item-details {
+            padding-top: 0;
+        }
+        .product-item .price-box .price {
+            font-size: 12px;
+            line-height: 14px;
+        }
+    }
+    /* pillow page responsive css  end*/
+    /* New Urban Pillows css start */
+    
+    .catalog-product-view .product-info-main h2.product-name {
+        /* here font family is not working */
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #141618;
+        margin-bottom: 16px;
+    }
+    
+    .product-info-main .price-box {
+        margin-top: 10px;
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        color: #141618;
+        margin-bottom: 16px;
+    }
+    
+    .product-add-form .product-options-wrapper .swatch-opt .swatch-attribute-label {
+        margin-bottom: 16px;
+        display: inline-block;
+        text-transform: uppercase;
+        letter-spacing: .5px;
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 24px;
+        color: #000000;
+    }
+    
+    .swatch-option.color {
+        border-radius: 50%!important;
+        height: 32px;
+        width: 32px;
+        border: none;
+    }
+    
+    .swatch-option.image {
+        border-radius: 0;
+        min-width: 74px;
+        height: 74px !important;
+    }
+    
+    .product-info-main .product-add-form .actions button.tocart {
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 24px;
+        padding: 0 134px;
+        border-radius: 40px;
+        height: 48px;
+        text-transform: uppercase;
+        background-color: #141618;
+        color: #fff;
+        transition: all 0.3s;
+    }
+    
+    .product-info-main .product-add-form .actions button.tocart:hover {
+        color: #000;
+        background-color: #56cfe1;
+    }
+    
+    .product.info.detailed {
+        display: none;
+    }
+    
+    .section-custom-product {
+        display: none;
+    }
+    
+    .product-info-main .product-addto-links a.action {
+        border: none;
+    }
+    
+    .product-info-main .product-addto-links a.action.tocompare {
+        display: none;
+    }
+    /* New Urban Pillows css end */
+    /* footer css start */
+    
+    .page-footer .middle-footer .line h6 {
+        font-family: 'Cinzel';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 16px;
+        color: #141618;
+        margin-bottom: 20px !important;
+    }
+    
+    .page-footer .middle-footer p {
+        margin-bottom: 16px;
+        font-family: 'Cinzel';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px !important;
+        line-height: 24px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #141618;
+        text-transform: uppercase;
+    }
+    
+    .page-footer .middle-footer ul.menu li {
+        line-height: 0;
+        margin-bottom: 16px;
+    }
+    
+    .page-footer .middle-footer .menu li a {
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        color: #767272;
+    }
+    
+    .page-footer .footer.content .block.newsletter .action.subscribe {
+        text-transform: uppercase;
+        border: none;
+        background-color: #8ecae6;
+        transition: all .3s;
+        font-family: 'Avenir';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 24px;
+        text-align: center;
+        color: #09121D;
+    }
+    
+    .footer.content .block.newsletter .action.subscribe:hover {
+        color: #FFFFFF;
+        background-color: #141618;
+    }
+    
+    .page-footer .bottom-footer small.copyright {
+        text-align: right;
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        color: #767272;
+        border-right: 1px solid #767272;
+        padding-right: 10px;
+    }
+    
+    .page-footer .bottom-footer ul li {
+        float: left;
+        margin: 0;
+        padding: 0 10px;
+        border-right: 1px solid #767272;
+    }
+    
+    .page-footer .bottom-footer .line ul li a {
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+        color: #767272;
+    }
+    
+    .footer.content .block.newsletter {
+        border: 1px solid rgba(0, 0, 0, 0.3) !important;
+    }
+    /* footer css end */
+    /* footer accordian css start */
+    
+    @media screen and (min-width:768px) {
+        .mb-footer {
+            display: none;
+        }
+    }
+    
+    @media screen and (max-width:767px) {
+        .des-footer {
+            display: none;
+        }
+        .mb-footer {
+            display: block;
+        }
+        .mobile_footer_1 .active,
+        .mobile_footer_1 .accordion:hover {
+            background-color: transparent;
+        }
+        .mobile_footer_1 .accordion .mb_footer_plus {
+            display: block;
+        }
+        .mobile_footer_1 .accordion .mb_footer_plus,
+        .mb_footer_minus {
+            font-size: 16px;
+            font-weight: 700;
+            float: right;
+            font-family: 'Cinzel';
+            line-height: 16px;
+            color: #141618;
+            font-family: 'Cinzel';
+            font-style: normal;
+        }
+        .mobile_footer_1 .accordion .mb_footer_minus {
+            display: none;
+        }
+        .mobile_footer_1 .active,
+        .mobile_footer_1 .acount_footer_menu.active .mb_footer_minus {
+            display: block;
+        }
+        .mobile_footer_1 .active,
+        .mobile_footer_1 .acount_footer_menu.active .mb_footer_plus {
+            display: none;
+        }
+    }
+    /* To list of this class css is not working */
+    /* 1.) .mobile_footer_1 .accordion :-
+
+* In this class all css properties is not working according to a figma design.
+
+* please hover css remove
+
+*/
+    /* social media css start*/
+    
+    .page-footer .middle-footer p {
+        margin-bottom: 16px;
+        font-family: 'Cinzel';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px!important;
+        line-height: 24px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #141618;
+        text-transform: uppercase;
+        margin-top: 16px;
+    }
+    
+    .page-footer .middle-footer .footer_desktop_last {
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        color: #767272;
+        padding-bottom: 18px;
+        border-bottom: 1px solid #eeeeee;
+    }
+    
+    .page-footer .middle-footer .footer_desktop_last a {
+        text-transform: none;
+    }
+    
+    footer .bottom-footer {
+        background-color: transparent;
+    }
+    /* social media css start end */
+    /* shop by categorey responsive  css start */
+    
+    @media screen and (max-width:991px) {
+        .block_cate a .title-menu {
+            padding-top: 20px;
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+    
+    @media screen and (max-width:767px) {
+        .block_cate a .title-menu {
+            padding-top: 16px;
+            font-size: 14px;
+            line-height: 19px;
+        }
+    }
+    /* The lighting collection resoponsive css start */
+    
+    @media screen and (max-width:1199px) {
+        .block_light h2 {
+            font-size: 34px;
+            line-height: 44px;
+        }
+    }
+    
+    @media screen and (max-width:991px) {
+        .block_light h2 {
+            font-size: 28px;
+            line-height: 30px;
+        }
+        .block_light p {
+            font-size: 18px !important;
+            line-height: 24px;
+        }
+    }
+    
+    @media screen and (max-width:767px) {
+        .block_light h2 {
+            font-size: 24px;
+            line-height: 32px;
+        }
+        .block_light p {
+            font-size: 14px !important;
+            line-height: 21px;
+        }
+    }
+    /* The Quick Links css start */
+    
+    .custom_quick_links .btn {
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        height: 40px;
+        line-height: 24px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #09121D;
+    }
+    
+    .custom_quick_links .btn-default {
+        border-width: 1px;
+        background-color: transparent;
+    }
+    /* The Quick Links resoponsive css start */
+    
+    @media screen and (max-width:1199px) {
+        .block_quick h2 {
+            font-size: 34px;
+            line-height: 44px;
+        }
+        .block_quick p {
+            font-size: 18px;
+            line-height: 28px;
+            margin-bottom: 50px;
+        }
+    }
+    
+    @media screen and (max-width:991px) {
+        .block_quick h2 {
+            font-size: 30px;
+            line-height: 40px;
+        }
+        .block_quick p {
+            font-size: 16px !important;
+            line-height: 24px;
+            margin-bottom: 40px;
+        }
+        .block_quick h3.title {
+            font-size: 16px;
+            line-height: 20px;
+            padding-top: 14px;
+        }
+        .custom_quick_links p {
+            font-size: 18px !important;
+            line-height: 24px;
+            margin-bottom: 22px!important;
+        }
+    }
+    
+    @media screen and (max-width:767px) {
+        .block_quick h2 {
+            font-size: 24px;
+            line-height: 32px;
+        }
+        .block_quick p {
+            font-size: 14px;
+            line-height: 21px;
+            margin-bottom: 40px;
+        }
+        .custom_quick_links p {
+            font-size: 14px !important;
+            line-height: 16px;
+            margin-bottom: 16px!important;
+        }
+        .custom_quick_links .btn {
+            font-size: 12px;
+            line-height: 18px;
+            height: 34px;
+        }
+    }
+    /* Share and love responsive css */
+    /* 1199px resoponsive css */
+    
+    .block_insta {
+        padding-top: 64px;
+    }
+    /* 991px resoponsive css */
+    
+    .block_insta {
+        padding-top: 52px;
+    }
+    /* 767px resoponsive css */
+    
+    .block_insta {
+        padding-top: 32px;
+    }
+    
+    @media screen and (max-width:1199px) {
+        .block_insta {
+            padding-top: 64px;
+        }
+        .block_insta h2 {
+            font-size: 34px;
+            line-height: 44px;
+        }
+        .block_insta p {
+            font-size: 18px!important;
+            line-height: 26px;
+        }
+    }
+    
+    @media screen and (max-width:991px) {
+        .block_insta {
+            padding-top: 52px;
+        }
+        .block_insta h2 {
+            font-size: 30px;
+            line-height: 40px;
+        }
+        .block_insta p {
+            font-size: 16px!important;
+            line-height: 24px;
+        }
+    }
+    
+    @media screen and (max-width:767px) {
+        .block_insta {
+            padding-top: 32px;
+        }
+        .block_insta h2 {
+            font-size: 24px;
+            line-height: 32px;
+        }
+        .block_insta p {
+            font-size: 16px!important;
+            line-height: 14px;
+            margin-bottom: 30px;
+        }
+    }
+    /* footer responsive css 767px */
+    
+    @media screen and (max-width:767px) {
+        .page-footer .middle-footer .footer_desktop_last {
+            font-family: 'Work Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            color: #767272;
+            padding-bottom: 30px;
+            border-bottom: 1px solid #eeeeee;
+        }
+        footer.page-footer .middle-footer {
+            padding-bottom: 0;
+            padding-top: 16px;
+        }
+        .page-footer .middle-footer div[class*="col-des"]:not(:last-child) {
+            margin-bottom: 25px;
+            padding-bottom: 16px;
+            background: #E8F6FF;
+            opacity: 0.4;
+            padding-top: 16px;
+        }
+        footer .bottom-footer {
+            background-color: transparent !important;
+        }
+        footer.page-footer .bottom-footer {
+            padding-bottom: 50px;
+            padding-top: 0;
+        }
+    }
+    /* block i */
+    /* footer desktop social css  */
+    
+    .page-footer .middle-footer .footer_search_p {
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px !important;
+        line-height: 14px;
+        color: #767272;
+        text-transform: none;
+        padding-top: 8px;
+        padding-bottom: 26px;
+    }
+    
+    .page-footer .middle-footer .footer_desktop_last {
+        font-family: 'Cinzel';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px !important;
+        line-height: 19px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #141618;
+    }
+    
+    .page-footer .middle-footer .footer_desktop_last a {
+        text-transform: none;
+    }
+    /* product details css */
+    
+    .product-item-details .show_now {
+        padding: 12px 16px;
+    }
+    /* product details css */
+    
+    .breadcrumbs .items {
+        font-size: 13px;
+        padding-bottom: 0 !important;
+    }
+    
+    .breadcrumbs .items .item a {
+        font-weight: 700;
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px !important;
+        line-height: 24px;
+        text-transform: capitalize;
+        color: #141618;
+    }
+    
+    .products-list .product-item-info .product-item-details .product-item-name .product-item-link {
+        color: #222222;
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px !important;
+        line-height: 21px;
+        color: #141618;
+    }
+    
+    .products-list .product-item-info .product-item-details .actions-link .action .pe-7s-like {
+        display: block;
+        font-weight: 700 !important;
+        font-size: 20px;
+    }
+    
+    .products-list .product-item-info .product-item-details .actions-link .action .pe-7s-graph3 {
+        display: block;
+        font-weight: 700 !important;
+        font-size: 20px;
+    }
+    
+    .products-list .product-item-info .product-item-details .actions-link .action.tocart {
+        background-color: #141618;
+        border-color: #141618;
+        color: #fff;
+        padding: 0 25px;
+        -webkit-border-radius: 40px;
+        -moz-border-radius: 40px;
+        border-radius: 40px;
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px !important;
+        line-height: 24px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+    }
+    
+    .page-footer .middle-footer .menu li a {
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        color: #767272;
+        transition: 0.3s;
+    }
+    
+    .page-footer .middle-footer .menu li a:hover {
+        color: #8ECAE6;
+    }
+    
+    .page-footer .middle-footer .footer_desktop_last .theme-footer-icon {
+        font-size: 17px;
+        color: #767272;
+        font-weight: 700;
+        vertical-align: bottom;
+        margin-right: 5px;
+    }
+    
+    .page-footer .middle-footer .footer_desktop_last .theme-footer-icon.pe-7s-call {
+        margin-left: 5px;
+    }
+    
+    .page-footer .middle-footer .footer_desktop_last .theme-footer-icon.pe-7s-chat {
+        margin-left: 5px;
+    }
+    
+    .page-footer .middle-footer .footer_desktop_last a {
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px !important;
+        line-height: 16px;
+        color: #767272;
+        padding-right: 10px;
+    }
+    
+    .page-footer .footer.content .block.newsletter .action.subscribe:hover {
+        color: #fff;
+        background-color: #09121d;
+    }
+    
+    .footer.content .block.newsletter:hover,
+    .footer.content .block.newsletter:focus {
+        border-color: #09121D !important;
+    }
+    
+    .footer.content .block.newsletter input[type="email"] {
+        color: #09121D;
+    }
+    /* share and love css */
+    
+    .block_insta .owl-carousel.owl-loaded {
+        padding-bottom: 0 !important;
+    }
+    
+    .block_insta p {
+        margin-bottom: 40px;
+    }
+    /* 1199px resoponsive css */
+    
+    .block_insta p {
+        margin-bottom: 35px;
+    }
+    /* 991px resoponsive css */
+    
+    .block_insta p {
+        margin-bottom: 30px;
+    }
+    /* 767px resoponsive css */
+    
+    .block_insta p {
+        margin-bottom: 26px;
+    }
+    /* according to new changes in figma design */
+    
+    .page-footer .middle-footer .footer_desktop_last img {
+        margin-right: 8px;
+    }
+    
+    .page-footer .middle-footer .footer_desktop_last a:nth-of-type(1) {
+        padding-right: 19px;
+    }
+    
+    .page-footer .middle-footer .footer_desktop_last a:nth-of-type(2) {
+        padding-right: 19px;
+    }
+    
+    .page-footer .middle-footer .footer_desktop_last img:nth-of-type(2) {
+        margin-left: 16px;
+    }
+    
+    .page-footer .middle-footer .footer_desktop_last img:nth-of-type(3) {
+        margin-left: 8px;
+    }
+    /* Pillows shoping bag */
+    /* this is pillows add to cart css */
+    
+    .products-list .product-item-info .product-item-details .actions-link .action.tocart {
+        display: flex;
+        align-items: center;
+    }
+    /* this is add to card icon css */
+    
+    .products-list .product-item-info .product-item-details .actions-link .action.tocart .pe-7s-shopbag {
+        font-size: 16px;
+        margin-right: 8px;
+        color: #fff;
+        background-color: transparent;
+    }
+    /* this is filter css start */
+    
+    .block-filter-content .swatch-attribute-options {
+        margin-bottom: 10px;
+    }
+    
+    .catalog-category-view .block.filter .block-content.filter-content .block-filter-content .filter-options-item .filter-options-title {
+        font-family: 'Cinzel';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px !important;
+        line-height: 16px;
+        padding: 0 0 5px;
+        margin-bottom: 0;
+        color: #141618;
+    }
+    
+    .filter-options-content .mgs-ajax-layer-item {
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px !important;
+        line-height: 24px;
+        color: #141618;
+    }
+    
+    .filter-options .filter-options-content {
+        margin: 0 0 14px !important;
+    }
+    
+    .filter-options-item .filter-options-content .items {
+        margin-bottom: 0px !important;
+        padding-bottom: 0px !important;
+    }
+    /* end */
+    
+    .header-mobile-tabs--bottom ul li {
+        transition: all 0.3s;
+    }
+    
+    .header-mobile-tabs--bottom ul li:hover {
+        background-color: #8ecae6;
+    }
+    /* share and love slider images */
+    
+    @media screen and (max-width:1199px) {
+        .instagram-block .owl-item {
+            margin-right: 0!important;
+            width: calc(70%/3) !important;
+        }
+    }
+    
+    @media screen and (max-width:991px) {
+        .instagram-block .owl-item {
+            margin-right: 0!important;
+            width: calc(50%/3) !important;
+        }
+    }
+    
+    @media screen and (max-width:767px) {
+        .instagram-block .owl-item {
+            margin-right: 0!important;
+            width: calc(30%/1) !important;
+        }
+    }
+    /* footer middle resoponsive css */
+    
+    @media screen and (max-width:1199px) {
+        .page-footer .middle-footer {
+            padding: 60px 0;
+        }
+    }
+    
+    @media screen and (max-width:991px) {
+        .page-footer .middle-footer {
+            padding: 40px 0;
+        }
+        .page-footer .middle-footer div[class*="col-des"]:not(:last-child) {
+            margin-bottom: 10px;
+        }
+    }
+    /* end */
+    /* Appoitment pages */
+    /* appitment heading*/
+    
+    .columns .first_display h3 {
+        font-family: 'Cinzel';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        color: #141618;
+        text-transform: uppercase;
+        margin-bottom: 8px;
+    }
+    
+    .columns .first_display p {
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px !important;
+        line-height: 18px;
+        color: #767272;
+        margin-bottom: 32px;
+        padding-bottom: 0 !important;
+    }
+    /* appoitment heading end */
+    
+    .columns .first_display .line img {
+        height: 380px !important;
+    }
+    
+    .columns .first_display .line h3 {
+        padding-top: 24px !important;
+        margin-bottom: 16px;
+        color: #000;
+    }
+    
+    .columns .first_display p.app_content_single_p {
+        line-height: 24px;
+    }
+    
+    .columns .first_display .line .banner-text .btn-default {
+        border-width: 1px;
+        height: 48px;
+    }
+    
+    .columns .first_display .line .banner-text .btn-default {
+        border-width: 1px;
+        height: 48px;
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 24px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        background-color: #09121D;
+        transition: all 0.3s;
+    }
+    
+    .columns .first_display .line .banner-text .btn-default:hover {
+        background-color: transparent;
+        color: #09121D;
+    }
+    /* Appoitment pages responsive css*/
+    
+    @media screen and (max-width:1199px) {
+        .columns .first_display h3 {
+            font-size: 22px;
+            line-height: 28px;
+        }
+        .columns .first_display .line .banner-text .btn-default {
+            padding: 0 26px;
+        }
+        .columns .first_display p {
+            margin-bottom: 28px;
+        }
+        .columns .first_display p.app_content_p {
+            margin-bottom: 28px;
+        }
+    }
+    
+    @media screen and (max-width:991px) {
+        .columns .first_display h3 {
+            font-size: 20px;
+            line-height: 26px;
+        }
+        .columns .first_display p {
+            margin-bottom: 26px;
+        }
+        .columns .first_display p.app_content_p {
+            margin-bottom: 22px;
+        }
+        .columns .first_display .line .banner-text .btn-default {
+            padding: 0px 10px;
+            min-width: 184px;
+        }
+    }
+    
+    @media screen and (max-width:767px) {
+        .columns .first_display h3 {
+            font-size: 16px;
+            line-height: 22px;
+        }
+        .columns .first_display p {
+            margin-bottom: 24px;
+        }
+        .columns .first_display p.app_content_p {
+            margin-bottom: 28px;
+        }
+        .columns .first_display p.app_content_p {
+            margin-bottom: 16px;
+        }
+    }
+    
+    @media screen and (max-width:570px) {
+        .columns .first_display p {
+            margin-bottom: 24px;
+            max-width: 374px;
+        }
+        .columns .first_display .line .banner-text .btn-default {
+            padding: 0px 16px;
+            min-width: 100%;
+            height: 40px;
+        }
+        .first_display .line .banner-text .padding-bottom40 {
+            padding-bottom: 32px;
+        }
+    }
+    /* It's foote resoponsive css start*/
+    
+    @media screen and (max-width:767px) {
+        .block.newsletter .field {
+            margin: 0;
+            padding-top: 0;
+        }
+    }
+    /* end */
+    /* book an appoitment css*/
+    
+    .block-popup-subscribe .block-popup-top .newsletter-popup-form .content h3 {
+        font-family: 'Cinzel';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        color: #141618;
+        margin-bottom: 32px;
+    }
+    
+    .block-popup-subscribe .block-popup-top .newsletter-popup-form .content .secend_header {
+        font-family: 'Cinzel';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #000000;
+        text-transform: uppercase;
+        padding-top: 0 !important;
+    }
+    
+    .fieldset .field>.label {
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px !important;
+        line-height: 24px !important;
+        text-transform: capitalize;
+        color: #09121D !important;
+    }
+    
+    .fieldset .field.required>.label:after,
+    .fieldset .field ._required>.label:after {
+        content: "*";
+        color: #141618 !important;
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 24px;
+    }
+    
+    .control textarea,
+    .control select,
+    .control input[type="text"],
+    .control input[type="password"],
+    .control input[type="url"],
+    .control input[type="tel"],
+    .control input[type="search"],
+    .control input[type="number"],
+    .control input[type="datetime"],
+    .control input[type="email"] {
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px !important;
+        line-height: 24px !important;
+        color: rgba(0, 0, 0, 0.3);
+    }
+    
+    .content .card-body .display {
+        font-family: 'Cinzel';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #09121D !important;
+        transition: all 0.3s;
+    }
+    
+    .content .card-body .display:hover {
+        color: #8ecae6!important
+    }
+    
+    .choose-time input[type=radio]+label {
+        border: 2px solid transparent;
+        border-radius: 0 !important;
+        text-align: center;
+        transition: all 0.3s;
+    }
+    
+    .choose-time input[type=radio]+label:hover,
+    .choose-time input[type=radio]+label:focus {
+        border: 2px solid #141618;
+        border-color: #141618;
+    }
+    
+    .block-popup-subscribe .content p#selected_slot {
+        font-family: 'Cinzel';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px !important;
+        line-height: 32px;
+        color: #141618;
+        margin-top: 16px;
+        margin-bottom: 16px;
+        text-align: left;
+    }
+    
+    .block-popup-subscribe .content #schedule {
+        color: #fff;
+        background-color: #09121d;
+        transition: all .3s;
+    }
+    
+    .block-popup-subscribe .content #schedule:hover {
+        color: #09121d;
+        background-color: transparent;
+    }
+    
+    .card-body .app_calender1 fieldset.date {
+        width: calc(100% / 6 - 5px);
+        margin-right: -5px;
+    }
+    
+    .block-popup-subscribe .content .btn-default {
+        border-width: 1px;
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 24px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+    }
+    
+    .app_calender1 .date-heading,
+    .date-heading {
+        padding: 10px;
+    }
+    /* end */
+    /* signed popup page css start */
+    
+    .block-popup-subscribe .block-popup-top .appointment .content .current_customer_address h3 {
+        font-family: 'Cinzel';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        color: #141618;
+    }
+    
+    .block-popup-subscribe .block-popup-top .appointment .content .current_customer_address h4 {
+        font-family: 'Cinzel';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        color: #141618;
+    }

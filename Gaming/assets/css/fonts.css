@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Gelion';
+    src: local('Gelion Light'), local('Gelion-Light'), url('../fonts/Gelion-Light.woff') format('woff'), url('../fonts/Gelion-Light.ttf') format('truetype'), url('../fonts/Gelion-Light.svg') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gelion';
+    src: local('Gelion Black'), local('Gelion-Black'), url('../fonts/Gelion-Black.woff') format('woff'), url('../fonts/Gelion-Black.ttf') format('truetype'), url('../fonts/Gelion-Black.svg') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gelion';
+    src: local('Gelion Bold'), local('Gelion-Bold'), url('../fonts/Gelion-Bold.woff') format('woff'), url('../fonts/Gelion-Bold.ttf') format('truetype'), url('../fonts/Gelion-Bold.svg') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gelion';
+    src: local('Gelion Medium'), local('Gelion-Medium'), url('../fonts/Gelion-Medium.woff') format('woff'), url('../fonts/Gelion-Medium.ttf') format('truetype'), url('../fonts/Gelion-Medium.svg') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gelion';
+    src: local('Gelion Regular'), local('Gelion-Regular'), url('../fonts/Gelion-Regular.woff') format('woff'), url('../fonts/Gelion-Regular.ttf') format('truetype'), url('../fonts/Gelion-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gelion';
+    src: local('Gelion Thin'), local('Gelion-Thin'), url('../fonts/Gelion-Thin.woff') format('woff'), url('../fonts/Gelion-Thin.ttf') format('truetype'), url('../fonts/Gelion-Thin.svg') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gelion Semi';
+    src: local('Gelion Semi Bold'), local('Gelion-SemiBold'), url('../fonts/Gelion-SemiBold.woff') format('woff'), url('../fonts/Gelion-SemiBold.ttf') format('truetype'), url('../fonts/Gelion-SemiBold.svg') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}

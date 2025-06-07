@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-plus</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Option-1" transform="translate(-1238.000000, -8120.000000)">
+            <g id="Group-35" transform="translate(0.000000, 7648.000000)">
+                <g id="Group-54" transform="translate(333.000000, 251.000000)">
+                    <g id="Group-52-Copy-2" transform="translate(0.000000, 220.000000)">
+                        <g id="icon-plus" transform="translate(905.000000, 1.000000)">
+                            <polygon id="Path" points="0 0 30 0 30 30 0 30"></polygon>
+                            <line x1="15" y1="6.25" x2="15" y2="23.75" id="Path" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+                            <line x1="6.25" y1="15" x2="23.75" y2="15" id="Path" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
