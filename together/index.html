@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>We help Digital Agencies Scale</title>
+    <link rel="icon" href="assets/images/favicon.png" sizes="32x32" />
+    <!-- flag dropdown css -->
+    <link href="assets/css/intlTelInput.css" rel="stylesheet" media="screen">
+    <!-- fontawsome link -->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <!-- humburger css -->
+    <link rel="stylesheet" href="assets/css/humburger.css">
+    <!-- font css link -->
+    <link rel="stylesheet" href="assets/css/font.css">
+
+    <!-- swiper css  -->
+    <link rel="stylesheet" href="assets/css/swiper.css">
+    <!-- bootstrap css link -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- custom css link -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- responsive css link -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <style>
+        .step-wizard {
+            display: inline-block;
+            position: relative;
+            width: 85%;
+        }
+        
+        .step-wizard .progress {
+            position: absolute;
+            top: 35px;
+            left: 12.5%;
+            width: 75%;
+        }
+        
+        .step-wizard .progressbar {
+            position: absolute;
+            background-color: #3B5343;
+            opacity: 1;
+            height: 3px;
+            width: 0%;
+            -webkit-transition: width 0.6s ease;
+            -o-transition: width 0.6s ease;
+            transition: width 0.6s ease;
+        }
+        
+        .step-wizard .progressbar.empty {
+            opacity: 1;
+            width: 100%;
+            background-color: #d0d0d0;
+        }
+        
+        .step-wizard ul {
+            position: absolute;
+            width: 100%;
+            list-style-type: none;
+            padding: 0;
+            left: -2%;
+        }
+        
+        .step-wizard li {
+            display: inline-block;
+            text-align: center;
+            width: 24%;
+        }
+        
+        .step-wizard li .step {
+            text-align: center;
+            display: inline-block;
+            font-size: 18px;
+            font-weight: bold;
+            line-height: 30px;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            border: 3px solid;
+            border-color: #d0d0d0;
+            background: #ffffff;
+            -webkit-transition: background-color 0.6s ease, border-color 0.6s ease;
+            -o-transition: background-color 0.6s ease, border-color 0.6s ease;
+            transition: background-color 0.6s ease, border-color 0.6s ease;
+        }
+        
+        .step-wizard li .title {
+            text-decoration: underline;
+            width: 100%;
+            padding-top: 10px;
+            color: #767676;
+            -webkit-transition: color 0.6s ease;
+            -o-transition: color 0.6s ease;
+            transition: color 0.6s ease;
+        }
+        
+        .step-wizard li.active .step {
+            border-color: #3B5343;
+            color: #3b5343;
+        }
+        
+        .step-wizard li.active .title {
+            text-decoration: none;
+            color: #3b5343;
+            font-weight: bold;
+        }
+        
+        .step-wizard li.done .title {
+            color: #3b5343;
+        }
+        
+        .step-wizard li.done .title:hover {
+            color: #3B5343;
+        }
+        
+        .step-wizard li.done .step {
+            color: white;
+            background-color: #3B5343;
+            border-color: #3B5343;
+        }
+        
+        .step-wizard li>button {
+            background: none;
+            border: none;
+            display: block;
+            width: 100%;
+            color: #777;
+            position: relative;
+            text-align: center;
+        }
+        
+        .step-wizard li>button:hover .step {
+            border-color: #3b5343;
+            background: #eee;
+            color: #3b5343;
+        }
+        
+        .step-wizard li>button:hover .title {
+            color: #3b5343;
+        }
+        
+        @media only screen and (max-width: 1200px) {
+            .step-wizard li {
+                width: 24%;
+            }
+        }
+        
+        @media only screen and (max-width: 375px) {
+            .step-wizard li {
+                width: 22%;
+            }
+        }
+        
+        li.done button div.step {
+            font-size: 0;
+        }
+        
+        li.done button div.step::before {
+            content: "\2713 ";
+            font-size: 18px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg  p-0">
+            <div class="container">
+                <a class="navbar-brand p-0" href="index.html">
+                    <img src="assets/images/logo.png" alt="logo" class="img-fluid header-logo"> </a>
+
+                <div class="humburger-box d-flex align-items-center">
+                    <a class="nav-link btn btn-secondry d-inline-flex d-lg-none" href="#">Contact us</a>
+                    <button class="navbar-toggler hamburger hamburger--squeeze" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="hamburger-box">
+                                    <span class="hamburger-inner"></span>
+                                </span>
+                                </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+                        <li class="nav-item d-block d-lg-none">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="process.html">What We Do</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pricing.html">Packages</a>
+                        </li>
+                        <li class="nav-item d-lg-inline-flex d-none">
+                            <a class="nav-link btn btn-secondry" href="#">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main role="main">
+        <!-- hero banner section  -->
+        <section class="hero-banner">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 mx-auto text-center">
+                        <div class="hero-content">
+                            <!-- <h1 class="text-white">Looking for &nbsp;<span>Optimizing UI/UX</span> </h1> -->
+                            <h1 class="text-white">
+                                <div>Looking for</div>
+                                <!-- <div class="typewrite" data-type='["Impressive graphic designs" , "Optimizing UI/UX", "Affordable Web & Mobile, App Maintenance & Support", "Reliable Server Management & Security Monitoring","Instant Development Support", "Fast execution that is not a replacement for existing team"]'
+                                    data-period="3000"><span class="wrap"></span></div> -->
+                                <span class="words-wrapper">
+                                        <b class="is-visible">Affordable Partner?</b>
+                                        <b>Reliable Team?</b>
+                                        <b>Design Support?</b>
+                                        <b>Development Support?</b>
+                                        <b>Third Party Testing?</b>
+                                        <b>Certified Professionals?</b>
+                                    </span>
+                            </h1>
+                            <ul class="d-inline-flex justify-content-center align-items-center p-0 text-white flex-wrap">
+                                <li class="position-relative">Higher profitability</li>
+                                <li class="position-relative">Faster delivery</li>
+                                <li class="position-relative">Instant Development Support.</li>
+                            </ul>
+                            <p>Subscribe to our hassle-free, single-price plans to get instant access to certified designers, developers, QA experts, and DevOps professionals.</p>
+                            <a href="pricing.html" class="btn btn-main">Explore subscription plans</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image-box">
+                <img src="assets/images/hero-image-1.svg" alt="hero-image-1" class="img-fluid parachute-image-1 zoom-in-out-box">
+                <img src="assets/images/hero-line.svg" alt="hero-line" class="img-fluid hero-line">
+                <img src="assets/images/hero-image-2.svg" alt="hero-image-2" class="img-fluid component-img animation-left {">
+                <!-- Star Images Start -->
+                <img src="assets/images/hero-star-1.svg" alt="hero-star-1" class="img-fluid hero-star-1">
+                <img src="assets/images/hero-star-2.svg" alt="hero-star-2" class="img-fluid hero-star-2">
+                <!-- <img src="assets/images/hero-dot-img.svg" alt="hero-dot-img" class="img-fluid hero-dot-img"> -->
+            </div>
+        </section>
+        <!-- hero banner section end  -->
+        <!-- offer section start -->
+        <section class="offer-sec sec-p-t">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-6">
+                        <div class="offer-content common-heading">
+                            <h6 class="text-white">Greatly Rapid</h6>
+                            <div class="d-flex  align-items-start">
+                                <h2 class="text-white ">20</h2> <span class="h2 text-white">x</span></div>
+                            <span class="offer-para">Faster than hiring in-house</span>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-6">
+                        <div class="offer-content common-heading">
+                            <h6 class="text-white">CUT COSTS</h6>
+                            <div class="d-flex  align-items-start">
+                                <h2 class="text-white ">50</h2> <span class="h2 text-white">%</span></div>
+                            <span class="offer-para">Reduction in average cost per asset</span>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-6">
+                        <div class="offer-content common-heading">
+                            <h6 class="text-white">SHIP FASTER</h6>
+                            <div class="d-flex  align-items-start">
+                                <h2 class="text-white">70</h2> <span class="h2 text-white">%</span></div>
+                            <span class="offer-para">Lower turnaround time for your projects</span>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-6">
+                        <div class="offer-content common-heading">
+                            <h6 class="text-white">Pressure FREE</h6>
+                            <div class="d-flex  align-items-start">
+                                <h2 class="text-white">4.8</h2> <span class="h2 text-white">&nbsp;</span></div>
+                            <span class="offer-para">Average rating from customers</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- offer section end -->
+        <!-- approach section start -->
+        <section class="faq-sec sec-p-t-130">
+            <div class="container">
+                <div class="row mb-133">
+                    <div class="col-xl-7 col-lg-7 col-md-9 col-sm-10 col-11 mx-auto">
+                        <div class="approach-content common-heading text-center">
+                            <h6 class="text-white">Value Proposition</h6>
+                            <h2 class="text-white"><span class="text-primary d-block"> TogetherWeWin</span> Your direction + Our Execution</h2>
+                            <h4>P.S. - We are not a replacement for your in-house team. instead we empower them </h4>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row flex-lg-row flex-column-reverse">
+                    <div class="col-lg-5">
+                        <div class="approach-img-box ">
+                            <img src="assets/images/value-proposition.png" alt="value-proposition" class="img-fluid approach-img animation-up-down">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 ms-auto">
+                        <div class="approach-accrodian">
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <div class="accordion-header" id="headingOne">
+                                        <button class="accordion-button p collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                            Instant Team Deployment
+                                </button>
+                                    </div>
+                                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body h5">
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis id in nostrum sint, consequuntur ratione est expedita nemo cupiditate repellendus alias itaque. Velit, ipsa dignissimos itaque dicta similique sapiente quidem nisi quia libero!
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <div class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button p collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            Unlimited Revisions & Swaps
+                                </button>
+                                    </div>
+                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body h5">
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis id in nostrum sint, consequuntur ratione est expedita nemo cupiditate repellendus alias itaque. Velit, ipsa dignissimos itaque dicta similique sapiente quidem nisi quia libero!
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <div class="accordion-header" id="headingThree">
+                                        <button class="accordion-button p collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            Commitment to Quality
+                                </button>
+                                    </div>
+                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body h5">
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis id in nostrum sint, consequuntur ratione est expedita nemo cupiditate repellendus alias itaque. Velit, ipsa dignissimos itaque dicta similique sapiente quidem nisi quia libero!
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <div class="accordion-header" id="headingFour">
+                                        <button class="accordion-button p collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                            Competency Development:
+                                </button>
+                                    </div>
+                                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body h5">
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis id in nostrum sint, consequuntur ratione est expedita nemo cupiditate repellendus alias itaque. Velit, ipsa dignissimos itaque dicta similique sapiente quidem nisi quia libero!
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <div class="accordion-header" id="headingFive">
+                                        <button class="accordion-button p collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                            Close Collaboration
+                                </button>
+                                    </div>
+                                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body h5">
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis id in nostrum sint, consequuntur ratione est expedita nemo cupiditate repellendus alias itaque. Velit, ipsa dignissimos itaque dicta similique sapiente quidem nisi quia libero!
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- approach section end -->
+        <!-- Our Services section Start -->
+        <section class="service-sec ">
+            <div class="container">
+                <div class="service-top">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-9">
+                            <div class="service-heading common-heading">
+                                <h6 class="text-white">OUR SERVICES</h6>
+                                <h2 class="text-white">A variety of <span class="text-primary">creative</span> and <span class="text-primary">technical</span> capabilities to empower your team</h2>
+                                <h4>Give your team the support they need to succeed and make your clients happy. Whether it be impressive designs, or reliable tech support for web and mobile apps, you can find the right resource to deploy as your extended
+                                    team.
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-9 text-lg-end">
+                            <div class="service-btn">
+                                <a href="#" class="btn btn-main">Explore subscription plans</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper secondSwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="row">
+                            <div class="col-lg-12 mb-4">
+                                <a href="#" class="service-box">
+                                    <div class="service-card">
+                                        <img src="assets/images/interface-design.png" alt="service-slider-img" class="img-fluid service-height">
+                                        <h4 class="text-white service-content">Interface Design</h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-12 mb-4">
+                                <a href="#" class="service-box position-relative">
+                                    <div class="service-card">
+                                        <img src="assets/images/ux-research.png" alt="service-slider-img" class="img-fluid service-height">
+                                        <h4 class="text-white service-content">UX Research</h4>
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="row">
+                            <div class="col-lg-12 overflow-hidden mb-4">
+                                <a href="#" class="service-box">
+                                    <div class="service-card">
+                                        <img src="assets/images/illustrations.png" alt="service-slider-img" class="img-fluid service-img">
+                                        <h4 class="text-white service-content">Illustrations</h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="row">
+                            <div class="col-lg-12 overflow-hidden mb-4">
+                                <a href="#" class="service-box">
+                                    <div class="service-card">
+                                        <img src="assets/images/email-designs.png" alt="service-slider-img" class="img-fluid service-img">
+                                        <h4 class="text-white service-content">Email Designs</h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="row">
+                            <div class="col-lg-12 mb-4">
+                                <a href="#" class="service-box">
+                                    <div class="service-card">
+                                        <img src="assets/images/mobile-app-development.png" alt="service-slider-img" class="img-fluid service-height">
+                                        <h4 class="text-white service-content">CMS and eCommerce Support</h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-12 mb-4">
+                                <a href="#" class="service-box position-relative">
+                                    <div class="service-card">
+                                        <img src="assets/images/web-development.png" alt="service-slider-img" class="img-fluid service-height">
+                                        <h4 class="text-white service-content">Motion Design</h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="row">
+                            <div class="col-lg-12 mb-4">
+                                <a href="#" class="service-box">
+                                    <div class="service-card">
+                                        <img src="assets/images/interface-design.png" alt="service-slider-img" class="img-fluid service-height">
+                                        <h4 class="text-white service-content">Interface Design</h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-12 mb-4">
+                                <a href="#" class="service-box position-relative">
+                                    <div class="service-card">
+                                        <img src="assets/images/ux-research.png" alt="service-slider-img" class="img-fluid service-height">
+                                        <h4 class="text-white service-content">UX Research</h4>
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="row">
+                            <div class="col-lg-12 overflow-hidden mb-4">
+                                <a href="#" class="service-box">
+                                    <div class="service-card">
+                                        <img src="assets/images/illustrations.png" alt="service-slider-img" class="img-fluid service-img">
+                                        <h4 class="text-white service-content">Illustrations</h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="row">
+                            <div class="col-lg-12 overflow-hidden mb-4">
+                                <a href="#" class="service-box">
+                                    <div class="service-card">
+                                        <img src="assets/images/email-designs.png" alt="service-slider-img" class="img-fluid service-img">
+                                        <h4 class="text-white service-content">Email Designs</h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="row">
+                            <div class="col-lg-12 mb-4">
+                                <a href="#" class="service-box">
+                                    <div class="service-card">
+                                        <img src="assets/images/mobile-app-development.png" alt="service-slider-img" class="img-fluid service-height">
+                                        <h4 class="text-white service-content">CMS and eCommerce Support</h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-12 mb-4">
+                                <a href="#" class="service-box position-relative">
+                                    <div class="service-card">
+                                        <img src="assets/images/web-development.png" alt="service-slider-img" class="img-fluid service-height">
+                                        <h4 class="text-white service-content">Motion Design</h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-pagination d-md-none d-block"></div>
+            </div>
+        </section>
+        <!-- Our Services section End -->
+
+    </main>
+    <!-- testimonal section start -->
+    <section class="testimonal-sec sec-p-t-150 sec-mb-160">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-1">
+                    <div class="testimonal-heading common-heading">
+                        <h6 class="text-white">TESTIMONIAL</h6>
+                        <h2 class="text-white">Our <span class="text-primary">customers</span> can’t imagine life without Together</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="row align-items-md-center flex-md-row">
+                            <div class="col-md-3 col-12 offset-md-1 pe-0">
+                                <div class="testmonal-img-box overflow-hidden">
+                                    <img src="assets/images/testimonal-img-1.png" alt="testimonal-img" class="img-fluid testimonal-img">
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-12 offset-md-1 ps-md-0">
+                                <div class="testimonal-content">
+                                    <h3 class="text-white">Aldo P.</h3>
+                                    <img src="assets/images/rating-star.svg" alt="rating-star" class="ration-star img-fluid d-block">
+                                    <p>We are so pleased with the quality of creative and fast turnarounds. Together provides excellent service with the creative solutions we need.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="row align-items-center flex-md-row">
+                            <div class="col-md-3 col-12 offset-md-1 pe-0">
+                                <div class="testmonal-img-box overflow-hidden">
+                                    <img src="assets/images/testimonal-img-1.png" alt="testimonal-img" class="img-fluid testimonal-img">
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-12 offset-md-1 ps-md-0">
+                                <div class="testimonal-content">
+                                    <h3 class="text-white">Aldo P.</h3>
+                                    <img src="assets/images/rating-star.svg" alt="rating-star" class="ration-star img-fluid d-block">
+                                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit
+                                        aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="row align-items-center flex-md-row">
+                            <div class="col-md-3 col-12 offset-md-1 pe-0">
+                                <div class="testmonal-img-box overflow-hidden">
+                                    <img src="assets/images/testimonal-img-1.png" alt="testimonal-img" class="img-fluid testimonal-img">
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-12 offset-md-1 ps-md-0">
+                                <div class="testimonal-content">
+                                    <h3 class="text-white">Aldo P.</h3>
+                                    <img src="assets/images/rating-star.svg" alt="rating-star" class="ration-star img-fluid d-block">
+                                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit
+                                        aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="row align-items-center flex-md-row">
+                            <div class="col-md-3 col-12 offset-md-1 pe-0">
+                                <div class="testmonal-img-box overflow-hidden">
+                                    <img src="assets/images/testimonal-img-1.png" alt="testimonal-img" class="img-fluid testimonal-img">
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-12 offset-md-1 ps-md-0">
+                                <div class="testimonal-content">
+                                    <h3 class="text-white">Aldo P.</h3>
+                                    <img src="assets/images/rating-star.svg" alt="rating-star" class="ration-star img-fluid d-block">
+                                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit
+                                        aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+    <!-- testimonal section end -->
+
+    <!-- client-words section start -->
+    <section class="client-section sec-p-b-150">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-8 mx-auto">
+                    <div class="client-heading common-heading text-center">
+                        <h6 class="text-white">Client Words</h6>
+                        <h2 class="text-white">What<span class="text-primary"> clients say</span> about us? </span>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6">
+                    <div class="card position-relative">
+                        <div class="card-img position-relative"><img src="assets/images/client-img-1.png" class="client-img img-fluid" alt="client-img"></div>
+                        <div class="card-body">
+                            <h4>The Galaxy Weblinks team has been incredibly fast in their communication and they work very well.</h4>
+                            <div class="client-name">Melissa Moody</div>
+                            <div class="clint-position">CMO and Co-founder at Gated</div>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn d-flex align-items-center" data-bs-toggle="modal" onclick="videoAutoPlay(this)" data-bs-target="#exampleModal">
+                                        <img src="assets/images/play.svg" alt="play" class="play-img"> <span class="watch-link">Watch VIdeo</span>
+                            </button>
+                            <!-- Modal -->
+                            <div class="client-video-popup">
+                                <div class="modal modal-xl modal-lg modal-md fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <video controls autoplay muted class="w-100">
+                                                    <source src="assets/images/video/melissa-moody.mp4" type="video/mp4">
+                                                  </video>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6">
+                    <div class="card position-relative">
+                        <div class="card-img position-relative"><img src="assets/images/client-img-2.png" class="client-img img-fluid" alt="client-img"></div>
+                        <div class="card-body">
+                            <h4>Very friendly folks and super easy to work with Galaxy Weblinks team.</h4>
+                            <div class="client-name">Stephen Kane</div>
+                            <div class="clint-position">Marketing Lead at Atom Finance</div>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn d-flex align-items-center" data-bs-toggle="modal" onclick="videoAutoPlay(this)" data-bs-target="#exampleModal1">
+                                        <img src="assets/images/play.svg" alt="play" class="play-img"> <span href="#!" class="watch-link">Watch VIdeo</span>                               
+                            </button>
+                            <!-- Modal -->
+                            <div class="client-video-popup">
+                                <div class="modal modal-xl modal-lg modal-md fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <video controls autoplay muted class="w-100">
+                                                    <source src="assets/images/video/stephen-Kane.mp4" type="video/mp4">
+                                                  </video>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6">
+                    <div class="card position-relative">
+                        <div class="card-img position-relative"><img src="assets/images/client-img-2.png" class="client-img img-fluid" alt="client-img"></div>
+                        <div class="card-body">
+                            <h4>Very friendly folks and super easy to work with Galaxy Weblinks team.</h4>
+                            <div class="client-name">Stephen Kane</div>
+                            <div class="clint-position">Marketing Lead at Atom Finance</div>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn d-flex align-items-center" data-bs-toggle="modal" onclick="videoAutoPlay(this)" data-bs-target="#exampleModal2">
+                                        <img src="assets/images/play.svg" alt="play" class="play-img"> <span href="#!" class="watch-link">Watch VIdeo</span>                               
+                            </button>
+                            <!-- Modal -->
+                            <div class="client-video-popup">
+                                <div class="modal modal-xl modal-lg modal-md fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <video controls autoplay muted class="w-100">
+                                                    <source src="assets/images/video/melissa-moody.mp4" type="video/mp4">
+                                                  </video>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- client-words section end -->
+    <!-- this for pricing page book section start -->
+    <section class="book-section sec-p-b-150">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-6">
+                    <div class="book-heading common-heading">
+                        <h6 class="text-white">BOOK A CALL WITH US</h6>
+                        <h2 class="text-white"> Delightful <span class="text-primary">design</span> and agile <span class="text-primary"> development</span> starts here</h2>
+                        <ul class="p-0 m-0">
+                            <li class="position-relative">How Together works</li>
+                            <li class="position-relative">How you can do design at scale better, faster and cheaper</li>
+                            <li class="position-relative">How we’re different from agencies, freelancers and in-house design teams (hint: we’re 20x faster than hiring!)</li>
+                            <li class="position-relative">The most suitable subscription plan for your needs</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <form>
+                        <div class="row w-100">
+                            <div class="col-md-6">
+                                <!--First Name -->
+                                <div class="form-group">
+                                    <label for="contacFirsttName" class="form-label">FIRST NAME</label>
+                                    <input class="form-control" id="contacFirsttName" type="text" placeholder="E.g.Buzz">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+
+                                <!-- Last Name  -->
+                                <div class="form-group">
+                                    <label for="contacLasttName" class="form-label">LAST NAME</label>
+                                    <input class="form-control" id="contacLasttName" type="text" placeholder="E.g.Buzz">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <!-- Email -->
+                                <div class="form-group">
+                                    <label for="mail" class="form-label">EMAIL</label>
+                                    <input class="form-control" id="mail" type="email" placeholder="E.g.buzz@gmail.com">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+
+                                <!-- COMPANY NAME -->
+                                <div class="form-group">
+                                    <label for="companyName" class="form-label">COMPANY NAME</label>
+                                    <input class="form-control" id="companyName" type="text" placeholder="E.g. NASA">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+
+                                <!-- dropdown -->
+                                <div class="form-group">
+                                    <label for="companySize" class="form-label">COMPANY SIZE</label>
+                                    <select class="form-control form-select" id="companySize" aria-label="Default select example">
+                                        <option>Select One</option>
+                                        <option>1-10</option>
+                                        <option>11-50</option>
+                                        <option>51-200</option>
+                                        <option>201-500</option>
+                                        <option>501-1000</option>
+                                        <option>1000-5000</option>
+                                        <option>5000+</option>
+                                   </select>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <!-- phone number -->
+                                <div class="form-group">
+                                    <label for="phone" class="form-label d-block">PHONE NUMBER</label>
+                                    <input class="form-control" id="phone" type="tel" placeholder="0123456789">
+                                </div>
+                                <span id="valid-msg" class="hide">Valid</span>
+                                <span id="error-msg" class="hide">Invalid number</span>
+                            </div>
+                            <div class="col-md-12">
+                                <small>We need your phone number for the demo. We'll never use it for any other purposes.</small>
+                            </div>
+                            <div class="col-md-12">
+                                <button type="submit" class="btn btn-main">Let’s Talk</button>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- this for pricing page book section end -->
+    <!-- footer start -->
+    <footer>
+        <div class="footer bg-white">
+            <div class="container">
+                <div class="footer-top">
+                    <div class="row">
+                        <div class="col-12">
+                            <a class="navbar-brand p-0" href="index.html"><img src="assets/images/footer-logo.svg" alt="header-logo" class="img-fluid header-logo" /> </a>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="footer-heading common-heading">
+                                <h4>
+                                    Together is a revolutionary way for businesses to get good design done at scale.
+                                </h4>
+                                <p>Lorem ipsum dolor sit amet consectetur. Purus pulvinar enim magnis sapien aliquam est. Praesent mi lorem ipsum congue at. Elementum sit nulla tristique viverra cursus. Ac sollicitudin adipiscing maecenas purus commodo mauris
+                                    in.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-5 col-md-6 ms-auto">
+                            <div class="footer-heading common-heading">
+                                <h4>
+                                    Subscribe to our Newsletter
+                                </h4>
+                                <p>Join our community of 15,000 strong and receive the best design and marketing content, biweekly</p>
+                            </div>
+
+                            <div class="subscription-form">
+                                <form>
+                                    <div class="form-group">
+                                        <input class="form-control" id="mail" type="email" placeholder="info@togethership.com">
+                                    </div>
+                                    <input type="submit" class="btn btn-main w-100" value="Let’s Talk" />
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="m-0">
+                <div class="row align-items-center flex-md-row flex-column-reverse">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="power-by-contant">
+                            <div class="power-by-tool"> Powered by
+                                <a href="#" target="_blank"><img src="assets/images/galaxyweblinks-logo.svg" alt="" class="img-fluid"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="copyright">
+                            <p>© 2023 Together. All rights reserved.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-4 text-end ms-auto">
+                        <div class="social-links">
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)">
+                                        <img src="assets/images/behance_white.svg" alt="" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">
+                                        <img src="assets/images/dribbble_white.svg" alt="" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">
+                                        <img src="assets/images/twitter_white.svg" alt="" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">
+                                        <img src="assets/images/instagram_white.svg" alt="" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">
+                                        <img src="assets/images/linkedin_white.svg" alt="" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">
+                                        <img src="assets/images/facebook_white.svg" alt="" />
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+    <!-- jquery js -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery-3.5.1.slim.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/popper.min-2.9.2.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/os-browser-detection.js"></script>
+    <!-- counter js -->
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <!-- swiper js -->
+    <script src="assets/js/swiper.js"></script>
+    <!-- phone no. js-->
+    <script src="assets/js/intlTelInput.min.js"></script>
+    <script src="assets/js/utils.js"></script>
+    <!-- custom js -->
+    <script src="assets/js/script.js"></script>
+    <script>
+        var isLast = function(word) {
+            return $(word).next().length > 0 ? false : true;
+        }
+        var getNext = function(word) {
+            return $(word).next();
+        }
+        var getVisible = function() {
+            return document.getElementsByClassName('is-visible');
+        }
+        var getFirst = function() {
+            var node = $('.words-wrapper').children().first();
+            return node;
+        }
+        var switchWords = function(current, next) {
+            $(current).removeClass('is-visible').addClass('is-hidden');
+            $(next).removeClass('is-hidden').addClass('is-visible');
+        }
+        var getStarted = function() {
+            //We start by getting the visible element and its sibling
+            var first = getVisible();
+            var next = getNext(first);
+            //If our element has a sibling, it's not the last of the list. We switch the classes
+            if (next.length !== 0) {
+                switchWords(first, next);
+            } else {
+
+                //The element is the last of the list. We remove the visible class of the current element
+                $(first).removeClass('is-visible').addClass('is-hidden');
+
+                //And we get the first element of the list, and we give it the visible class. And it starts again.
+                var newEl = getFirst();
+                $(newEl).removeClass('is-hidden').addClass('is-visible');
+            }
+        }
+        var init = function() {
+            setInterval(function() {
+                getStarted()
+            }, 4000);
+        }
+        init();
+    </script>
+</body>
+
+</html>

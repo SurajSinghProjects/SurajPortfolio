@@ -1,0 +1,331 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+	font-family: "Poppins";
+	font-style: normal;
+}
+
+/* common css start */
+
+/* button css start */
+.btn {
+	padding: 17px 46px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	outline: none;
+}
+
+.btn:focus-visible {
+	color: #fff;
+	background-color: #3fba96;
+	border-color: #3fba96;
+	outline: 0;
+	box-shadow: none;
+}
+
+.btn-primary {
+	background-color: #3fba96;
+	color: #fff;
+}
+
+.btn-primary:hover {
+	border: 1px solid #3fba96;
+	background-color: #fff;
+	color: #3fba96;
+}
+
+/* button css end */
+
+/* font css start */
+h1, .h1 {
+	font-size: 60px;
+	line-height: 120%;
+}
+
+h2, .h2 {
+	font-size: 50px;
+	line-height: 120%;
+}
+
+h3, .h3 {
+	font-size: 40px;
+	line-height: 60%;
+}
+
+h4, .h4 {
+	font-size: 30px;
+	line-height: 50%;
+}
+
+h5, .h5 {
+	font-size: 24px;
+	line-height: 40%;
+}
+
+h6, .h6 {
+	font-size: 18px;
+	line-height: 18px;
+}
+
+p, .p {
+	font-size: 20px;
+	line-height: 160%;
+	font-weight: 400;
+}
+
+/* font css end */
+
+/* padding css start */
+.p-t-120 {
+	padding-top: 120px;
+}
+
+.p-b-120 {
+	padding-bottom: 120px;
+}
+
+.p-t-60 {
+	padding-top: 60px;
+}
+
+.p-b-60 {
+	padding-bottom: 60px;
+}
+
+/* padding css end */
+
+/* color css start */
+.primary-color {
+	color: #3fba96;
+}
+
+.para-color {
+	color: #212730;
+}
+
+.bg-dark {
+	background-color: #212832 !important;
+}
+
+/* color css end */
+.form-control:focus {
+	color: #212529;
+	background-color: #fff;
+	border-color: #3fba96;
+	outline: 0;
+	box-shadow: -2px 3px 0 0.25rem #3fba96;
+	transition: all 0.3s ease-in;
+}
+
+/* common css end */
+
+/* header css start */
+.header {
+	position: absolute;
+	left: 0;
+	right: 0;
+	z-index: 9999 !important;
+	padding: 20px 0;
+	transition: all 0.6s ease;
+	background-color: transparent;
+	transform: translateY(30px);
+}
+
+.fixedHeader {
+	position: fixed;
+	width: 100%;
+	background-color: #fff;
+	transition: all 0.6s ease;
+	left: 0;
+	right: 0;
+	padding: 10px 0;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+	transform: translateY(0px) !important;
+}
+
+.header .navbar-nav .nav-item {
+	margin-right: 60px;
+}
+
+.header .navbar-nav .nav-item:last-child {
+	margin-right: 0px;
+}
+
+.header .btn {
+	padding: 10px 46px;
+}
+
+.navbar-nav .nav-item a.nav-link:before, .navbar-nav .nav-item a.nav-link:after, .footer-section .footer-item .footer-link::before, .footer-section .footer-item .footer-link::after, .footer-bottom-content .footer-link::before, .footer-bottom-content .footer-link::after {
+	position: absolute;
+	opacity: 0;
+	width: 0%;
+	height: 2px;
+	content: "";
+	background: #000;
+	transition: all 0.3s;
+}
+
+.footer-section .footer-item .footer-link::before, .footer-section .footer-item .footer-link::after, .footer-bottom-content .footer-link::before, .footer-bottom-content .footer-link::after {
+	background: #fff;
+}
+
+.navbar-nav .nav-item a.nav-link:before, .footer-section .footer-item .footer-link::before, .footer-bottom-content .footer-link::before {
+	left: 0px;
+	top: 0px;
+}
+
+.navbar-nav .nav-item a.nav-link:after, .footer-section .footer-item .footer-link::after, .footer-bottom-content .footer-link::after {
+	right: 0px;
+	bottom: 0px;
+}
+
+.navbar-nav .nav-item a.nav-link:hover:before, .navbar-nav .nav-item a.nav-link:hover:after, .footer-section .footer-item .footer-link:hover::before, .footer-section .footer-item .footer-link:hover::after, .footer-bottom-content .footer-link:hover:before, .footer-bottom-content .footer-link:hover:after {
+	opacity: 1;
+	width: 100%;
+}
+
+/* header css end */
+
+/* hero banner css start */
+.hero-banner {
+	padding-top: 120px;
+}
+
+.hero-banner-content .inputMainBox, .query-section .inputMainBox {
+	border: 1px solid #3fba96;
+	height: 60px;
+	border-radius: 8px;
+	border-right: none;
+}
+
+.hero-banner-content .btn {
+	padding: 17px 62px;
+	font-weight: 500;
+}
+
+/* hero banner css end * /
+
+
+/* explore section css start */
+.explore-section .explore-content {
+	width: 100%;
+	max-width: 520px;
+	margin-left: 20px;
+	position: relative;
+	z-index: 999;
+}
+
+/* explore section css end */
+
+/* works section css start */
+.works-section .works-heading {
+	width: 100%;
+	max-width: 390px;
+	margin: 0 auto;
+}
+
+.works-content li {
+	background-color: #fff;
+	border-radius: 8px;
+	margin-bottom: 30px;
+	padding: 20px 10px;
+}
+
+.works-content li:first-child {
+	box-shadow: 37px 47px 80px 20px rgba(115, 137, 149, 0.52);
+	margin-bottom: 30px;
+}
+
+.works-content li .work-list img {
+	height: 32px;
+}
+
+/* works section css end */
+
+/* our-courses css start */
+.our-courses-slider .swiper .swiper-slide .card img {
+	height: 200px;
+}
+
+.review-box img {
+	width: 120px !important;
+	height: 20px !important;
+}
+
+.swiper {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.swiper-button-prev, .swiper-button-next {
+	background: #fff;
+	padding: 30px;
+	border-radius: 50%;
+	box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.19);
+}
+
+.swiper-button-prev::after, .swiper-button-next::after {
+	content: "";
+}
+
+.our-courses-slider .swiper .card-body {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -40px;
+	width: 100%;
+	height: 0%;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	transition: all 0.5s ease-in-out;
+	overflow: hidden;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+.our-courses-slider .swiper .card:hover .card-body {
+	height: 60%;
+}
+
+/* our-courses css end */
+
+/* footer section start */
+.footer-section .footer-content {
+	width: 100%;
+	max-width: 450px;
+}
+
+.footer-section .footer-content .footerLogo {
+	margin-bottom: 30px;
+}
+
+.footer-content .footer-item {
+	padding: 10px 0;
+}
+
+.footer-section .footer-content ul li a, .footer-bottom-content a, .footer-bottom-content span {
+	color: #b8b8b8;
+	font-size: 16px;
+	line-height: 24px;
+	text-decoration: none;
+}
+
+.footer-media-box {
+	display: inline-flex;
+}
+
+.footer-media-box a img {
+	width: 30px;
+	height: 30px;
+}
+
+.dot {
+	top: -5px;
+	font-size: 20px !important;
+	display: inline-block;
+}
+
+/* footer section end */

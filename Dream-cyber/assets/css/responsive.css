@@ -1,0 +1,2351 @@
+@media screen and (min-width: 1200px) {
+  .crm-middle-box {
+    margin: 0 auto;
+    margin-bottom: 115px;
+    width: 100%;
+    max-width: 1060px;
+  }
+}
+@media screen and (min-width: 1441px) {
+  .php-devlop-services-sec .service-box {
+    min-height: 369px;
+  }
+  .wordpress-development .php-devlop-services-sec .service-box {
+    min-height: 339px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .fixed-header {
+    padding-top: 28px !important;
+    padding-left: 78px !important;
+    padding-right: 78px !important;
+  }
+  .home-page .trends-sec .card .card-text {
+    min-height: 50px;
+    width: 100%;
+    max-width: 406px;
+  }
+  .service-body p {
+    max-width: 393px;
+  }
+
+  .php-development-hire-sec .php-dev-hire-img {
+    height: 752px;
+  }
+  .nodejs-development .service-body p {
+    width: 100%;
+    max-width: 485px;
+  }
+  .nodejs-development .crm-service-section {
+    padding-top: 90px;
+    padding-bottom: 100px;
+  }
+  .nodejs-development .php-devlop-services-sec .service-box {
+    min-height: 339px;
+  }
+  .nodejs-development .service-body {
+    width: 100%;
+    max-width: 485px;
+  }
+  .coding-standards-list p {
+    width: 100%;
+    max-width: 558px;
+  }
+  .php-devlop-services-sec .service-box {
+    min-height: 461px;
+  }
+  .vuejs-development .service-body p {
+    width: 100%;
+    max-width: 485px;
+  }
+  .wordpress-development .php-devlop-services-sec .service-box {
+    min-height: 401px;
+  }
+  /* .home-page .swiper-button-prev {
+    left: 44%;
+  }
+  .home-page .swiper-button-next {
+    right: 44%;
+  } */
+  .sass-development .saas-offer-sec .service-box {
+    min-height: 554px;
+  }
+  .real-estate-development .saas-offer-sec .service-box {
+    min-height: 354px;
+  }
+  .coding-standards-list {
+    min-height: 232px;
+  }
+  .ecommerce-development
+    .sass-dev-service-sec
+    .row
+    .col-md-6.col-lg-4.col-xl-4:nth-child(4)
+    .service-box,
+  .ecommerce-development
+    .sass-dev-service-sec
+    .row
+    .col-md-6.col-lg-4.col-xl-4:nth-child(8)
+    .service-box,
+  .ecommerce-development
+    .sass-dev-service-sec
+    .row
+    .col-md-6.col-lg-4.col-xl-4:last-child
+    .service-box {
+    min-height: 540px;
+  }
+}
+@media screen and (max-width: 1366px) {
+  .p-r-78 {
+    padding-right: 58px;
+  }
+  .p-l-78 {
+    padding-left: 58px;
+  }
+  .p-l-126 {
+    padding-left: 100px;
+  }
+  .p-r-126 {
+    padding-right: 100px;
+  }
+  .p-l-133 {
+    padding-left: 103px;
+  }
+
+  .p-r-133 {
+    padding-right: 103px;
+  }
+
+  header nav.navbar {
+    background-color: #fff !important;
+  }
+  .fixed-header {
+    padding-left: 58px !important;
+    padding-right: 58px !important;
+  }
+  .hire-heading {
+    margin-bottom: 60px;
+  }
+  .frequently-section {
+    padding-top: 38px;
+    padding-bottom: 87px;
+  }
+
+  .footer .footer-top {
+    padding-top: 37px;
+    padding-bottom: 53px;
+  }
+  .footer .footer-middle {
+    padding: 50px 0;
+  }
+  .plateform-list {
+    padding: 38px 0;
+  }
+  .footer-bottom {
+    padding-top: 24px;
+  }
+
+  .nodejs-development .nodejs-banner {
+    padding-bottom: 40px;
+  }
+  .nodejs-development .crm-service-section {
+    padding-top: 70px;
+    padding-bottom: 80px;
+  }
+  .nodejs-development .crm-service-section .crm-service-heading {
+    margin-bottom: 60px;
+  }
+  .nodejs-development .php-devlop-services-sec .service-box {
+    min-height: 369px;
+  }
+  .reactjs-development .crm-service-heading h2 {
+    line-height: 54px;
+  }
+}
+@media screen and (max-width: 1299px) {
+  header nav.navbar {
+    padding-top: 22px;
+    padding-bottom: 0px;
+  }
+
+  .following-content {
+    padding: 15px 7px 9px;
+    margin-bottom: 32px;
+  }
+  .hire-main-box,
+  .laravel-development .hire-main-box {
+    padding: 62px 79px 86px 78px;
+  }
+
+  .php-devlop-services-sec .service-box {
+    min-height: 489px;
+  }
+  .php-development .php-testimonial-box {
+    margin-top: 67px;
+  }
+  .php-development-hire-sec .php-dev-hire-img {
+    height: 815px;
+  }
+  .laravel-development .crm-development-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .php-devlp-plateform-section {
+    padding: 80px 0;
+  }
+  .service-box {
+    margin-bottom: 80px;
+  }
+  .sass-development .sass-dev-service-sec .service-box {
+    min-height: 462px;
+  }
+  .vuejs-experience-sec .experience-heading {
+    margin-bottom: 60px;
+  }
+  .vuejs-development .php-devlop-services-sec .service-box {
+    min-height: 613px;
+    margin-bottom: 30px;
+  }
+  .nodejs-development .php-devlop-services-sec .service-box {
+    min-height: 459px;
+  }
+  .coding-standards-list {
+    min-height: 262px;
+  }
+  .mean-development .coding-standards-list {
+    min-height: 275px;
+  }
+  .home-page .php-devlop-services-sec .service-box {
+    min-height: 339px;
+    margin-bottom: 30px;
+  }
+  .php-devlop-services-sec .crm-service-heading {
+    margin-bottom: 80px;
+  }
+  .real-estate-development .sass-dev-service-sec .service-box {
+    min-height: 400px !important;
+  }
+  .real-estate-development
+    .sass-dev-service-sec
+    .row
+    .col-md-6.col-lg-4.col-xl-4:nth-child(4)
+    .service-box,
+  .real-estate-development
+    .sass-dev-service-sec
+    .row
+    .col-md-6.col-lg-4.col-xl-4:nth-child(5)
+    .service-box,
+  .real-estate-development
+    .sass-dev-service-sec
+    .row
+    .col-md-6.col-lg-4.col-xl-4:nth-child(6)
+    .service-box {
+    min-height: 516px !important;
+  }
+  .ecommerce-development .sass-dev-service-sec .service-box {
+    min-height: 590px;
+  }
+  .ecommerce-development
+    .sass-dev-service-sec
+    .row
+    .col-md-6.col-lg-4.col-xl-4:nth-child(4)
+    .service-box,
+  .ecommerce-development
+    .sass-dev-service-sec
+    .row
+    .col-md-6.col-lg-4.col-xl-4:nth-child(8)
+    .service-box,
+  .ecommerce-development
+    .sass-dev-service-sec
+    .row
+    .col-md-6.col-lg-4.col-xl-4:last-child
+    .service-box {
+    min-height: 590px;
+  }
+  .cms-development .cms-development-process-sec {
+    padding-bottom: 100px;
+  }
+  .cms-development .hero-banner {
+    padding-bottom: 80px;
+  }
+  .custom-software-development .custom-advant-soft-sec {
+    padding-top: 50px;
+    padding-bottom: 80px;
+  }
+  .frontend-development .frontend-service-section .service-box {
+    min-height: 431px;
+  }
+  .frontend-service-section {
+    padding-bottom: 80px;
+  }
+  .social-network-development .crm-section {
+    padding-bottom: 120px;
+  }
+  .social-network-development .crm-development-section .mb-133 {
+    margin-bottom: 80px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  /* font css start */
+  h1,
+  .h1 {
+    font-size: 38px;
+    line-height: 42px;
+  }
+  h2,
+  .h2 {
+    font-size: 38px;
+    line-height: 48px;
+  }
+  h3,
+  .h3 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  h4,
+  .h4 {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  p,
+  .p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  /* padding css start */
+  .p-l-78 {
+    padding-left: 48px;
+  }
+  .p-r-78 {
+    padding-right: 48px;
+  }
+  .p-l-126 {
+    padding-left: 80px;
+  }
+  .p-r-126 {
+    padding-right: 80px;
+  }
+  .p-l-133 {
+    padding-left: 83px;
+  }
+
+  .p-r-133 {
+    padding-right: 83px;
+  }
+  /* padding css end */
+  /* margin css start */
+  .mb-118 {
+    margin-bottom: 90px;
+  }
+  /* margin css end */
+  header nav.navbar {
+    padding-top: 20px;
+    padding-bottom: 0px;
+    background-color: #fff !important;
+  }
+
+  .fixed-header {
+    padding-top: 20px !important;
+    padding-left: 48px !important;
+    padding-right: 48px !important;
+  }
+  header ul.navbar-nav .nav-item {
+    margin-right: 28px;
+  }
+  .navbar-nav .nav-item .nav-link {
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .header-top {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  /* home page css start */
+  .home-page .home-about-sec {
+    padding-top: 120px;
+    padding-bottom: 73px;
+  }
+  .home-page .hero-banner-image .hero-banner-img {
+    height: 390px;
+  }
+  .home-page .hero-banner .hero-banner-content h1 {
+    font-size: 34px;
+    padding-bottom: 24px;
+  }
+  .home-page .home-about-img {
+    width: 450px;
+    height: 471px;
+  }
+  .home-about-content h3 {
+    line-height: 38px;
+  }
+  .home-about-content h4 {
+    max-width: 407px;
+    line-height: 35px;
+  }
+  .home-page .nodejs-service-link {
+    margin-top: 64px;
+  }
+  .home-page .crm-service-section {
+    padding-top: 100px;
+    padding-bottom: 90px;
+  }
+  .home-page .our-technical-sec .service-box {
+    margin-bottom: 50px;
+  }
+  .quick-fact-list h4,
+  .quick-fact-list span.plus {
+    font-size: 50px;
+    line-height: 70px;
+  }
+  .mvp-content {
+    margin-top: 20px;
+  }
+  .mvp-content p {
+    margin-bottom: 28px;
+  }
+  /* .home-page .swiper-button-next {
+    right: 43%;
+  }
+  .home-page .swiper-button-prev {
+    left: 43%;
+  } */
+  .home-page .hire-section {
+    margin-bottom: 80px;
+  }
+  .home-page .hire-main-box {
+    padding: 49px 58px 41px 68px;
+  }
+  .home-page .trends-sec {
+    padding-bottom: 62px;
+  }
+  /* home page css end */
+  .hero-banner {
+    padding-top: 140px;
+    padding-bottom: 100px;
+  }
+
+  .hero-banner-image .hero-banner-img,
+  .ecommerce-development .hero-banner-image .hero-banner-img {
+    height: 379px;
+  }
+  .crm-heading {
+    margin-bottom: 56px;
+  }
+  .crm-content-right {
+    padding-bottom: 35px;
+  }
+  .crm-content-left ul li {
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 100%;
+  }
+  .service-box,
+  .laravel-devlp-service .service-box {
+    margin-bottom: 40px;
+  }
+  .crm-middle-box {
+    margin-bottom: 60px;
+  }
+  .crm-section {
+    padding-bottom: 100px;
+  }
+  .crm-service-section .crm-service-heading {
+    margin-bottom: 60px;
+  }
+  .functionality-section {
+    padding-top: 40px;
+    padding-bottom: 100px;
+  }
+  .functionality-heading {
+    margin-bottom: 60px;
+  }
+  .functionality-box {
+    margin-bottom: 40px;
+  }
+
+  .custom-box {
+    margin-bottom: 42px;
+  }
+  .mb-133 {
+    margin-bottom: 90px;
+  }
+  .custom-crm-section {
+    padding-top: 68px;
+    padding-bottom: 105px;
+  }
+  .custom-img-box {
+    margin-bottom: 46px;
+  }
+  .following-content {
+    padding: 15px 14px 9px;
+    margin-bottom: 32px;
+    min-height: 122px;
+  }
+  .following-crm-service {
+    padding-top: 44px;
+    padding-bottom: 28px;
+  }
+  .crm-development {
+    margin-bottom: 60px;
+  }
+  .commitment-section .commitment-box,
+  .commitment-section.php-develop-partner-sec .commitment-box {
+    margin-bottom: 50px;
+  }
+  .hire-main-box,
+  .laravel-development .hire-main-box,
+  .sass-development .hire-section .hire-main-box {
+    padding: 42px;
+  }
+  .hire-content-left p:first-child {
+    margin-bottom: 12px;
+  }
+  .hire-content-left p:nth-of-type(2) {
+    margin-bottom: 12px;
+  }
+  .hire-content-left p:last-child {
+    margin-bottom: 0;
+  }
+  .hire-content-right .video-poster {
+    height: 590px;
+  }
+  .hire-heading {
+    margin-bottom: 40px;
+  }
+  .request-form-section .request-main-box {
+    padding: 40px 40px 30px 55px;
+  }
+  .frequently-section {
+    padding-top: 60px;
+    padding-bottom: 50px;
+  }
+  .frequently-heading {
+    margin-bottom: 68px;
+  }
+  .request-form-section {
+    margin-bottom: 50px;
+  }
+  .footer .footer-middle {
+    padding: 40px 0;
+  }
+  .plateform-list {
+    padding: 28px 0;
+  }
+  .footer .footer-top {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .footer-top .footer-list {
+    margin-bottom: 28px !important;
+  }
+  .php-devlop-services-sec .service-box {
+    min-height: 519px;
+  }
+  .php-company-advantage {
+    margin-bottom: 20px;
+  }
+  .php-service-section {
+    padding-top: 60px;
+    padding-bottom: 100px;
+  }
+  .php-devlp-plateform-section {
+    padding: 80px 0;
+  }
+  .php-project-devlop-sec .crm-development {
+    margin-bottom: 75px;
+  }
+  .php-development .hire-main-box {
+    padding: 50px 52px 50px 50px;
+  }
+  .php-development .hire-content-left ul li span {
+    margin-left: 20px;
+  }
+  .php-development .hire-content-left ul li {
+    padding: 16px 30px;
+    margin-bottom: 28px;
+  }
+  .php-development-hire-sec .php-dev-hire-img {
+    height: 719px;
+  }
+  .php-devlop-services-sec .crm-service-heading {
+    margin-bottom: 60px;
+  }
+  .nodejs-development .nodejs-testimonial-link,
+  .reactjs-development .nodejs-testimonial-link,
+  .wordpress-development .nodejs-testimonial-link,
+  .mern-development .nodejs-testimonial-link,
+  .laravel-development .nodejs-testimonial-link,
+  .angular-development .nodejs-testimonial-link,
+  .codeigniter-development .nodejs-testimonial-link,
+  .python-development .nodejs-testimonial-link,
+  .hotel-web-design .nodejs-testimonial-link,
+  .fantasy-development .nodejs-testimonial-link,
+  .api-development .nodejs-testimonial-link {
+    margin-top: 60px;
+  }
+  .vuejs-development .crm-service-section .common-heading h2 {
+    line-height: 44px;
+  }
+  .vuejs-development .crm-development h2,
+  .vuejs-development .commitment-section .commitment-box.common-heading h2,
+  .reactjs-development .crm-service-heading h2 {
+    line-height: 48px;
+  }
+  .vuejs-development .php-devlp-plateform-section {
+    margin-bottom: 30px;
+  }
+  .vuejs-experience-sec .experience-heading {
+    margin-bottom: 50px;
+  }
+  .vuejs-development .nodejs-testimonial-link {
+    margin-top: 48px;
+  }
+  /* react page css start */
+  .reactjs-development .crm-development-section,
+  .nodejs-development .crm-development-section {
+    padding-top: 80px;
+    padding-bottom: 60px;
+  }
+  .reactjs-development .vuejs-experience-sec .experience-image-box {
+    margin-bottom: 48px;
+  }
+  /* wordpress page css start */
+  .wordpress-development .crm-service-section .crm-service-heading {
+    margin-bottom: 55px;
+  }
+  .wordpress-development .commitment-section {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .wordpress-development .wordpress-experience-box {
+    margin-top: 130px;
+  }
+  /* mern stack development css start */
+  .mern-development .crm-service-section {
+    padding-bottom: 80px;
+  }
+  .mern-development .commitment-section {
+    padding-bottom: 120px;
+  }
+  /* mern stack development css end */
+  .laravel-development .php-devlop-services-sec .service-box {
+    min-height: 319px;
+    margin-bottom: 60px;
+  }
+  .laravel-development .crm-development-section {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+
+  /* python development css start */
+  .python-development .crm-development-section {
+    padding-bottom: 120px;
+  }
+  .python-development .vuejs-experience-sec {
+    padding-bottom: 0;
+  }
+  .codeigniter-development .php-devlop-services-sec .service-box,
+  .python-development .php-devlop-services-sec .service-box {
+    min-height: 427px;
+    margin-bottom: 30px;
+  }
+  .sass-development .saas-offer-sec .service-box {
+    min-height: 504px;
+  }
+  .sass-development .hire-section .hire-content-left h3 {
+    font-size: 55px;
+    line-height: 38px;
+  }
+  .real-estate-development .sass-dev-service-sec .service-box {
+    min-height: 460px !important;
+  }
+  .real-estate-development .saas-offer-sec .service-box {
+    min-height: 380px;
+  }
+  .real-estate-development
+    .real-web-devlop-sec
+    .row
+    .col-md-6.col-lg-4.col-xl-4:nth-child(4)
+    .service-box,
+  .real-estate-development
+    .real-web-devlop-sec
+    .row
+    .col-md-6.col-lg-4.col-xl-4:nth-child(5)
+    .service-box,
+  .real-estate-development
+    .real-web-devlop-sec
+    .row
+    .col-md-6.col-lg-4.col-xl-4:last-child
+    .service-box {
+    min-height: 594px;
+  }
+  .ecommerce-development .sass-dev-service-sec .service-box {
+    min-height: 643px;
+  }
+  .ecommerce-development
+    .sass-dev-service-sec
+    .row
+    .col-md-6.col-lg-4.col-xl-4:nth-child(4)
+    .service-box,
+  .ecommerce-development
+    .sass-dev-service-sec
+    .row
+    .col-md-6.col-lg-4.col-xl-4:nth-child(8)
+    .service-box,
+  .ecommerce-development
+    .sass-dev-service-sec
+    .row
+    .col-md-6.col-lg-4.col-xl-4:last-child
+    .service-box {
+    min-height: 644px;
+  }
+  .custom-software-development .python-client-section .service-box {
+    min-height: 250px;
+  }
+  .frontend-development .frontend-service-section .service-box {
+    min-height: 391px;
+  }
+  .frontend-service-section {
+    padding-bottom: 60px;
+  }
+  .social-network-development .crm-section {
+    padding-bottom: 80px;
+  }
+}
+@media screen and (max-width: 1099px) {
+  .p-l-78 {
+    padding-left: 30px;
+  }
+  .p-r-78 {
+    padding-right: 30px;
+  }
+  .fixed-header {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+  .php-devlop-services-sec .service-box {
+    padding: 22px;
+  }
+  .php-development-hire-sec .php-dev-hire-img {
+    height: 809px;
+  }
+  .reactjs-development .vuejs-experience-sec .experience-list ul li {
+    margin-bottom: 18px;
+  }
+  .reactjs-development .experience-image-box .experience-img {
+    height: 603px;
+    object-fit: cover;
+  }
+}
+@media screen and (max-width: 991px) {
+  /* font css start */
+  h1,
+  .h1 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  h2,
+  .h2 {
+    font-size: 26px;
+    line-height: 27px;
+  }
+  h3,
+  .h3 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  h4,
+  .h4 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  h5,
+  .h5 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  h6,
+  .h6 {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  p,
+  .p {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  /* padding css start */
+  .p-l-78 {
+    padding-left: 38px;
+  }
+  .p-r-78 {
+    padding-right: 38px;
+  }
+  .p-l-126 {
+    padding-left: 60px;
+  }
+  .p-r-126 {
+    padding-right: 60px;
+  }
+  .p-l-133 {
+    padding-left: 50px;
+  }
+  .p-r-133 {
+    padding-right: 50px;
+  }
+  /* padding css end */
+  .common-heading h2 {
+    margin-bottom: 20px;
+  }
+  .mb-133 {
+    margin-bottom: 50px;
+  }
+  .mb-118 {
+    margin-bottom: 60px;
+  }
+  .dropdown-open .dropdown-menu.dropdown-active {
+    display: block;
+    position: static;
+    margin-top: 10px;
+  }
+  .header {
+    top: 26px;
+  }
+  .navbar-brand {
+    margin-bottom: 0;
+  }
+  .fixed-header {
+    top: 0px;
+    padding: 16px 38px !important;
+  }
+  header nav.navbar {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .header-top {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .navbar-collapse {
+    margin-top: 20px;
+  }
+  header ul.navbar-nav .nav-item {
+    margin-right: 0;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+  }
+  .navbar-toggler {
+    color: #fff;
+    border-color: #f5f5f5;
+    padding: 5px;
+    border: none;
+    z-index: 999;
+  }
+  .hamburger-box {
+    width: 35px;
+    height: 24px;
+  }
+  .hamburger-inner,
+  .hamburger-inner:after,
+  .hamburger-inner:before {
+    width: 40px;
+    height: 3px;
+    border-radius: 3px;
+  }
+  .btn {
+    padding: 16px 28px;
+  }
+  .hero-banner,
+  .sass-development .hero-banner {
+    padding-bottom: 70px;
+  }
+
+  /* home page css start */
+  .home-page .hero-banner {
+    padding-bottom: 60px;
+  }
+  .home-page .hero-banner-image .hero-banner-img {
+    height: 325px;
+  }
+  .home-page .home-about-sec {
+    padding-top: 100px;
+    padding-bottom: 60px;
+  }
+  .home-page .home-about-img {
+    width: 390px;
+    height: 511px;
+    right: 10px;
+  }
+  .home-about-content h3 {
+    line-height: 38px;
+  }
+  .home-about-content h4 {
+    line-height: 28px;
+  }
+  .home-page .crm-service-section {
+    padding-top: 80px;
+    padding-bottom: 60px;
+  }
+  .home-page .php-devlop-services-sec .service-box {
+    min-height: 273px;
+    margin-bottom: 30px;
+  }
+  .home-page .our-technical-sec .service-box {
+    margin-bottom: 30px;
+  }
+  .home-page .nodejs-service-link {
+    margin-top: 44px;
+  }
+  .quick-fact-content {
+    margin-bottom: 30px;
+  }
+  .home-page .hire-main-box {
+    padding: 39px 48px 31px 58px;
+  }
+  .quick-fact-list h4,
+  .quick-fact-list span.plus {
+    font-size: 40px;
+    line-height: 60px;
+  }
+  /* .home-page .swiper-button-next {
+    right: 40%;
+  }
+  .home-page .swiper-button-prev {
+    left: 40%;
+  } */
+  .trends-sec .crm-service-heading {
+    margin-bottom: 40px;
+  }
+  .home-page .trends-sec {
+    padding-bottom: 42px;
+  }
+  .home-page .hire-section {
+    margin-bottom: 60px;
+  }
+  /* home page css end */
+  .crm-content-left {
+    padding: 30px 20px 30px 20px;
+    min-height: 478px;
+  }
+  .crm-content-left p,
+  .crm-content-left .p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .crm-content-left ul li {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px;
+  }
+  .hero-banner-image .hero-banner-img,
+  .ecommerce-development .hero-banner-image .hero-banner-img {
+    height: 390px;
+  }
+  .php-dev-company-image .php-dev-banner-img {
+    height: 250px;
+  }
+
+  .crm-heading h2 {
+    margin-bottom: 20px;
+  }
+  .crm-heading {
+    margin-bottom: 36px;
+  }
+  .service-body p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .crm-section {
+    padding-top: 54px;
+    padding-bottom: 60px;
+  }
+  .crm-middle-box {
+    margin-bottom: 40px;
+  }
+  .crm-service-section .crm-service-heading {
+    margin-bottom: 40px;
+  }
+  .crm-img {
+    height: 249px;
+    display: block;
+    margin-left: auto;
+  }
+  .functionality-section {
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+  .functionality-heading {
+    margin-bottom: 20px;
+  }
+  .functionality-img {
+    height: 135px;
+    width: 200px;
+  }
+  .functionality-img-box {
+    margin-bottom: 20px;
+  }
+  .functionality-body p {
+    margin-bottom: 20px;
+  }
+  .functionality-section .request-quote {
+    margin-top: 20px;
+  }
+
+  .custom-img-box {
+    margin-bottom: 26px;
+  }
+  .custom-img {
+    height: 130px;
+  }
+  .custom-box {
+    margin-bottom: 32px;
+  }
+  .functionality-box {
+    margin-bottom: 20px;
+  }
+  .functionality-heading h2,
+  .crm-development h2 {
+    line-height: 38px;
+  }
+  .crm-development,
+  .php-project-devlop-sec .crm-development,
+  .nodejs-development .php-project-devlop-sec .crm-development {
+    margin-bottom: 38px;
+  }
+  .custom-crm-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .custom-box h2 {
+    line-height: 38px;
+    margin-bottom: 20px;
+  }
+  .custom-body h3 {
+    margin-bottom: 12px;
+  }
+  .following-content .following-descr {
+    font-size: 15px;
+  }
+  .following-crm-service {
+    padding-top: 34px;
+    padding-bottom: 18px;
+  }
+  .commitment-list h6 {
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+  .commitment-list {
+    padding-bottom: 20px;
+    margin-bottom: 24px;
+  }
+  .hire-content-left {
+    margin-bottom: 20px;
+  }
+  .hire-content-right h4 {
+    line-height: 30px;
+    margin-bottom: 16px;
+  }
+  .hire-content-right .card {
+    margin-bottom: 24px;
+  }
+  .hire-content-right .video-poster {
+    height: 690px;
+  }
+  .frequently-section .frequently-heading h6 {
+    line-height: 30px;
+  }
+  /* php development section css start */
+  .php-devlp-plateform-section {
+    padding: 62px 0;
+    margin-bottom: 20px;
+  }
+  .hire-content-left p:first-child {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .php-development-hire-sec {
+    padding-top: 35px;
+  }
+  .php-development-hire-sec .hire-content-left p {
+    margin-bottom: 16px;
+  }
+  .php-development-hire-sec .php-dev-hire-img {
+    height: 769px;
+  }
+  .frequently-heading {
+    margin-bottom: 38px;
+  }
+  /* php development section css end */
+
+  .hire-main-box,
+  .laravel-development .hire-main-box,
+  .sass-development .hire-section .hire-main-box {
+    padding: 28px 16px;
+  }
+
+  .hire-content-right h5 {
+    font-size: 22px;
+  }
+  .hire-heading {
+    margin-bottom: 20px;
+  }
+  .hire-content-right .card .card-header {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .request-form-section .request-main-box .request-content h2 {
+    line-height: 38px;
+  }
+  .request-form-section .request-main-box {
+    padding: 30px 20px 30px 20px;
+  }
+  .form-box .form-control {
+    font-size: 16px;
+    line-height: 18px;
+    padding: 10px 16px;
+  }
+  .frequently-section {
+    padding-top: 28px;
+    padding-bottom: 47px;
+  }
+  .frequently-section .accordion .accordion-item {
+    padding: 20px 30px 20px 30px;
+    margin-bottom: 30px;
+  }
+  .request-form-section {
+    margin-bottom: 40px;
+  }
+  .footer-top .footer-list {
+    margin-bottom: 10px !important;
+  }
+  .php-devlop-services-sec .service-box {
+    min-height: 399px;
+    padding: 24px;
+  }
+  .php-development .hire-main-box {
+    padding: 30px;
+  }
+  .php-development .hire-content-left ul li {
+    padding: 16px 20px;
+    margin-bottom: 20px;
+  }
+  .php-development .hire-content-left ul li span {
+    margin-left: 16px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .php-development .php-testimonial-box {
+    margin-top: 40px;
+  }
+  .commitment-section {
+    padding-top: 43px;
+    padding-bottom: 53px;
+  }
+  .commitment-section.php-develop-partner-sec .commitment-box,
+  .commitment-section .commitment-box {
+    margin-bottom: 25px;
+  }
+  .crm-service-section {
+    padding-top: 38px;
+    padding-bottom: 38px;
+  }
+  .php-dev-advantage-sec .php-advantage-link {
+    margin-top: 42px;
+  }
+  .php-devlop-services-sec .crm-service-heading {
+    margin-bottom: 40px;
+  }
+  /* nodejs development section css start */
+  .hero-banner-image .nodejs-banner-img {
+    height: 250px;
+  }
+  .nodejs-development .crm-service-section {
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+  .nodejs-development .crm-service-section .crm-service-heading {
+    margin-bottom: 40px;
+  }
+  .nodejs-development .common-heading h2 {
+    margin-bottom: 10px;
+    line-height: 35px;
+  }
+
+  .nodejs-development .hire-content-left ul li,
+  .vuejs-development .hire-content-left ul li,
+  .reactjs-development .hire-content-left ul li,
+  .wordpress-development .hire-content-left ul li,
+  .python-development .hire-content-left ul li,
+  .angular-development .hire-content-left ul li,
+  .api-development .hire-content-left ul li,
+  .fantasy-development .hire-content-left ul li,
+  .hotel-web-design .hire-content-left ul li,
+  .cms-development .hire-content-left ul li,
+  .mobile-app-development .hire-content-left ul li,
+  .law-firm-development .hire-content-left ul li,
+  .custom-software-development .hire-content-left ul li,
+  .frontend-development .hire-content-left ul li,
+  .social-network-development .hire-content-left ul li {
+    padding: 12px 20px;
+    margin-bottom: 24px;
+  }
+  .nodejs-development .nodejs-testimonial-link,
+  .reactjs-development .nodejs-testimonial-link,
+  .wordpress-development .nodejs-testimonial-link,
+  .mern-development .nodejs-testimonial-link,
+  .laravel-development .nodejs-testimonial-link,
+  .angular-development .nodejs-testimonial-link,
+  .codeigniter-development .nodejs-testimonial-link,
+  .python-development .nodejs-testimonial-link,
+  .fantasy-development .nodejs-testimonial-link,
+  .hotel-web-design .nodejs-testimonial-link,
+  .api-development .nodejs-testimonial-link,
+  .hotel-web-design .nodejs-testimonial-link,
+  .cms-development .nodejs-testimonial-link,
+  .mobile-app-development .nodejs-testimonial-link,
+  .law-firm-development .nodejs-testimonial-link,
+  .custom-software-development .nodejs-testimonial-link,
+  .frontend-development .nodejs-testimonial-link,
+  .social-network-development .nodejs-testimonial-link {
+    margin-top: 20px;
+  }
+  .nodejs-development
+    .request-form-section
+    .request-main-box
+    .request-content
+    p,
+  .laravel-development
+    .request-form-section
+    .request-main-box
+    .request-content
+    p,
+  .codeigniter-development
+    .request-form-section
+    .request-main-box
+    .request-content
+    p,
+  .python-development
+    .request-form-section
+    .request-main-box
+    .request-content
+    p,
+  .sass-development .request-form-section .request-main-box .request-content p {
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+  /* vue js development css start */
+  .vuejs-development .crm-service-section .common-heading h2 {
+    line-height: 34px;
+  }
+  .vuejs-development .crm-development h2 {
+    line-height: 38px;
+  }
+  .vuejs-development .php-devlp-plateform-section {
+    margin-bottom: 10px;
+  }
+  .crm-development-section {
+    padding-top: 37px;
+  }
+  .vuejs-experience-sec .experience-heading {
+    margin-bottom: 40px;
+  }
+  .experience-image-box .experience-img {
+    height: 603px;
+    object-fit: cover;
+  }
+  .vuejs-experience-sec {
+    padding-bottom: 60px;
+  }
+  .vuejs-development .commitment-section .commitment-box.common-heading h2,
+  .reactjs-development .crm-service-heading h2 {
+    line-height: 34px;
+  }
+  .vuejs-development .nodejs-testimonial-link {
+    margin-top: 38px;
+  }
+  .reactjs-development .vuejs-experience-sec .experience-list ul li {
+    margin-bottom: 10px;
+  }
+  .reactjs-development .experience-image-box .experience-img {
+    height: 673px;
+  }
+  .reactjs-development .crm-development-section,
+  .nodejs-development .crm-development-section {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+  /* wordpress page css start */
+  .wordpress-development .php-devlop-services-sec .service-box {
+    min-height: 319px;
+  }
+  .wordpress-development .wordpress-experience-box {
+    margin-top: 70px;
+  }
+  .wordpress-development .crm-development-section.php-project-devlop-sec {
+    padding-bottom: 70px;
+  }
+  .wordpress-development .crm-service-heading h2 {
+    line-height: 44px;
+    margin-bottom: 16px;
+  }
+  .wordpress-development .wordpress-advantage-sec .commitment-box h2 {
+    line-height: 36px;
+  }
+  /* mern development page css start */
+  .mern-development .coding-standards-list {
+    min-height: auto;
+  }
+  .mern-development .crm-service-section {
+    padding-bottom: 60px;
+  }
+  .mern-development
+    .crm-service-section
+    .col-md-6.col-lg-4.col-xl-4:last-child
+    .service-box {
+    margin-bottom: 0px;
+  }
+  .mern-development .commitment-section {
+    padding-bottom: 80px;
+  }
+  .laravel-development .php-devlop-services-sec .service-box {
+    min-height: auto;
+    margin-bottom: 50px;
+  }
+  .laravel-development .crm-development-section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .python-development .crm-development-section {
+    padding-bottom: 80px;
+  }
+  .python-development
+    .python-client-section.php-devlop-services-sec
+    .service-box {
+    min-height: 320px;
+  }
+  .python-development .experience-list ul li {
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+  .codeigniter-development .php-devlop-services-sec .service-box,
+  .python-development .php-devlop-services-sec .service-box {
+    min-height: 347px;
+  }
+  .sass-development .sass-dev-service-sec .service-box {
+    min-height: 352px;
+  }
+  .sass-development .saas-offer-sec .service-box {
+    min-height: 374px;
+  }
+  .sass-development .hire-section .hire-content-left h3 {
+    font-size: 45px;
+    line-height: 38px;
+  }
+  .sass-development .hire-section .hire-content-left p {
+    max-width: 100%;
+  }
+  .real-estate-development .crm-content-left {
+    min-height: 806px;
+  }
+  .real-estate-development .sass-dev-service-sec .service-box {
+    min-height: 380px !important;
+  }
+  .real-estate-development
+    .sass-dev-service-sec
+    .row
+    .col-md-6.col-lg-4.col-xl-4:nth-child(3)
+    .service-box,
+  .real-estate-development
+    .sass-dev-service-sec
+    .row
+    .col-md-6.col-lg-4.col-xl-4:nth-child(4)
+    .service-box {
+    min-height: 446px !important;
+  }
+  .real-estate-development
+    .sass-dev-service-sec
+    .row
+    .col-md-6.col-lg-4.col-xl-4:nth-child(5)
+    .service-box,
+  .real-estate-development
+    .sass-dev-service-sec
+    .row
+    .col-md-6.col-lg-4.col-xl-4:nth-child(6)
+    .service-box {
+    min-height: 356px !important;
+  }
+  .real-estate-development .saas-offer-sec .service-box,
+  .real-estate-development
+    .real-web-devlop-sec
+    .row
+    .col-md-6.col-lg-4.col-xl-4:nth-child(4) {
+    min-height: 300px !important;
+  }
+
+  .real-estate-development
+    .real-web-devlop-sec
+    .row
+    .col-md-6.col-lg-4.col-xl-4:nth-child(5)
+    .service-box,
+  .real-estate-development
+    .real-web-devlop-sec
+    .row
+    .col-md-6.col-lg-4.col-xl-4:last-child
+    .service-box {
+    min-height: 514px !important;
+  }
+  .real-estate-development .sass-dev-service-sec .mb-100 {
+    margin-bottom: 60px;
+  }
+  .ecommerce-development .sass-dev-service-sec .service-box {
+    min-height: 486px;
+  }
+  .ecommerce-development
+    .sass-dev-service-sec
+    .row
+    .col-md-6.col-lg-4.col-xl-4:nth-child(4)
+    .service-box,
+  .ecommerce-development
+    .sass-dev-service-sec
+    .row
+    .col-md-6.col-lg-4.col-xl-4:nth-child(8)
+    .service-box,
+  .ecommerce-development
+    .sass-dev-service-sec
+    .row
+    .col-md-6.col-lg-4.col-xl-4:last-child
+    .service-box {
+    min-height: auto;
+  }
+  .ecommerce-development
+    .sass-dev-service-sec
+    .row
+    .col-md-6.col-lg-4.col-xl-4:nth-child(8)
+    .service-box {
+    min-height: 546px;
+  }
+  .api-development
+    .sass-dev-service-sec
+    .row
+    .col-md-6.col-lg-4.col-xl-4:nth-child(2)
+    .service-box {
+    min-height: 408px;
+  }
+
+  .api-development
+    .sass-dev-service-sec
+    .row
+    .col-md-6.col-lg-4.col-xl-4:nth-child(5)
+    .service-box {
+    min-height: 382px;
+  }
+  .api-development .hire-section .hire-content-left p:nth-of-type(3) {
+    margin-bottom: 50px;
+  }
+  .cms-development .cms-development-process-sec {
+    padding-bottom: 70px;
+  }
+  .cms-development
+    .cms-offering-sec
+    .row
+    .col-md-6.col-lg-6:nth-child(1)
+    .service-box,
+  .cms-development
+    .cms-offering-sec
+    .row
+    .col-md-6.col-lg-6:nth-child(2)
+    .service-box,
+  .cms-development
+    .cms-offering-sec
+    .row
+    .col-md-6.col-lg-6:nth-child(3)
+    .service-box,
+  .cms-development
+    .cms-offering-sec
+    .row
+    .col-md-6.col-lg-6:nth-child(4)
+    .service-box {
+    margin-bottom: 50px;
+  }
+  .mobile-app-development .python-client-section .service-box,
+  .law-firm-development .python-client-section .service-box,
+  .custom-software-development .python-client-section .service-box {
+    height: auto !important;
+    margin-bottom: 30px;
+  }
+  .mobile-app-development
+    .python-client-section
+    .col-md-6.col-lg-4.col-xl-4:nth-child(2)
+    .service-box {
+    min-height: 475px;
+  }
+
+  .mobile-app-development
+    .python-client-section
+    .col-md-6.col-lg-4.col-xl-4:last-child
+    .service-box,
+  .law-firm-development
+    .python-client-section
+    .col-md-6.col-lg-4.col-xl-4:last-child
+    .service-box {
+    min-height: auto;
+  }
+  .law-firm-development
+    .python-client-section
+    .col-md-6.col-lg-4.col-xl-4:nth-child(1)
+    .service-box {
+    min-height: 420px;
+  }
+  .law-firm-development .hero-banner-image .hero-banner-img {
+    height: 325px;
+  }
+  .custom-software-development
+    .custom-advant-soft-sec
+    .crm-middle-box
+    .col-md-6.col-lg-6.col-xl-6:nth-child(2)
+    .service-box {
+    min-height: 326px;
+  }
+  .custom-software-development
+    .custom-advant-soft-sec
+    .crm-middle-box
+    .col-md-6.col-lg-6.col-xl-6:last-child
+    .service-box {
+    min-height: 356px;
+  }
+  .custom-software-development .hero-banner {
+    padding-bottom: 40px;
+  }
+  .custom-software-development
+    .python-client-section
+    .row
+    .col-md-6.col-lg-4.col-xl-4:nth-child(2)
+    .service-box {
+    min-height: 320px;
+  }
+  .custom-software-development
+    .custom-choose-sec
+    .crm-middle-box
+    .col-md-6.col-lg-6.col-xl-6:nth-child(2)
+    .service-box,
+  .custom-software-development
+    .custom-choose-sec
+    .crm-middle-box
+    .col-md-6.col-lg-6.col-xl-6:nth-child(4)
+    .service-box {
+    min-height: 300px;
+  }
+  .custom-software-development
+    .custom-choose-sec
+    .crm-middle-box
+    .col-md-6.col-lg-6.col-xl-6:nth-child(6)
+    .service-box {
+    min-height: 320px;
+  }
+  .custom-software-development
+    .custom-choose-sec
+    .crm-middle-box
+    .col-md-6.col-lg-6.col-xl-6:nth-child(7)
+    .service-box {
+    min-height: 355px;
+  }
+  .social-network-development .crm-section {
+    padding-bottom: 80px;
+  }
+  .social-network-development .crm-development-section .mb-133 {
+    margin-bottom: 60px;
+  }
+}
+@media screen and (max-width: 899px) {
+  .php-development-hire-sec .php-dev-hire-img {
+    height: 949px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .header {
+    top: 13px;
+  }
+  .fixed-header {
+    top: 0;
+    padding: 16px !important;
+  }
+  header .header-logo {
+    width: 100%;
+    height: 32px;
+  }
+  .common-heading h2 {
+    margin-bottom: 14px;
+    line-height: 30px;
+  }
+  h1,
+  .h1 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  h2,
+  .h2 {
+    font-size: 24px;
+    line-height: 26px;
+  }
+  h3,
+  .h3 {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  h4,
+  .h4 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  h5,
+  .h5 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  h6,
+  .h6 {
+    font-size: 16px;
+    line-height: 27px;
+  }
+  p,
+  .p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  /* padding css start */
+  .p-l-78 {
+    padding-left: 16px;
+  }
+  .p-r-78 {
+    padding-right: 16px;
+  }
+  .p-l-126 {
+    padding-left: 16px;
+  }
+  .p-r-126 {
+    padding-right: 16px;
+  }
+  .p-l-133 {
+    padding-left: 16px;
+  }
+
+  .p-r-133 {
+    padding-right: 16px;
+  }
+  .mb-133 {
+    margin-bottom: 30px;
+  }
+  /* padding css end */
+  .navbar-toggler {
+    padding: 4px 0;
+  }
+  .hamburger-inner,
+  .hamburger-inner:after,
+  .hamburger-inner:before {
+    width: 36px;
+    height: 2px;
+    border-radius: 3px;
+  }
+  .header-logo {
+    width: 100%;
+    height: 30px;
+  }
+  .footer .footer-middle .footer-logo-img {
+    height: 40px;
+  }
+  .dropdown-container .dropdown-menu {
+    margin-top: 10px;
+    position: static;
+    width: 330px;
+    padding: 16px;
+  }
+  .btn {
+    padding: 11px 23px;
+  }
+  /* home page css start */
+
+  .home-page .hero-banner .hero-banner-content h1 {
+    font-size: 24px;
+    padding-bottom: 17px;
+  }
+  .home-about-content h4 {
+    max-width: 532px;
+  }
+  .home-about-content p {
+    max-width: 100%;
+  }
+  .home-page .home-about-sec {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .home-page .home-about-img {
+    position: static;
+    width: 100%;
+    object-fit: contain;
+    height: auto;
+  }
+  .home-page .crm-service-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .home-page .php-devlop-services-sec .service-box {
+    min-height: auto;
+  }
+  .home-about-content p {
+    font-size: 14px;
+  }
+  .home-page .nodejs-service-link {
+    margin-top: 30px;
+  }
+  .home-page .experience-list ul li {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  .mvp-content {
+    margin-top: 0;
+  }
+  .home-page .trends-sec .card {
+    border: none;
+    margin-bottom: 20px;
+  }
+  .home-page .hire-main-box {
+    padding: 20px;
+  }
+  /* .home-page .swiper-button-next {
+    right: 0;
+    top: 50%;
+  }
+  .home-page .swiper-button-prev {
+    top: 50%;
+    left: 0%;
+  } */
+  .home-page .hire-section {
+    margin-bottom: 40px;
+  }
+  /* home page css end */
+  .hero-banner,
+  .hero-banner,
+  .sass-development .hero-banner {
+    padding-bottom: 40px;
+    padding-top: 60px;
+  }
+  .hero-banner .hero-banner-content p {
+    width: 100%;
+    max-width: 100%;
+  }
+  .hero-banner-image .hero-banner-img,
+  .home-page .hero-banner-image .hero-banner-img,
+  .fantasy-development .hero-banner-image .hero-banner-img,
+  .cms-development .hero-banner-image .hero-banner-img,
+  .law-firm-development .hero-banner-image .hero-banner-img {
+    height: auto;
+  }
+
+  .crm-section,
+  .sass-development .crm-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .crm-service-section .crm-service-heading {
+    margin-bottom: 20px;
+  }
+  .service-box,
+  .hotel-web-design .crm-service-section .row .service-box {
+    margin-bottom: 30px;
+  }
+  .service-box .service-img-box {
+    margin-bottom: 5px;
+  }
+  .service-body p,
+  .nodejs-development .service-body p,
+  .nodejs-development .service-body,
+  .reactjs-development .service-body p,
+  .vuejs-development .service-body p,
+  .vuejs-development .request-content p {
+    max-width: 100%;
+  }
+  .crm-middle-box {
+    margin-bottom: 20px;
+  }
+  .crm-img {
+    height: 229px;
+    display: block;
+    margin-left: 0;
+    margin: 0 auto;
+  }
+  .development-box p {
+    max-width: 100%;
+  }
+  .crm-service-section {
+    padding-top: 38px;
+    padding-bottom: 38px;
+  }
+  .crm-development-right {
+    margin-bottom: 20px;
+  }
+  .functionality-img-box {
+    margin-bottom: 20px;
+  }
+  .functionality-section .row .col-md-6:last-of-type .functionality-box {
+    margin-bottom: 0;
+  }
+  .functionality-section .request-quote {
+    margin-top: 20px;
+  }
+  .custom-img-box {
+    margin-bottom: 16px;
+  }
+  .custom-body h3 {
+    margin-bottom: 10px;
+  }
+  .custom-box {
+    margin-bottom: 22px;
+  }
+  .crm-devevlopment-img,
+  .custom-img {
+    display: block;
+    margin: 0 auto;
+    height: 180px;
+  }
+  .crm-content-left,
+  .sass-development .crm-content-right {
+    padding: 20px;
+    min-height: auto;
+    height: auto !important;
+  }
+  .crm-development,
+  .php-project-devlop-sec .crm-development {
+    margin-bottom: 20px;
+  }
+  .custom-crm-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .following-crm-service
+    .row
+    .col-xl-3.col-md-4.col-lg-4:last-child
+    .following-content {
+    margin-bottom: 0;
+  }
+  .following-content {
+    padding: 14px;
+    margin-bottom: 20px;
+    min-height: 0;
+  }
+  .commitment-section .commitment-box,
+  .commitment-section.php-develop-partner-sec .commitment-box {
+    margin-bottom: 30px;
+  }
+  .commitment-list {
+    padding-bottom: 22px;
+    margin-bottom: 22px;
+  }
+  .commitment-list h6 {
+    line-height: 22px;
+  }
+  .hire-content-left {
+    margin-bottom: 20px;
+  }
+  .hire-content-right .card {
+    margin-bottom: 10px;
+  }
+  .hire-content-right .card .card-header {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .hire-content-right .video-poster {
+    height: auto;
+  }
+  .frequently-section .accordion .accordion-item {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .frequently-section {
+    padding-top: 28px;
+    padding-bottom: 37px;
+  }
+  .request-form-section .request-main-box .request-content h6 {
+    line-height: 22px;
+  }
+  .request-form-section {
+    margin-bottom: 30px;
+  }
+  .frequently-section .frequently-heading h6 {
+    line-height: 27px;
+  }
+
+  /* php development page css start */
+  .php-dev-company-content {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  .php-dev-company-content p:first-of-type {
+    margin-bottom: 10px;
+  }
+  .php-advant-img-box {
+    margin-bottom: 10px;
+  }
+  .php-advant-body h3 {
+    margin-bottom: 10px;
+  }
+  .php-company-advantage {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  .php-advantage-img {
+    height: 150px;
+    width: 150px;
+    margin-left: -14px;
+  }
+  .php-project-devlop-sec .crm-development-right {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  .php-dev-company-section .row .col-md-6:last-child .php-advant-img-box {
+    margin-bottom: 0;
+  }
+  .php-plateform-content h4 {
+    line-height: 30px;
+  }
+  .php-service-section .crm-service-heading.common-heading p:first-of-type {
+    margin-bottom: 6px;
+  }
+  .php-project-devlop-sec .crm-development-right > p:first-of-type {
+    margin-bottom: 0;
+  }
+  .php-devlp-plateform-section {
+    padding: 50px 0;
+    margin-bottom: 30px;
+  }
+  .crm-development-section {
+    padding-top: 27px;
+  }
+  .php-devlop-services-sec .service-box,
+  .nodejs-development .php-devlop-services-sec .service-box {
+    min-height: auto;
+    padding: 16px;
+  }
+  .hire-heading {
+    padding: 0 16px;
+    margin-top: 30px;
+  }
+  .php-development .php-testimonial-box {
+    margin-top: 10px;
+  }
+  .commitment-section {
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+  .php-development .hire-main-box {
+    padding: 20px 16px;
+  }
+  .php-development .hire-content-left ul li {
+    padding: 16px 10px;
+    margin-bottom: 16px;
+  }
+  .php-development .php-testimonial-box p {
+    text-align: start;
+  }
+  .php-dev-company-content h5 {
+    font-size: 22px;
+  }
+  .php-development-hire-sec {
+    padding-bottom: 30px;
+  }
+  .php-development-hire-sec .php-dev-hire-img {
+    height: auto;
+    margin: 0;
+  }
+  .php-dev-advantage-sec .php-advantage-link {
+    margin-top: 22px;
+  }
+  .php-development-hire-sec .hire-content-left {
+    margin-bottom: 20px;
+  }
+  .hire-content-left p {
+    line-height: 22px;
+  }
+  /* nodejs development css start */
+  .nodejs-development .crm-service-section {
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+  .nodejs-development .crm-service-section .crm-service-heading {
+    margin-bottom: 20px;
+  }
+  .nodejs-development .php-project-devlop-sec .crm-development {
+    margin-bottom: 10px;
+  }
+  .nodejs-development .nodejs-service-link {
+    margin-top: 0px;
+  }
+  .vuejs-development .crm-development h2,
+  .vuejs-development .crm-service-section .common-heading h2 {
+    line-height: 28px;
+  }
+  /* vue js css start */
+  .hero-banner-image .vuejs-banner-img {
+    height: 288px;
+  }
+  .vuejs-experience-sec .experience-heading,
+  .fantasy-development .vuejs-experience-sec .experience-heading {
+    margin-bottom: 30px;
+  }
+  .vuejs-experience-sec {
+    padding-bottom: 40px !important;
+    padding-top: 40px !important;
+  }
+  .experience-image-box .experience-img {
+    height: 313px;
+  }
+  .experience-list ul {
+    margin-bottom: 30px !important;
+  }
+  .experience-image-box {
+    margin-bottom: 20px;
+  }
+  .experience-list ul li {
+    max-width: 100%;
+  }
+
+  .vuejs-development .commitment-section .commitment-box.common-heading h2 {
+    line-height: 28px;
+  }
+  .vuejs-development .request-content p,
+  .reactjs-development .request-content p,
+  .mern-development .request-content p {
+    margin-bottom: 20px;
+  }
+  .vuejs-development .nodejs-testimonial-link {
+    margin-top: 20px;
+  }
+  /* react js development css start */
+  .reactjs-development .experience-image-box .experience-img {
+    height: auto;
+    object-fit: fill;
+  }
+  .reactjs-development .experience-image-box {
+    margin-bottom: 10px;
+  }
+  .reactjs-development .vuejs-experience-sec .experience-list ul {
+    margin-bottom: 30px !important;
+  }
+  .reactjs-development .vuejs-experience-sec .experience-list ul li {
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+  .coding-standards-list {
+    padding: 20px;
+  }
+  .coding-standards-list span {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  .reactjs-development .crm-development-section,
+  .nodejs-development .crm-development-section {
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+  .wordpress-development .php-devlop-services-sec .service-box {
+    min-height: auto;
+  }
+  .wordpress-development .crm-service-heading h2 {
+    line-height: 28px;
+    margin-bottom: 16px;
+  }
+  .wordpress-development .crm-service-section .crm-service-heading {
+    margin-bottom: 25px;
+  }
+  .laravel-development .php-devlop-services-sec .service-box {
+    margin-bottom: 30px;
+  }
+  .angular-development .crm-devevlopment-img {
+    height: auto;
+  }
+  .codeigniter-development .php-devlop-services-sec .service-box,
+  .python-development .php-devlop-services-sec .service-box,
+  .python-development
+    .python-client-section.php-devlop-services-sec
+    .service-box,
+  .custom-software-development
+    .python-client-section
+    .row
+    .col-md-6.col-lg-4.col-xl-4:nth-child(2)
+    .service-box,
+  .custom-software-development
+    .custom-choose-sec
+    .crm-middle-box
+    .col-md-6.col-lg-6.col-xl-6:nth-child(2)
+    .service-box,
+  .custom-software-development
+    .custom-choose-sec
+    .crm-middle-box
+    .col-md-6.col-lg-6.col-xl-6:nth-child(4)
+    .service-box,
+  .custom-software-development
+    .custom-choose-sec
+    .crm-middle-box
+    .col-md-6.col-lg-6.col-xl-6:nth-child(5)
+    .service-box,
+  .custom-software-development
+    .custom-choose-sec
+    .crm-middle-box
+    .col-md-6.col-lg-6.col-xl-6:nth-child(7)
+    .service-box {
+    min-height: auto;
+    margin-bottom: 30px;
+  }
+  .python-development .crm-devevlopment-img {
+    height: auto;
+  }
+  .sass-development .saas-offer-sec .service-box {
+    min-height: auto;
+  }
+  .real-estate-development .crm-content-left {
+    min-height: auto;
+  }
+  .real-estate-development .saas-offer-sec .service-box,
+  .fantasy-development .crm-content-left,
+  .hotel-web-design .crm-content-left,
+  .mobile-app-development
+    .python-client-section
+    .col-md-6.col-lg-4.col-xl-4:nth-child(2)
+    .service-box,
+  .frontend-development .frontend-service-section .service-box {
+    min-height: auto !important;
+    height: auto !important;
+    margin-bottom: 20px !important;
+  }
+  .real-estate-development .saas-offer-sec .service-box,
+  .real-estate-development
+    .real-web-devlop-sec
+    .row
+    .col-md-6.col-lg-4.col-xl-4:nth-child(4) {
+    min-height: auto !important;
+  }
+
+  .real-estate-development
+    .real-web-devlop-sec
+    .row
+    .col-md-6.col-lg-4.col-xl-4:nth-child(5)
+    .service-box,
+  .real-estate-development
+    .real-web-devlop-sec
+    .row
+    .col-md-6.col-lg-4.col-xl-4:last-child
+    .service-box,
+  .custom-software-development
+    .custom-advant-soft-sec
+    .crm-middle-box
+    .col-md-6.col-lg-6.col-xl-6:nth-child(2)
+    .service-box,
+  .custom-software-development
+    .custom-advant-soft-sec
+    .crm-middle-box
+    .col-md-6.col-lg-6.col-xl-6:nth-child(3)
+    .service-box,
+  .custom-software-development
+    .custom-advant-soft-sec
+    .crm-middle-box
+    .col-md-6.col-lg-6.col-xl-6:last-child
+    .service-box {
+    min-height: auto !important;
+  }
+  .real-estate-development .sass-dev-service-sec .service-box,
+  .real-estate-development
+    .sass-dev-service-sec
+    .row
+    .col-md-6.col-lg-4.col-xl-4:nth-child(3)
+    .service-box,
+  .real-estate-development
+    .sass-dev-service-sec
+    .row
+    .col-md-6.col-lg-4.col-xl-4:nth-child(4)
+    .service-box,
+  .real-estate-development
+    .sass-dev-service-sec
+    .row
+    .col-md-6.col-lg-4.col-xl-4:nth-child(5)
+    .service-box,
+  .real-estate-development
+    .sass-dev-service-sec
+    .row
+    .col-md-6.col-lg-4.col-xl-4:nth-child(6)
+    .service-box,
+  .ecommerce-development .sass-dev-service-sec .service-box,
+  .ecommerce-development
+    .sass-dev-service-sec
+    .row
+    .col-md-6.col-lg-4.col-xl-4:nth-child(8)
+    .service-box,
+  .api-development
+    .sass-dev-service-sec
+    .row
+    .col-md-6.col-lg-4.col-xl-4:nth-child(2)
+    .service-box,
+  .api-development
+    .sass-dev-service-sec
+    .row
+    .col-md-6.col-lg-4.col-xl-4:nth-child(5)
+    .service-box {
+    min-height: auto !important;
+  }
+  .real-estate-development .sass-dev-service-sec .mb-100 {
+    margin-bottom: 30px;
+  }
+  .api-development .experience-list ul li,
+  .fantasy-development .experience-list ul li,
+  .hotel-web-design .experience-list ul li,
+  .cms-development .experience-list ul li,
+  .mobile-app-development .experience-list ul li,
+  .law-firm-development .experience-list ul li,
+  .custom-software-development .experience-list ul li,
+  .frontend-development .experience-list ul li,
+  .social-network-development .experience-list ul li {
+    font-size: 18px;
+  }
+  .hotel-web-design .crm-section {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .cms-development
+    .cms-offering-sec
+    .row
+    .col-md-6.col-lg-6:nth-child(1)
+    .service-box,
+  .cms-development
+    .cms-offering-sec
+    .row
+    .col-md-6.col-lg-6:nth-child(2)
+    .service-box,
+  .cms-development
+    .cms-offering-sec
+    .row
+    .col-md-6.col-lg-6:nth-child(3)
+    .service-box,
+  .cms-development
+    .cms-offering-sec
+    .row
+    .col-md-6.col-lg-6:nth-child(4)
+    .service-box,
+  .cms-development
+    .cms-development-process-sec
+    .row
+    .col-md-6.col-lg-4.col-xl-4:nth-child(1)
+    .service-box,
+  .cms-development
+    .cms-development-process-sec
+    .row
+    .col-md-6.col-lg-4.col-xl-4:nth-child(2)
+    .service-box,
+  .cms-development
+    .cms-development-process-sec
+    .row
+    .col-md-6.col-lg-4.col-xl-4:nth-child(3)
+    .service-box {
+    margin-bottom: 30px;
+  }
+  .cms-development .cms-development-process-sec {
+    padding-bottom: 50px;
+  }
+  .fantasy-development .vuejs-experience-sec .experience-heading,
+  .custom-software-development .crm-service-section .crm-service-heading {
+    margin-bottom: 20px;
+  }
+  .custom-software-development .custom-advant-soft-sec {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .social-network-development .crm-development-section .mb-133,
+  .hotel-web-design .crm-development-section .mb-133 {
+    margin-bottom: 40px;
+  }
+  /* footer css start */
+  .footer .footer-middle .about-us {
+    max-width: 100%;
+  }
+  .footer-top .footer-list li a {
+    font-size: 14px;
+  }
+  .plateform-list img {
+    margin-bottom: 10px;
+  }
+  .plateform-list {
+    padding: 18px 0;
+  }
+  .footer-bottom {
+    padding-top: 14px;
+  }
+  .social-media-mail a {
+    word-wrap: break-word;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .footer-bottom ul li a {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .footer-top .footer-list li {
+    margin-bottom: 5px;
+  }
+  .footer-top .footer-heading h6 {
+    margin-bottom: 9px;
+    line-height: 18px;
+  }
+  .footer .footer-middle .about-us,
+  .footer-middle .footer-content span.addresst-text,
+  .social-media-mail a {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .footer .footer-top {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .footer .footer-middle {
+    padding: 30px 0;
+  }
+}
+@media screen and (max-width: 444px) {
+  .hero-banner {
+    padding-top: 100px;
+  }
+  .header-top {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .header-top ul li {
+    margin-right: 10px;
+  }
+  .header-top ul li:first-child {
+    margin-top: -1px;
+  }
+  .header-top ul li:first-child a img {
+    width: 20px;
+  }
+}
+@media screen and (max-width: 399px) {
+  .header-top {
+    padding: 10px 6px;
+  }
+  .hero-banner {
+    padding-bottom: 20px;
+    padding-top: 80px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .header-top ul li {
+    margin-right: 6px;
+  }
+  .header-top a span {
+    font-size: 13px;
+    margin-left: 3px !important;
+  }
+  header nav.navbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}

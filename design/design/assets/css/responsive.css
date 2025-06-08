@@ -1,0 +1,853 @@
+@media screen and (max-width: 1600px) {}
+
+@media screen and (max-width: 1440px) {
+    h1,
+    .h1 {
+        font-size: 76px;
+        line-height: 85px;
+    }
+    h2,
+    .h2 {
+        font-size: 80px;
+        line-height: 90px;
+    }
+    h3,
+    .h3 {
+        font-size: 46px;
+        line-height: 58px;
+    }
+    h4,
+    .h4 {
+        font-size: 34px;
+        line-height: 64px;
+    }
+    h5,
+    .h5 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+}
+
+@media screen and (max-width: 1366px) {}
+
+@media screen and (max-width: 1280px) {
+    .hero-img-box .hero-img {
+        height: 536px;
+        width: 100%;
+    }
+    .hero-img-box .hero-icon-1 {
+        left: -85px;
+        top: 70px;
+    }
+    .hero-icon-2 {
+        right: -30px;
+    }
+    .hero-icon-3 {
+        left: -30px;
+    }
+    .hero-icon-4 {
+        left: -80px;
+    }
+    .hero-line-2 {
+        right: -21px;
+    }
+    .hero-line-1 {
+        right: -31px;
+        bottom: -24px;
+    }
+    .hero-path-1 {
+        bottom: -278px;
+        left: 21%;
+        width: 365px;
+    }
+    .atomic-icon {
+        right: -80px;
+    }
+    .shop-icon-img {
+        bottom: 11%;
+        left: 13%;
+    }
+    .shop-section {
+        padding-bottom: 140px;
+    }
+    .shop-path-4 {
+        left: 24%;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .common-heading h3 {
+        margin-bottom: 16px;
+    }
+    .common-heading p {
+        margin-bottom: 40px;
+    }
+    h1,
+    .h1 {
+        font-size: 66px;
+        line-height: 75px;
+    }
+    h2,
+    .h2 {
+        font-size: 70px;
+        line-height: 80px;
+    }
+    h3,
+    .h3 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+    h4,
+    .h4 {
+        font-size: 30px;
+        line-height: 54px;
+    }
+    h5,
+    .h5 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    p,
+    .p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .btn {
+        padding: 18px !important;
+    }
+    /* padding css start */
+    .sec-p-t-120 {
+        padding-top: 80px;
+    }
+    /* padding css end */
+    .hero-banner-heading p {
+        padding-left: 80px;
+        margin-bottom: 30px;
+        font-size: 22px;
+        line-height: 40px;
+    }
+    .hero-banner-heading .scroll-box {
+        width: 56px;
+        height: 56px;
+        margin-right: 20px;
+    }
+    .hero-path-1 {
+        bottom: -213px;
+        width: 335px;
+    }
+    .atomic-section {
+        margin-top: 100px;
+        padding-bottom: 80px;
+    }
+    .book-img {
+        margin-top: -184px;
+        height: 586px;
+    }
+    .books-heading {
+        top: -60px;
+    }
+    .share-link {
+        width: 54px;
+        height: 54px;
+    }
+    .atomic-content {
+        padding-top: 50px;
+    }
+    .atomic-content .bdr::before {
+        right: 0;
+    }
+    .atomic-icon-1 {
+        position: absolute;
+        right: -30px;
+        bottom: 18%;
+    }
+    .shop-content h3 {
+        max-width: 232px;
+    }
+    .shop-path-4 {
+        width: 400px;
+        bottom: 26px;
+    }
+    .bg-1 {
+        width: 380px;
+        height: 380px;
+    }
+    .bg-2 {
+        width: 380px;
+        height: 380px;
+    }
+    .clothes-img {
+        height: 510px;
+    }
+    .shop-content p:first-of-type {
+        margin-bottom: 20px;
+    }
+    .shop-content h3.bdr::before {
+        right: 70px;
+    }
+    .shorts-img-box .short-img {
+        height: 434px;
+    }
+    .shorts-img-box::before {
+        top: -40px;
+        right: -40px;
+        height: 100px;
+        width: 100px;
+    }
+    .short-content .heading-top {
+        margin-bottom: 20px;
+    }
+    .blog-heading .bdr::before {
+        right: 40px;
+        top: 28px;
+    }
+    .blog-heading {
+        margin-bottom: 40px;
+    }
+    .card-img::before {
+        height: 50px;
+        width: 50px;
+        background-size: 24px 24px;
+    }
+    .card:hover .card-img::before {
+        background-size: 24px 24px;
+    }
+    .contact-heading::before {
+        height: 60px;
+        width: 60px;
+        background-size: 38px 38px;
+    }
+    .contact-heading h3 {
+        width: 100%;
+        max-width: 274px;
+    }
+    .contact-heading h3.bdr::before {
+        top: 24px;
+        left: auto;
+        right: 0;
+    }
+    .contact-heading p {
+        font-size: 20px;
+        line-height: 34px;
+        max-width: 386px;
+    }
+}
+
+@media screen and (max-width: 1080px) {}
+
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 991px) {
+    .hamburger-inner,
+    .hamburger-inner:after,
+    .hamburger-inner:before {
+        height: 3px;
+    }
+    .fixed-header .hamburger-inner,
+    .fixed-header .hamburger-inner:after,
+    .fixed-header .hamburger-inner:before {
+        background-color: #000;
+    }
+    .btn {
+        padding: 16px !important;
+    }
+    /* padding css start */
+    .common-heading p {
+        margin-bottom: 20px;
+    }
+    .sec-p-t-120 {
+        padding-top: 60px;
+    }
+    .sec-p-b-120 {
+        padding-bottom: 60px;
+    }
+    /* padding css end */
+    h1,
+    .h1 {
+        font-size: 56px;
+        line-height: 65px;
+    }
+    h2,
+    .h2 {
+        font-size: 60px;
+        line-height: 70px;
+    }
+    h3,
+    .h3 {
+        font-size: 26px;
+        line-height: 38px;
+    }
+    h4,
+    .h4 {
+        font-size: 24px;
+        line-height: 44px;
+    }
+    h5,
+    .h5 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    /* header css start */
+    .humburger-box .nav-link {
+        margin-right: 30px;
+    }
+    .navbar-brand img.header-logo {
+        width: 128px;
+    }
+    .section-padding {
+        padding: 20px;
+    }
+    .header .navbar-nav .nav-item {
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    .header .navbar-nav .nav-item:nth-child(3) {
+        margin-right: 0;
+    }
+    .header .navbar-nav .nav-item .nav-link {
+        padding: 12px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .header .navbar-nav .nav-item .nav-link.active,
+    .header .navbar-nav .nav-item .nav-link:active {
+        color: #F64F00;
+    }
+    .header {
+        transform: translateY(0px);
+        padding: 22px 0 !important;
+    }
+    .navbar-collapse {
+        margin-top: 0;
+        background-color: #f5f5f5;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        left: 0;
+    }
+    .navbar-nav {
+        height: 100vh;
+        justify-content: center;
+    }
+    .navbar-toggler {
+        color: #fff;
+        border-color: #f5f5f5;
+        padding: 5px;
+        border: none;
+        z-index: 999;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    /* header css end */
+    .hero-banner-heading {
+        margin-bottom: 40px;
+    }
+    .hero-img-box .hero-img {
+        height: 446px;
+        margin: 0 auto;
+        object-fit: contain;
+    }
+    .hero-img-box .hero-icon-1 {
+        left: 70px;
+    }
+    .hero-icon-2 {
+        right: 120px;
+    }
+    .hero-icon-3 {
+        left: 148px;
+    }
+    .hero-icon-4 {
+        left: 100px;
+    }
+    .hero-line-1 {
+        right: 130px;
+        bottom: -24px;
+    }
+    .hero-line-2 {
+        right: 159px;
+    }
+    .hero-path-1 {
+        bottom: auto;
+        width: 335px;
+        left: 41%;
+        top: 25%;
+    }
+    .books-heading {
+        top: -50px;
+    }
+    .books-heading {
+        letter-spacing: 6.6667px;
+    }
+    .atomic-icon {
+        right: auto;
+        left: -70px;
+        transform: rotate(131deg);
+        bottom: 20%;
+    }
+    .shop-img {
+        width: 60px;
+    }
+    .shop-content h3 {
+        max-width: 172px;
+    }
+    .shop-content h3.bdr::before {
+        right: 50px;
+    }
+    .bg-1 {
+        width: 300px;
+        height: 300px;
+    }
+    .bg-2 {
+        width: 300px;
+        height: 300px;
+    }
+    .shop-path-3 {
+        position: absolute;
+        top: -12px;
+        left: 27%;
+        width: 458px;
+    }
+    .shop-path-4 {
+        width: 330px;
+        bottom: 7px;
+        left: 32%;
+    }
+    .clothes-img {
+        height: 400px;
+    }
+    .shop-content p:first-of-type {
+        margin-bottom: 0px;
+    }
+    .shop-section {
+        padding-bottom: 100px;
+        padding-top: 100px;
+    }
+    .shop-icon-img {
+        bottom: 4%;
+        left: 23%;
+    }
+    .short-line {
+        right: -13px;
+    }
+    .short-line-1 {
+        right: -8%;
+        bottom: 0%;
+    }
+    .shorts-img-box::before {
+        top: -33px;
+        right: -26px;
+        height: 70px;
+        width: 70px;
+    }
+    .short-content .heading-top h3 {
+        margin-left: 10px;
+    }
+    .social-heading p {
+        font-size: 18px;
+        line-height: 34px;
+        padding-left: 80px;
+    }
+    .social-heading h3 {
+        padding-left: 80px;
+    }
+    .social-heading h3.bdr::before {
+        top: 20px;
+        width: 50px;
+    }
+    .social-link a {
+        width: 60px;
+        height: 60px;
+        margin-right: 20px;
+    }
+    .social-img {
+        width: 30px;
+        height: 30px;
+    }
+    .social-link {
+        justify-content: end;
+    }
+    .blog-heading {
+        margin-bottom: 30px;
+    }
+    .blog-heading .bdr::before {
+        right: 62px;
+        top: 21px;
+    }
+    .contact-heading h3 {
+        max-width: 204px;
+    }
+    .contact-heading h3.bdr::before {
+        top: 18px;
+    }
+    .contact-heading p {
+        font-size: 18px;
+        line-height: 30px;
+        max-width: 292px;
+    }
+    .form-control {
+        font-size: 16px;
+        padding: 12px;
+    }
+    textarea.form-control {
+        margin-bottom: 20px;
+    }
+    .form-check {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 835px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 767px) {
+    /* suraj css changes */
+    .common-heading h6 {
+        margin-bottom: 10px;
+    }
+    .common-heading p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    /* padding css start */
+    .sec-p-t {
+        padding-top: 40px;
+    }
+    .sec-p-b {
+        padding-bottom: 40px;
+    }
+    .sec-p-t-150 {
+        padding-top: 80px;
+    }
+    .sec-p-b-150 {
+        padding-bottom: 80px;
+    }
+    .sec-p-t-180 {
+        padding-top: 60px;
+    }
+    .sec-p-b-180 {
+        padding-bottom: 60px;
+    }
+    .sec-p-t-200 {
+        padding-top: 100px;
+    }
+    .sec-p-b-200 {
+        padding-bottom: 100px;
+    }
+    .sec-mb-160 {
+        margin-bottom: 70px;
+    }
+    .sec-p-t-130 {
+        padding-top: 70px;
+    }
+    .mb-133 {
+        margin-bottom: 40px;
+    }
+    /* padding css end */
+    h1,
+    .h1 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    h2,
+    .h2 {
+        font-size: 44px;
+        line-height: 60px;
+    }
+    h3,
+    .h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    h5,
+    .h5 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    h6,
+    .h6 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    p,
+    .p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .btn {
+        padding: 12px 26px !important;
+        font-size: 14px;
+    }
+    .sec-p-t {
+        padding-top: 30px;
+    }
+    .sec-p-b {
+        padding-bottom: 30px;
+    }
+    .sec-p-t-120 {
+        padding-top: 40px;
+    }
+    .sec-p-b-120 {
+        padding-bottom: 40px;
+    }
+    .sec-p-b-140 {
+        padding-bottom: 80px;
+    }
+    .sec-p-t-140 {
+        padding-top: 80px;
+    }
+    .sec-p-t-109 {
+        padding-top: 0px;
+    }
+    .bg-btn {
+        padding: 5px 20px;
+    }
+    .header {
+        transform: translateY(0px);
+        padding: 20px 0 !important;
+    }
+    .header .btn-secondry {
+        border-color: #fff;
+    }
+    .header .btn-secondry:hover {
+        border-color: #FF3366;
+    }
+    .header .btn {
+        padding: 8px 16px !important;
+        font-size: 12px;
+    }
+    .fixed-header {
+        padding: 20px 0 !important;
+    }
+    .navbar-brand img.header-logo {
+        width: 128px;
+    }
+    .navbar-nav {
+        padding-left: 0;
+    }
+    .hamburger-box {
+        width: 34px;
+    }
+    .hamburger-inner,
+    .hamburger-inner:after,
+    .hamburger-inner:before {
+        width: 34px;
+        height: 3px;
+        margin-top: 0px;
+    }
+    /* hero banner start */
+    .hero-banner {
+        padding-top: 96px;
+        padding-bottom: 50px;
+    }
+    .hero-banner-heading h1 {
+        margin-bottom: 10px;
+    }
+    .hero-banner-heading p.bdr::before {
+        top: 15px;
+        width: 40px;
+    }
+    .hero-banner-heading p {
+        padding-left: 60px;
+        margin-bottom: 10px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .hero-banner-heading i {
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 20px;
+    }
+    .hero-img-box .hero-img {
+        height: 346px;
+    }
+    .hero-img-box .hero-icon-1 {
+        left: -10px;
+        top: 10px;
+        z-index: -1;
+    }
+    .hero-icon-2 {
+        right: 0;
+    }
+    .hero-icon-3 {
+        left: 12px;
+    }
+    .hero-icon-4 {
+        left: 0;
+    }
+    .hero-line-1 {
+        right: 20px;
+        width: 80%;
+        bottom: -19px;
+    }
+    .hero-line-2 {
+        right: 25px;
+    }
+    .atomic-section {
+        margin-top: 0;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .book-img {
+        margin-top: 0;
+        height: 376px;
+    }
+    .atomic-icon {
+        right: auto;
+        left: -27px;
+        transform: rotate(131deg);
+        bottom: 10%;
+    }
+    .books-heading {
+        position: relative;
+        top: 0;
+        color: #F5F5F5;
+    }
+    .atomic-content {
+        padding-top: 20px;
+    }
+    .atomic-content h3 {
+        width: 100%;
+        max-width: 262px;
+    }
+    .atomic-content .bdr::before {
+        right: 60px;
+        bottom: 10px;
+    }
+    .atomic-icon-1 {
+        position: absolute;
+        right: 18px;
+        bottom: 10%;
+    }
+    .shop-section {
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    .shop-content h3 {
+        max-width: 132px;
+    }
+    .shop-content h3.bdr::before {
+        right: 20px;
+        bottom: 14px;
+    }
+    .shop-content {
+        margin-bottom: 40px;
+    }
+    .bg-1 {
+        width: 270px;
+        height: 270px;
+    }
+    .bg-2 {
+        width: 270px;
+        height: 270px;
+    }
+    .clothes-img {
+        height: 370px;
+    }
+    .shop-icon-img {
+        bottom: 2%;
+        left: 4%;
+    }
+    .shorts-img-box::before {
+        top: -24px;
+        left: -11px;
+        right: auto;
+        height: 50px;
+        width: 50px;
+    }
+    .short-line {
+        right: 0;
+    }
+    .short-line-1 {
+        right: 10%;
+        bottom: -3%;
+    }
+    .shorts-img-box {
+        margin-bottom: 10px;
+    }
+    .shorts-img-box .short-img {
+        height: 320px;
+    }
+    .social-heading {
+        margin-bottom: 20px;
+    }
+    .social-heading h3 {
+        padding-left: 70px;
+    }
+    .social-heading p {
+        padding-left: 70px;
+    }
+    .social-link {
+        justify-content: center;
+    }
+    .card h5 {
+        margin-bottom: 10px;
+    }
+    .card h6 {
+        margin-bottom: 10px;
+    }
+    p.card-text {
+        margin-bottom: 10px;
+    }
+    .card {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .footer {
+        background: linear-gradient(180deg, rgba(226, 226, 226, 1) 30%, rgba(26, 25, 25, 1) 30%);
+    }
+    .contact-heading {
+        padding: 30px 0 130px 20px;
+        margin-top: 0;
+    }
+    .contact-heading h3.bdr::before {
+        top: 15px;
+        right: 20px;
+    }
+    .contact-heading::before {
+        left: -11px;
+        height: 50px;
+        width: 50px;
+        background-size: 30px 30px;
+    }
+    .form-heading {
+        margin-top: 40px;
+    }
+    .form-heading h4 {
+        margin-bottom: 10px;
+    }
+    .footer-top {
+        padding-bottom: 40px;
+    }
+    .footer-bottom .copyright {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .hamburger-box {
+        width: 30px;
+        height: 20px;
+    }
+    .hamburger-inner,
+    .hamburger-inner:after,
+    .hamburger-inner:before {
+        width: 30px;
+        height: 2px;
+    }
+    .navbar-brand img.header-logo {
+        width: 128px;
+    }
+}
+
+@media screen and (max-width: 450px) {}
+
+@media screen and (max-width: 375px) {}
+
+@media screen and (max-width: 330px) {
+    .navbar-brand img.header-logo {
+        width: 108px;
+    }
+}

@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>We help Digital Agencies Scale</title>
+    <link rel="icon" href="assets/images/favicon.png" sizes="32x32" />
+    <!-- flag dropdown css -->
+    <link href="assets/css/intlTelInput.css" rel="stylesheet" media="screen">
+    <!-- fontawsome link -->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <!-- humburger css -->
+    <link rel="stylesheet" href="assets/css/humburger.css">
+    <!-- font css link -->
+    <link rel="stylesheet" href="assets/css/font.css">
+
+    <!-- swiper css  -->
+    <link rel="stylesheet" href="assets/css/swiper.css">
+    <!-- bootstrap css link -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- custom css link -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- responsive css link -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg  p-0">
+            <div class="container">
+                <a class="navbar-brand p-0" href="index.html">
+                    <img src="assets/images/logo.png" alt="logo" class="img-fluid header-logo"> </a>
+
+                <div class="humburger-box d-flex align-items-center">
+                    <a class="nav-link btn btn-secondry d-inline-flex d-lg-none" href="#">Contact us</a>
+                    <button class="navbar-toggler hamburger hamburger--squeeze" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="hamburger-box">
+                                    <span class="hamburger-inner"></span>
+                                </span>
+                                </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+                        <li class="nav-item d-block d-lg-none">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="process.html">What We Do</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="pricing.html">Packages</a>
+                        </li>
+                        <li class="nav-item d-lg-inline-flex d-none">
+                            <a class="nav-link btn btn-secondry" href="#">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main role="main">
+        <!-- section Start -->
+        <section class="pricing-banner">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 mx-auto text-center">
+                        <div class="pricing-content">
+                            <h6 class="text-white">Packages</h6>
+                            <h2 class="text-white">Choose a &nbsp;<span>plan</span> </h2>
+
+                            <p>Avail of excellent services with transparent subscription pricing. Each plan includes a dedicated team to deliver results on-time and at the scale you need.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section end  -->
+        <section id="tabContent">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-8 col-lg-10 col-md-10 mx-auto my-tab-box">
+                        <div id="myNavTab">
+                            <div class="plan-select-list pricing-tab d-md-none d-block">
+                                <h6 class="text-white">Select a Plan</h6>
+                                <select id="change_chart">
+                                    <option value="pills-design">Design Support</option>
+                                    <option value="pills-migration">Migration & Upgrades</option>
+                                    <option value="pills-maintenance">Maintenance & Support</option>
+                                </select>
+                            </div>
+                            <ul class="nav nav-pills pricing-tab" id="pills-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="pills-design-tab" data-bs-toggle="pill" data-bs-target="#pills-design" type="button" role="tab" aria-controls="pills-design" aria-selected="true">Design Support</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-migration-tab" data-bs-toggle="pill" data-bs-target="#pills-migration" type="button" role="tab" aria-controls="pills-migration" aria-selected="false">Migration & Upgrades</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-maintenance-tab" data-bs-toggle="pill" data-bs-target="#pills-maintenance" type="button" role="tab" aria-controls="pills-maintenance" aria-selected="false">Maintenance & Support</button>
+                                </li>
+                            </ul>
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="col-lg-12 col-md-12">
+                        <div class="tab-content text-white pricing-tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-design" role="tabpanel" aria-labelledby="pills-design-tab">
+                                <h4>How many hours of work do you estimate in a month?</h4>
+                                <div class="range-slider">
+                                    <div class="progress"></div>
+                                    <input type="range" min="0" max="3" value="0" name="DesignSupport" onchange="sliderInputChange(this)" class="slider">
+                                    <div class="slider-thumb">
+                                    </div>
+                                </div>
+                                <ul class="range-labels d-md-flex d-block justify-content-between p-0" id="DesignSupport">
+                                    <li class="plan-list-price level-0 active">
+                                        <div class="level-text">LEVEL1</div>
+                                        <div class="hedading-sub-hours">71 hours</div>
+                                        <div class="plan-amount">$1,500/month</div>
+                                        <a href="#" class="btn get-a-trial-btn">Get a free trial</a>
+                                    </li>
+                                    <li class="plan-list-price level-1">
+                                        <div class="level-text ms-lg-4 ms-md-2">LEVEL2</div>
+                                        <div class="hedading-sub-hours ms-lg-4 ms-md-2">100 hours</div>
+                                        <div class="plan-amount ms-lg-4 ms-md-2">$3,000/month</div>
+                                        <a href="#" class="btn get-a-trial-btn ms-lg-4 ms-md-2">Get a free trial</a></li>
+                                    </li>
+                                    <li class="plan-list-price level-2">
+                                        <div class="level-text ms-lg-4 ms-md-2">LEVEL3 </div>
+                                        <div class="hedading-sub-hours ms-lg-4 ms-md-2">200 hours</div>
+                                        <div class="plan-amount ms-lg-4 ms-md-2">$6,000/month</div>
+                                        <a href="#" class="btn btn-secondry get-a-trial-btn ms-lg-4 ms-md-2">Get a free trial</a>
+                                    </li>
+                                    <li class="plan-list-price level-3">
+                                        <div class="level-text ms-lg-4 ms-md-5">LEVEL4</div>
+                                        <div class="hedading-sub-hours">250 hours</div>
+                                        <div class="plan-amount">$7,500/month</div>
+                                        <a href="#" class="btn btn-secondry get-a-trial-btn">Get a free trial</a>
+                                    </li>
+                                </ul>
+                                <div class="no-contract-text text-center">"No contract! Cancel anytime" just below or next to the FREE Trial.</div>
+                                <!-- our capabilities section start -->
+                                <div class="capabilities-section sec-p-t-130">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="capabilities-heading common-heading">
+                                                    <h6 class="text-white">CAPABILITIES</h6>
+                                                    <h2 class="text-white"> Our <span class="text-primary">capabilities</span></h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-3 col-md-6">
+                                                <div class="capabilities-list">
+                                                    <ul class="p-0 m-0">
+                                                        <li class="d-flex"> <span class="capabilities-img"><img src="assets/images/design-services.svg" alt="design-services" class="img-fluid"></span> <span class="capabilities-items">Design systems management</span></li>
+                                                        <li class="d-flex"> <span class="capabilities-img ps-1">
+                                                            <img src="assets/images/scaling-designops.svg" alt="scaling-designops" class="img-fluid">    
+                                </span>
+                                                            <span class="capabilities-items">Scaling DesignOps</span></li>
+                                                        <li class="d-flex"><span class="capabilities-img"><img src="assets/images/ux-circle.svg" alt="ux-circle" class="img-fluid"></span> <span class="capabilities-items">UI/UX Audit</span></li>
+                                                        <li class="d-flex"><span class="capabilities-img"><img src="assets/images/truck-delivery.svg" alt="design-services" class="img-fluid"></span> <span class="capabilities-items">End-to-end UX delivery</span></li>
+                                                        <li class="d-flex"><span class="capabilities-img"><img src="assets/images/ux-research-svg.svg" alt="ux-research-svg" class="img-fluid"></span> <span class="capabilities-items">UX Research</span></li>
+                                                        <li class="d-flex"><span class="capabilities-img"><img src="assets/images/ux-quality.svg" alt="ux-quality" class="img-fluid"></span> <span class="capabilities-items">UX Quality Assurance</span></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-6">
+                                                <div class="capabilities-list">
+                                                    <ul class="p-0 m-0">
+                                                        <li class="d-flex"> <span class="capabilities-img"><img src="assets/images/accessibility-color.svg" alt="accessibility-color" class="img-fluid"></span> <span class="capabilities-items">Accessibility assurance</span></li>
+                                                        <li class="d-flex"> <span class="capabilities-img"><img src="assets/images/support-img.svg" alt="support-img" class="img-fluid"></span> <span class="capabilities-items">Production support</span></li>
+                                                        <li class="d-flex"><span class="capabilities-img"><img src="assets/images/ui-design-svg.svg" alt="ui-design-svg" class="img-fluid"></span> <span class="capabilities-items ps-2">UI Design - For web, mobile, tablet, wearable, and desktop</span></li>
+                                                        <li class="d-flex"><span class="capabilities-img"><img src="assets/images/ux-design-1.svg" alt="ux-design-1" class="img-fluid"></span> <span class="capabilities-items ps-2">UX Design - For web, mobile, tablet, wearable, and desktop</span></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-6">
+                                                <div class="capabilities-list">
+                                                    <ul class="p-0 m-0">
+                                                        <li class="d-flex"> <span class="capabilities-img"><img src="assets/images/money-graph.svg" alt="money-graph" class="img-fluid"></span> <span class="capabilities-items">Corporate Branding</span></li>
+                                                        <li class="d-flex"> <span class="capabilities-img"><img src="assets/images/product-img.svg" alt="product-img" class="img-fluid"></span> <span class="capabilities-items">Product Design</span></li>
+                                                        <li class="d-flex"><span class="capabilities-img"><img src="assets/images/marketing-img.svg" alt="marketing-img" class="img-fluid"></span> <span class="capabilities-items">Marketing Materials</span></li>
+                                                        <li class="d-flex"><span class="capabilities-img"><img src="assets/images/graphics-design.svg" alt="graphics-design" class="img-fluid"></span> <span class="capabilities-items">Outdoor Graphics</span></li>
+                                                        <li class="d-flex"><span class="capabilities-img"><img src="assets/images/ux-research-svg.svg" alt="ux-research-svg" class="img-fluid"></span> <span class="capabilities-items">UX Research</span></li>
+                                                        <li class="d-flex"><span class="capabilities-img"><img src="assets/images/slow-motion-video.svg" alt="slow-motion-video" class="img-fluid"></span> <span class="capabilities-items">Motion Graphics</span></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-6">
+                                                <div class="capabilities-list">
+                                                    <ul class="p-0 m-0">
+                                                        <li class="d-flex"> <span class="capabilities-img"><img src="assets/images/web-browser.svg" alt="money-graph" class="img-fluid"></span> <span class="capabilities-items">Web Banners & Ads</span></li>
+                                                        <li class="d-flex"> <span class="capabilities-img"><img src="assets/images/illustration-img.svg" alt="product-img" class="img-fluid"></span> <span class="capabilities-items">Illustration Design</span></li>
+                                                        <li class="d-flex"><span class="capabilities-img"><img src="assets/images/inbox-img.svg" alt="marketing-img" class="img-fluid"></span> <span class="capabilities-items">Emails Designs & Templates</span></li>
+                                                        <li class="d-flex"><span class="capabilities-img"><img src="assets/images/newspapers-img.svg" alt="newspapers-img" class="img-fluid"></span> <span class="capabilities-items">Book & Magazine Layouts</span></li>
+                                                        <li class="d-flex"><span class="capabilities-img"><img src="assets/images/video-camera.svg" alt="video-camera" class="img-fluid"></span> <span class="capabilities-items">Video Editing & Enhancements</span></li>
+                                                        <li class="d-flex"><span class="capabilities-img"><img src="assets/images/other-digital.svg" alt="other-digital" class="img-fluid"></span> <span class="capabilities-items">Other Digital Creatives</span></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- our capabilities section end -->
+                                <!-- plans section start -->
+                                <div class="plan-section sec-p-t-150">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="plan-heading common-heading">
+                                                    <h6 class="text-white">PLANs</h6>
+                                                    <h2 class="text-white"> What’s <span class="text-primary">included</span> in this plan</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-5 col-md-6">
+                                                <div class="plan-list common-heading">
+                                                    <ul class="p-0 m-0">
+                                                        <li class="position-relative">Multi-brand support</li>
+                                                        <li class="position-relative">Fast turnarounds can account for 50% of total hours</li>
+                                                        <li class="position-relative">A dedicated team of Professionals</li>
+                                                        <li class="position-relative">Timezone coverage across the globe</li>
+                                                        <li class="position-relative">Single-price subscription plan</li>
+                                                        <li class="position-relative">Unlimited resources, revisions, and tech</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-5 col-md-6">
+                                                <div class="plan-list common-heading">
+                                                    <ul class="p-0 m-0">
+                                                        <li class="position-relative">Hassle-free management of different payout rates for resources</li>
+                                                        <li class="position-relative">Get started in less than 48 hours</li>
+                                                        <li class="position-relative">Selected resources are always available (as per schedule)</li>
+                                                        <li class="position-relative">Plug-and-play model</li>
+                                                        <li class="position-relative">No minimum contract term</li>
+                                                        <li class="position-relative">30-day* refund policy</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- plans section end -->
+                            </div>
+                            <!-- tab 1 End -->
+                            <div class="tab-pane fade" id="pills-migration" role="tabpanel" aria-labelledby="pills-migration-tab">
+                                <h4>How many hours of work do you estimate in a month?</h4>
+                                <div class="range-slider">
+                                    <div class="progress"></div>
+                                    <input type="range" min="0" max="3" name="MigrationUpgrades" onchange="sliderInputChange(this)" value="0" class="slider">
+                                    <div class="slider-thumb">
+                                        <!-- <div class="tooltip">
+
+                                        </div> -->
+                                    </div>
+                                </div>
+                                <ul class="range-labels d-md-flex d-block justify-content-between p-0" id="MigrationUpgrades">
+                                    <li class="plan-list-price level-0 active">
+
+                                        <div class="level-text">LEVEL1</div>
+                                        <div class="hedading-sub-hours">71 hours</div>
+                                        <div class="plan-amount">$1,500/month</div>
+
+                                        <a href="#" class="btn get-a-trial-btn">Get a free trial</a>
+                                    </li>
+                                    <li class="plan-list-price level-1">
+                                        <div class="level-text ms-lg-4 ms-md-2">LEVEL2</div>
+                                        <div class="hedading-sub-hours ms-lg-4 ms-md-2">100 hours</div>
+                                        <div class="plan-amount ms-lg-4 ms-md-2">$3,000/month</div>
+                                        <a href="#" class="btn get-a-trial-btn ms-lg-4 ms-md-2">Get a free trial</a></li>
+                                    </li>
+                                    <li class="plan-list-price level-2">
+                                        <div class="level-text ms-lg-4 ms-md-2">LEVEL3 </div>
+                                        <div class="hedading-sub-hours ms-lg-4 ms-md-2">200 hours</div>
+                                        <div class="plan-amount ms-lg-4 ms-md-2">$6,000/month</div>
+                                        <a href="#" class="btn btn-secondry get-a-trial-btn">Get a free trial</a>
+                                    </li>
+                                    <li class="plan-list-price level-3">
+                                        <div class="level-text  ms-lg-4 ms-md-5">LEVEL4</div>
+                                        <div class="hedading-sub-hours">250 hours</div>
+                                        <div class="plan-amount">$7,500/month</div>
+                                        <a href="#" class="btn btn-secondry get-a-trial-btn">Get a free trial</a>
+                                    </li>
+                                </ul>
+
+                                <!-- our capabilities section start -->
+                                <div class="capabilities-section sec-p-t-130">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="capabilities-heading common-heading">
+                                                    <h6 class="text-white">CAPABILITIES</h6>
+                                                    <h2 class="text-white"> Our <span class="text-primary">capabilities</span></h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-3 col-md-6">
+                                                <div class="capabilities-list">
+                                                    <ul class="p-0 m-0">
+                                                        <li class="d-flex"> <span class="capabilities-img"><img src="assets/images/design-services.svg" alt="design-services" class="img-fluid"></span> <span class="capabilities-items">Platform Migration</span></li>
+                                                        <li class="d-flex">
+                                                            <span class="capabilities-img ps-1"><img src="assets/images/scaling-designops.svg" alt="scaling-designops" class="img-fluid">
+                        </span>
+                                                            <span class="capabilities-items">Platform Updates</span></li>
+                                                        <li class="d-flex"><span class="capabilities-img"><img src="assets/images/ux-circle.svg" alt="ux-circle" class="img-fluid"></span> <span class="capabilities-items">Performance Audit</span></li>
+                                                        <li class="d-flex"><span class="capabilities-img"><img src="assets/images/truck-delivery.svg" alt="design-services" class="img-fluid"></span> <span class="capabilities-items">UI/UX Audit</span></li>
+                                                        <li class="d-flex"><span class="capabilities-img"><img src="assets/images/ux-research-svg.svg" alt="ux-research-svg" class="img-fluid"></span> <span class="capabilities-items">Server utilization audit</span></li>
+                                                        <li class="d-flex"><span class="capabilities-img"><img src="assets/images/ux-quality.svg" alt="ux-quality" class="img-fluid"></span> <span class="capabilities-items">UI/UX Customization</span></li>
+                                                        <li class="d-flex"> <span class="capabilities-img"><img src="assets/images/design-services.svg" alt="design-services" class="img-fluid"></span> <span class="capabilities-items">Feature / Plugin Development</span></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 offset-lg-2 col-md-6">
+                                                <div class="capabilities-list">
+                                                    <ul class="p-0 m-0">
+                                                        <li class="d-flex"><span class="capabilities-img"><img src="assets/images/ux-circle.svg" alt="ux-circle" class="img-fluid"></span> <span class="capabilities-items">Feature / Plugin Customization</span></li>
+                                                        <li class="d-flex"><span class="capabilities-img"><img src="assets/images/truck-delivery.svg" alt="design-services" class="img-fluid"></span> <span class="capabilities-items">Performance Optimization</span></li>
+                                                        <li class="d-flex"><span class="capabilities-img"><img src="assets/images/ux-research-svg.svg" alt="ux-research-svg" class="img-fluid"></span> <span class="capabilities-items">Conversion Rate Optimization</span></li>
+                                                        <li class="d-flex"><span class="capabilities-img"><img src="assets/images/ux-quality.svg" alt="ux-quality" class="img-fluid"></span> <span class="capabilities-items">Search Engine Optimization</span></li>
+                                                        <li class="d-flex"> <span class="capabilities-img"><img src="assets/images/design-services.svg" alt="design-services" class="img-fluid"></span> <span class="capabilities-items">Data Backup and Management</span></li>
+                                                        <li class="d-flex"><span class="capabilities-img"><img src="assets/images/ux-circle.svg" alt="ux-circle" class="img-fluid"></span> <span class="capabilities-items">DevOps Support</span></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- our capabilities section end -->
+                                <!-- plans section start -->
+                                <div class="plan-section sec-p-t-150">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="plan-heading common-heading">
+                                                    <h6 class="text-white">PLANs</h6>
+                                                    <h2 class="text-white"> What’s <span class="text-primary">included</span> in this plan</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-5 col-md-6">
+                                                <div class="plan-list common-heading">
+                                                    <ul class="p-0 m-0">
+                                                        <li class="position-relative">Multi-brand support</li>
+                                                        <li class="position-relative">Fast turnarounds can account for 50% of total hours</li>
+                                                        <li class="position-relative">A dedicated team of Professionals</li>
+                                                        <li class="position-relative">Timezone coverage across the globe</li>
+                                                        <li class="position-relative">Single-price subscription plan</li>
+                                                        <li class="position-relative">Unlimited resources, revisions, and tech</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-5 col-md-6">
+                                                <div class="plan-list common-heading">
+                                                    <ul class="p-0 m-0">
+                                                        <li class="position-relative">Hassle-free management of different payout rates for resources</li>
+                                                        <li class="position-relative">Get started in less than 48 hours</li>
+                                                        <li class="position-relative">Selected resources are always available (as per schedule)</li>
+                                                        <li class="position-relative">Plug-and-play model</li>
+                                                        <li class="position-relative">No minimum contract term</li>
+                                                        <li class="position-relative">30-day* refund policy</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!-- plans section end -->
+                            </div>
+                            <!-- tab2 End -->
+                            <div class="tab-pane fade" id="pills-maintenance" role="tabpanel" aria-labelledby="pills-maintenance-tab">
+                                <h4>How many hours of work do you estimate in a month?</h4>
+                                <div class="range-slider">
+                                    <div class="progress"></div>
+                                    <input type="range" min="0" max="3" value="0" name="MaintenanceSupport" onchange="sliderInputChange(this)" class="slider">
+                                    <div class="slider-thumb">
+                                    </div>
+                                </div>
+                                <ul class="range-labels d-md-flex d-block justify-content-between p-0" id="MaintenanceSupport">
+                                    <li class="plan-list-price active level-0">
+                                        <div class="level-text">LEVEL1 000</div>
+                                        <div class="hedading-sub-hours">71 hours</div>
+                                        <div class="plan-amount">$1,500/month</div>
+                                        <a href="#" class="btn get-a-trial-btn">Get a free trial</a>
+                                    </li>
+                                    <li class="plan-list-price selected level-1">
+                                        <div class="level-text ms-lg-4 ms-md-2">LEVEL2</div>
+                                        <div class="hedading-sub-hours ms-lg-4 ms-md-2">100 hours</div>
+                                        <div class="plan-amount ms-lg-4 ms-md-2">$3,000/month</div>
+                                        <a href="#" class="btn get-a-trial-btn ms-lg-4 ms-md-2">Get a free trial</a></li>
+                                    </li>
+                                    <li class="plan-list-price  level-2">
+                                        <div class="level-text ms-lg-4 ms-md-2">LEVEL3 </div>
+                                        <div class="hedading-sub-hours ms-lg-4 ms-md-2">200 hours</div>
+                                        <div class="plan-amount ms-lg-4 ms-md-2">$6,000/month</div>
+                                        <a href="#" class="btn btn-secondry get-a-trial-btn ms-lg-4 ms-md-2">Get a free trial</a>
+                                    </li>
+                                    <li class="plan-list-price  level-3">
+                                        <div class="level-text ms-lg-4 ms-md-5">LEVEL4</div>
+                                        <div class="hedading-sub-hours">250 hours</div>
+                                        <div class="plan-amount">$7,500/month</div>
+                                        <a href="#" class="btn btn-secondry get-a-trial-btn">Get a free trial</a>
+                                    </li>
+                                </ul>
+
+                                <!-- our capabilities section start -->
+                                <div class="capabilities-section sec-p-t-130">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="capabilities-heading common-heading">
+                                                    <h6 class="text-white">CAPABILITIES</h6>
+                                                    <h2 class="text-white"> Our <span class="text-primary">capabilities</span></h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-3 col-md-6">
+                                                <div class="capabilities-list">
+                                                    <ul class="p-0 m-0">
+                                                        <li class="d-flex"> <span class="capabilities-img"><img src="assets/images/design-services.svg" alt="design-services" class="img-fluid"></span> <span class="capabilities-items">App Maintenance</span></li>
+                                                        <li class="d-flex"> <span class="capabilities-img ps-1"><img src="assets/images/scaling-designops.svg" alt="scaling-designops" class="img-fluid">
+                        </span>
+                                                            <span class="capabilities-items">Manual / Automation Testing</span></li>
+                                                        <li class="d-flex"><span class="capabilities-img"><img src="assets/images/ux-circle.svg" alt="ux-circle" class="img-fluid"></span> <span class="capabilities-items">Bug Fixing</span></li>
+                                                        <li class="d-flex"><span class="capabilities-img"><img src="assets/images/truck-delivery.svg" alt="design-services" class="img-fluid"></span> <span class="capabilities-items">QA Documentation</span></li>
+                                                        <li class="d-flex"><span class="capabilities-img"><img src="assets/images/ux-research-svg.svg" alt="ux-research-svg" class="img-fluid"></span> <span class="capabilities-items">Compliance with Applicable Policies</span></li>
+                                                        <li class="d-flex"><span class="capabilities-img"><img src="assets/images/ux-quality.svg" alt="ux-quality" class="img-fluid"></span> <span class="capabilities-items">SLA Based Support</span></li>
+                                                        <li class="d-flex"> <span class="capabilities-img"><img src="assets/images/design-services.svg" alt="design-services" class="img-fluid"></span> <span class="capabilities-items">Remove unused data logs from disk</span></li>
+                                                        <li class="d-flex"> <span class="capabilities-img ps-1">
+                                                            <img src="assets/images/scaling-designops.svg" alt="scaling-designops" class="img-fluid">
+                        </span>
+                                                            <span class="capabilities-items">Malware scanner</span></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 offset-lg-2 col-md-6">
+                                                <div class="capabilities-list">
+                                                    <ul class="p-0 m-0">
+                                                        <li class="d-flex"><span class="capabilities-img"><img src="assets/images/ux-circle.svg" alt="ux-circle" class="img-fluid"></span> <span class="capabilities-items">Monitor & prevent DDOS attacks</span></li>
+                                                        <li class="d-flex"><span class="capabilities-img"><img src="assets/images/truck-delivery.svg" alt="design-services" class="img-fluid"></span> <span class="capabilities-items">Server optimization & performance tuning</span></li>
+                                                        <li class="d-flex"><span class="capabilities-img"><img src="assets/images/ux-research-svg.svg" alt="ux-research-svg" class="img-fluid"></span> <span class="capabilities-items">Server patches & upgrades</span></li>
+                                                        <li class="d-flex"><span class="capabilities-img"><img src="assets/images/ux-quality.svg" alt="ux-quality" class="img-fluid"></span> <span class="capabilities-items">Nameserver & DNS management</span></li>
+                                                        <li class="d-flex"> <span class="capabilities-img"><img src="assets/images/design-services.svg" alt="design-services" class="img-fluid"></span> <span class="capabilities-items">Server kernel upgrades</span></li>
+                                                        <li class="d-flex"> <span class="capabilities-img ps-1"><img src="assets/images/scaling-designops.svg" alt="scaling-designops" class="img-fluid">
+                        </span>
+                                                            <span class="capabilities-items">Firewall setup for secure Server</span></li>
+                                                        <li class="d-flex"><span class="capabilities-img"><img src="assets/images/ux-circle.svg" alt="ux-circle" class="img-fluid"></span> <span class="capabilities-items">Server log analysis</span></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- our capabilities section end -->
+                                <!-- plans section start -->
+
+
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+        </section>
+
+        <!-- feature upgrade section start -->
+        <section class="feature-section sec-p-t-150">
+            <div class="container">
+                <div class="features-top">
+                    <div class="row align-items-center">
+                        <div class="col-xl-6 col-lg-8 col-md-7">
+                            <div class="feature-content">
+                                <h3 class="text-white">Need custom development or <span class="text-primary">feature upgrade?</span></h3>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-4 col-md-5 text-md-end">
+                            <div class="featurs-btn">
+                                <a href="#" class="btn btn-secondry">Get A FREE Consultation</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- feature upgrade section end -->
+        <!-- testimonal section start -->
+        <section class="testimonal-sec sec-p-t-150">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 offset-lg-1">
+                        <div class="testimonal-heading common-heading">
+                            <h6 class="text-white">TESTIMONIAL</h6>
+                            <h2 class="text-white">Our <span class="text-primary">customers</span> can’t imagine life without Together</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="row align-items-md-center flex-md-row">
+                                <div class="col-md-3 col-12 offset-md-1 pe-0">
+                                    <div class="testmonal-img-box overflow-hidden">
+                                        <img src="assets/images/testimonal-img-1.png" alt="testimonal-img" class="img-fluid testimonal-img">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-12 offset-md-1 ps-md-0">
+                                    <div class="testimonal-content">
+                                        <h3 class="text-white">Aldo P.</h3>
+                                        <img src="assets/images/rating-star.svg" alt="rating-star" class="ration-star img-fluid d-block">
+                                        <p>We are so pleased with the quality of creative and fast turnarounds. Together provides excellent service with the creative solutions we need.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="row align-items-center flex-md-row">
+                                <div class="col-md-3 col-12 offset-md-1 pe-0">
+                                    <div class="testmonal-img-box overflow-hidden">
+                                        <img src="assets/images/testimonal-img-1.png" alt="testimonal-img" class="img-fluid testimonal-img">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-12 offset-md-1 ps-md-0">
+                                    <div class="testimonal-content">
+                                        <h3 class="text-white">Aldo P.</h3>
+                                        <img src="assets/images/rating-star.svg" alt="rating-star" class="ration-star img-fluid d-block">
+                                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est
+                                            sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="row align-items-center flex-md-row">
+                                <div class="col-md-3 col-12 offset-md-1 pe-0">
+                                    <div class="testmonal-img-box overflow-hidden">
+                                        <img src="assets/images/testimonal-img-1.png" alt="testimonal-img" class="img-fluid testimonal-img">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-12 offset-md-1 ps-md-0">
+                                    <div class="testimonal-content">
+                                        <h3 class="text-white">Aldo P.</h3>
+                                        <img src="assets/images/rating-star.svg" alt="rating-star" class="ration-star img-fluid d-block">
+                                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est
+                                            sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="row align-items-center flex-md-row">
+                                <div class="col-md-3 col-12 offset-md-1 pe-0">
+                                    <div class="testmonal-img-box overflow-hidden">
+                                        <img src="assets/images/testimonal-img-1.png" alt="testimonal-img" class="img-fluid testimonal-img">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-12 offset-md-1 ps-md-0">
+                                    <div class="testimonal-content">
+                                        <h3 class="text-white">Aldo P.</h3>
+                                        <img src="assets/images/rating-star.svg" alt="rating-star" class="ration-star img-fluid d-block">
+                                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est
+                                            sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+        <!-- testimonal section end -->
+
+        <!-- client-words section start -->
+        <section class="client-section sec-p-b-150">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-8 mx-auto">
+                        <div class="client-heading common-heading text-center">
+                            <h6 class="text-white">Client Words</h6>
+                            <h2 class="text-white">What<span class="text-primary"> clients say</span> about us? </span>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-6">
+                        <div class="card position-relative">
+                            <div class="card-img position-relative"><img src="assets/images/client-img-1.png" class="client-img img-fluid" alt="client-img"></div>
+                            <div class="card-body">
+                                <h4>The Galaxy Weblinks team has been incredibly fast in their communication and they work very well.</h4>
+                                <div class="client-name">Melissa Moody</div>
+                                <div class="clint-position">CMO and Co-founder at Gated</div>
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn d-flex align-items-center" data-bs-toggle="modal" onclick="videoAutoPlay(this)" data-bs-target="#exampleModal">
+                                        <img src="assets/images/play.svg" alt="play" class="play-img"> <span class="watch-link">Watch VIdeo</span>
+                            </button>
+                                <!-- Modal -->
+                                <div class="client-video-popup">
+                                    <div class="modal modal-xl modal-lg modal-md fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <video controls autoplay muted class="w-100">
+                                                    <source src="assets/images/video/melissa-moody.mp4" type="video/mp4">
+                                                  </video>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6">
+                        <div class="card position-relative">
+                            <div class="card-img position-relative"><img src="assets/images/client-img-2.png" class="client-img img-fluid" alt="client-img"></div>
+                            <div class="card-body">
+                                <h4>Very friendly folks and super easy to work with Galaxy Weblinks team.</h4>
+                                <div class="client-name">Stephen Kane</div>
+                                <div class="clint-position">Marketing Lead at Atom Finance</div>
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn d-flex align-items-center" data-bs-toggle="modal" onclick="videoAutoPlay(this)" data-bs-target="#exampleModal1">
+                                        <img src="assets/images/play.svg" alt="play" class="play-img"> <span href="#!" class="watch-link">Watch VIdeo</span>                               
+                            </button>
+                                <!-- Modal -->
+                                <div class="client-video-popup">
+                                    <div class="modal modal-xl modal-lg modal-md fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <video controls autoplay muted class="w-100">
+                                                    <source src="assets/images/video/stephen-Kane.mp4" type="video/mp4">
+                                                  </video>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6">
+                        <div class="card position-relative">
+                            <div class="card-img position-relative"><img src="assets/images/client-img-2.png" class="client-img img-fluid" alt="client-img"></div>
+                            <div class="card-body">
+                                <h4>Very friendly folks and super easy to work with Galaxy Weblinks team.</h4>
+                                <div class="client-name">Stephen Kane</div>
+                                <div class="clint-position">Marketing Lead at Atom Finance</div>
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn d-flex align-items-center" data-bs-toggle="modal" onclick="videoAutoPlay(this)" data-bs-target="#exampleModal2">
+                                        <img src="assets/images/play.svg" alt="play" class="play-img"> <span href="#!" class="watch-link">Watch VIdeo</span>                               
+                            </button>
+                                <!-- Modal -->
+                                <div class="client-video-popup">
+                                    <div class="modal modal-xl modal-lg modal-md fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <video controls autoplay muted class="w-100">
+                                                    <source src="assets/images/video/melissa-moody.mp4" type="video/mp4">
+                                                  </video>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- client-words section end -->
+    </main>
+
+    <!-- footer start -->
+    <!-- this for pricing page book section start -->
+    <section class="book-section sec-p-b-150  sec-p-t-150">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-6">
+                    <div class="book-heading common-heading">
+                        <h6 class="text-white">BOOK A CALL WITH US</h6>
+                        <h2 class="text-white"> Delightful <span class="text-primary">design</span> and agile <span class="text-primary"> development</span> starts here</h2>
+                        <ul class="p-0 m-0">
+                            <li class="position-relative">How Together works</li>
+                            <li class="position-relative">How you can do design at scale better, faster and cheaper</li>
+                            <li class="position-relative">How we’re different from agencies, freelancers and in-house design teams (hint: we’re 20x faster than hiring!)</li>
+                            <li class="position-relative">The most suitable subscription plan for your needs</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <form>
+                        <div class="row w-100">
+                            <div class="col-md-6">
+                                <!--First Name -->
+                                <div class="form-group">
+                                    <label for="contacFirsttName" class="form-label">FIRST NAME</label>
+                                    <input class="form-control" id="contacFirsttName" type="text" placeholder="E.g.Buzz">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+
+                                <!-- Last Name  -->
+                                <div class="form-group">
+                                    <label for="contacLasttName" class="form-label">LAST NAME</label>
+                                    <input class="form-control" id="contacLasttName" type="text" placeholder="E.g.Buzz">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <!-- Email -->
+                                <div class="form-group">
+                                    <label for="mail" class="form-label">EMAIL</label>
+                                    <input class="form-control" id="mail" type="email" placeholder="E.g.buzz@gmail.com">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+
+                                <!-- COMPANY NAME -->
+                                <div class="form-group">
+                                    <label for="companyName" class="form-label">COMPANY NAME</label>
+                                    <input class="form-control" id="companyName" type="text" placeholder="E.g. NASA">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+
+                                <!-- dropdown -->
+                                <div class="form-group">
+                                    <label for="companySize" class="form-label">COMPANY SIZE</label>
+                                    <select class="form-control form-select" id="companySize" aria-label="Default select example">
+                                        <option>Select One</option>
+                                        <option>1-10</option>
+                                        <option>11-50</option>
+                                        <option>51-200</option>
+                                        <option>201-500</option>
+                                        <option>501-1000</option>
+                                        <option>1000-5000</option>
+                                        <option>5000+</option>
+                                   </select>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <!-- phone number -->
+                                <div class="form-group">
+                                    <label for="phone" class="form-label d-block">PHONE NUMBER</label>
+                                    <input class="form-control" id="phone" type="tel" placeholder="0123456789">
+                                </div>
+                                <span id="valid-msg" class="hide">Valid</span>
+                                <span id="error-msg" class="hide">Invalid number</span>
+                            </div>
+                            <div class="col-md-12">
+                                <small>We need your phone number for the demo. We'll never use it for any other purposes.</small>
+                            </div>
+                            <div class="col-md-12">
+                                <button type="submit" class="btn btn-main">Let’s Talk</button>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- this for pricing page book section end -->
+    <!-- footer start -->
+    <footer>
+        <div class="footer bg-white">
+            <div class="container">
+                <div class="footer-top">
+                    <div class="row">
+                        <div class="col-12">
+                            <a class="navbar-brand p-0" href="index.html"><img src="assets/images/footer-logo.svg" alt="header-logo" class="img-fluid header-logo" /> </a>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="footer-heading common-heading">
+                                <h4>
+                                    Together is a revolutionary way for businesses to get good design done at scale.
+                                </h4>
+                                <p>Lorem ipsum dolor sit amet consectetur. Purus pulvinar enim magnis sapien aliquam est. Praesent mi lorem ipsum congue at. Elementum sit nulla tristique viverra cursus. Ac sollicitudin adipiscing maecenas purus commodo mauris
+                                    in.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-5 col-md-6 ms-auto">
+                            <div class="footer-heading common-heading">
+                                <h4>
+                                    Subscribe to our Newsletter
+                                </h4>
+                                <p>Join our community of 15,000 strong and receive the best design and marketing content, biweekly</p>
+                            </div>
+
+                            <div class="subscription-form">
+                                <form>
+                                    <div class="form-group">
+                                        <input class="form-control" id="mail" type="email" placeholder="info@togethership.com">
+                                    </div>
+                                    <input type="submit" class="btn btn-main w-100" value="Let’s Talk" />
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="m-0">
+                <div class="row align-items-center flex-md-row flex-column-reverse">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="power-by-contant">
+                            <div class="power-by-tool"> Powered by
+                                <a href="#" target="_blank"><img src="assets/images/galaxyweblinks-logo.svg" alt="" class="img-fluid"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="copyright">
+                            <p>© 2023 Together. All rights reserved.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-4 text-end ms-auto">
+                        <div class="social-links">
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)">
+                                        <img src="assets/images/behance_white.svg" alt="" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">
+                                        <img src="assets/images/dribbble_white.svg" alt="" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">
+                                        <img src="assets/images/twitter_white.svg" alt="" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">
+                                        <img src="assets/images/instagram_white.svg" alt="" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">
+                                        <img src="assets/images/linkedin_white.svg" alt="" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">
+                                        <img src="assets/images/facebook_white.svg" alt="" />
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+    <!-- jquery js -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery-3.5.1.slim.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/popper.min-2.9.2.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/os-browser-detection.js"></script>
+    <!-- counter js -->
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <!-- swiper js -->
+    <script src="assets/js/swiper.js"></script>
+    <!-- phone no. js-->
+    <script src="assets/js/intlTelInput.min.js"></script>
+    <script src="assets/js/utils.js"></script>
+    <!-- <script src="https://unpkg.com/stimulus/dist/stimulus.umd.js"></script> -->
+    <!-- custom js -->
+    <script src="assets/js/script.js"></script>
+    <script>
+        var menu = document.getElementById("change_chart");
+        menu.addEventListener("change", generateData);
+
+        function generateData(event) {
+            if (menu.value == 'pills-design') {
+                $("#pills-design").show();
+                $("#pills-design").addClass('show');
+                $("#pills-migration").hide();
+                $("#pills-maintenance").hide();
+                // alert(1);
+            } else if (menu.value == 'pills-migration') {
+                $("#pills-design").hide();
+                $("#pills-migration").show();
+                $("#pills-migration").addClass('show');
+                $("#pills-maintenance").hide();
+                // alert(2);
+            } else if (menu.value == 'pills-maintenance') {
+                $("#pills-design").hide();
+                $("#pills-migration").hide();
+                $("#pills-maintenance").show();
+                $("#pills-maintenance").addClass('show');
+                // alert(3);
+            }
+        }
+    </script>
+
+</body>
+
+</html>

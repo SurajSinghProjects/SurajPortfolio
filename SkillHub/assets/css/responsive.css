@@ -1,0 +1,431 @@
+@media screen and (max-width:1599px) {
+
+	/* font css start */
+	h1, .h1 {
+		font-size: 55px;
+	}
+
+	h2, .h2 {
+		font-size: 45px;
+	}
+
+	h3, .h3 {
+		font-size: 35px;
+	}
+
+	h4, .h4 {
+		font-size: 25px;
+	}
+
+	h5, .h5 {
+		font-size: 22px;
+	}
+
+	h6, .h6 {
+		font-size: 18px;
+		line-height: 18px;
+	}
+
+	p, .p {
+		font-size: 18px;
+		line-height: 160%;
+		font-weight: 400;
+	}
+
+	/* font css end */
+}
+
+@media screen and (max-width:1399px) {
+
+	/* font css start */
+	h1, .h1 {
+		font-size: 50px;
+	}
+
+	h2, .h2 {
+		font-size: 42px;
+	}
+
+	h3, .h3 {
+		font-size: 32px;
+	}
+
+	h4, .h4 {
+		font-size: 22px;
+	}
+
+	h5, .h5 {
+		font-size: 20px;
+	}
+
+	h6, .h6 {
+		font-size: 18px;
+		line-height: 18px;
+	}
+
+	p, .p {
+		font-size: 18px;
+		line-height: 160%;
+		font-weight: 400;
+	}
+
+	/* font css end */
+	.query-img {
+		width: 140px;
+		height: 250px;
+	}
+
+}
+
+@media screen and (max-width:1299px) {
+
+	/* padding css start */
+	.p-t-120 {
+		padding-top: 110px;
+	}
+
+	.p-b-120 {
+		padding-bottom: 80px;
+	}
+
+	.p-t-60 {
+		padding-top: 50px;
+	}
+
+	.p-b-60 {
+		padding-bottom: 50px;
+	}
+
+	/* padding css end */
+
+	/* font css start */
+	h1, .h1 {
+		font-size: 40px;
+	}
+
+	h2, .h2 {
+		font-size: 36px;
+	}
+
+	h3, .h3 {
+		font-size: 30px;
+	}
+
+	h4, .h4 {
+		font-size: 22px;
+	}
+
+	h5, .h5 {
+		font-size: 20px;
+	}
+
+	h6, .h6 {
+		font-size: 18px;
+		line-height: 18px;
+	}
+
+	p, .p {
+		font-size: 18px;
+		line-height: 160%;
+		font-weight: 400;
+	}
+
+	/* font css end */
+}
+
+@media screen and (max-width:1199px) {
+
+	/* padding css start */
+	.p-t-120 {
+		padding-top: 60px;
+	}
+
+	.p-b-120 {
+		padding-bottom: 60px;
+	}
+
+	.p-t-60 {
+		padding-top: 40px;
+	}
+
+	.p-b-60 {
+		padding-bottom: 40px;
+	}
+
+	/* padding css end */
+	.btn {
+		padding: 10px 36px;
+	}
+
+	/* font css start */
+	h1, .h1 {
+		font-size: 36px;
+	}
+
+	h2, .h2 {
+		font-size: 32px;
+	}
+
+	h3, .h3 {
+		font-size: 28px;
+	}
+
+	h4, .h4 {
+		font-size: 20px;
+	}
+
+	h5, .h5 {
+		font-size: 18px;
+	}
+
+	h6, .h6 {
+		font-size: 18px;
+		line-height: 18px;
+	}
+
+	p, .p {
+		font-size: 18px;
+		line-height: 160%;
+		font-weight: 400;
+	}
+
+	/* font css end */
+	.query-section .inputMainBox {
+		height: 48px;
+	}
+
+	.query-img {
+		width: 180px;
+		height: 260px;
+	}
+
+}
+
+@media screen and (max-width:991px) {
+	.header .btn {
+		padding: 10px 25px;
+	}
+
+	.btn {
+		padding: 10px 30px;
+	}
+
+	/* padding css start */
+	.p-t-120 {
+		padding-top: 50px;
+	}
+
+	.p-b-120 {
+		padding-bottom: 50px;
+	}
+
+	.p-t-60 {
+		padding-top: 30px;
+	}
+
+	.p-b-60 {
+		padding-bottom: 30px;
+	}
+
+	/* padding css end */
+
+	/* font css start */
+	h1, .h1 {
+		font-size: 32px;
+	}
+
+	h2, .h2 {
+		font-size: 28px;
+	}
+
+	h3, .h3 {
+		font-size: 26px;
+	}
+
+	h4, .h4 {
+		font-size: 20px;
+	}
+
+	h5, .h5 {
+		font-size: 18px;
+	}
+
+	h6, .h6 {
+		font-size: 18px;
+		line-height: 18px;
+	}
+
+	p, .p {
+		font-size: 18px;
+		line-height: 160%;
+		font-weight: 400;
+	}
+
+	/* font css end */
+	.header {
+		transform: translateY(0px) !important;
+	}
+
+	.navbar-collapse {
+		position: absolute;
+		top: 60px;
+		width: 100%;
+		left: 0;
+		background: #fff;
+		box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+		border-radius: 8px;
+		padding: 0 10px;
+	}
+
+	.header .navbar-nav .nav-item {
+		margin-right: 0;
+		border-bottom: 1px solid #ccc;
+		padding: 0px 10px;
+	}
+
+	.header .navbar-nav .nav-item:last-child {
+		margin-bottom: 10px;
+	}
+
+	.hero-banner-img-box img {
+		height: 540px;
+	}
+
+	.hero-banner-content .btn {
+		padding: 17px 32px;
+	}
+
+	.query-img {
+		width: 150px !important;
+		height: 150px !important;
+	}
+
+	.query-section .inputMainBox {
+		height: 48px;
+	}
+
+}
+
+@media screen and (max-width:767px) {
+	.header .btn {
+		padding: 10px;
+	}
+
+	.btn {
+		padding: 10px;
+		font-size: 14px;
+	}
+
+	/* padding css start */
+	.p-t-120 {
+		padding-top: 30px;
+	}
+
+	.p-b-120 {
+		padding-bottom: 30px;
+	}
+
+	.p-t-60 {
+		padding-top: 25px;
+	}
+
+	.p-b-60 {
+		padding-bottom: 25px;
+	}
+
+	/* padding css end */
+
+	/* font css start */
+	h1, .h1 {
+		font-size: 28px;
+	}
+
+	h2, .h2 {
+		font-size: 24px;
+	}
+
+	h3, .h3 {
+		font-size: 22px;
+	}
+
+	h4, .h4 {
+		font-size: 20px;
+	}
+
+	h5, .h5 {
+		font-size: 18px;
+	}
+
+	h6, .h6 {
+		font-size: 16px;
+		line-height: 18px;
+	}
+
+	p, .p {
+		font-size: 16px;
+		line-height: 160%;
+		font-weight: 400;
+	}
+
+	/* font css end */
+	.navbar-toggler {
+		padding: 4px;
+	}
+
+	.hero-banner {
+		padding-top: 100px;
+	}
+
+	.hero-banner-content {
+		margin-bottom: 20px;
+	}
+
+	.hero-banner-content .btn {
+		padding: 12px 24px;
+	}
+
+	.hero-banner-content .inputMainBox {
+		height: 49px;
+	}
+
+	.hero-banner-img-box img {
+		height: auto;
+	}
+
+	.review-box img {
+		width: 80px !important;
+		height: 20px !important;
+	}
+
+	.works-content li {
+		padding: 10px;
+		margin-bottom: 20px;
+	}
+
+	.query-section .inputMainBox {
+		height: 45px;
+	}
+
+	.query-img {
+		width: auto !important;
+		height: auto !important;
+	}
+
+	.swiper-button-prev, .swiper-button-next {
+		padding: 20px;
+		border-radius: 50%;
+	}
+
+}
+
+@media screen and (max-width:499px) {
+	.navbar-toggler {
+		padding: 1px;
+	}
+
+	.swiper {
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+
+}

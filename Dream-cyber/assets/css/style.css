@@ -1,0 +1,2374 @@
+/* font family css start */
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Work Sans";
+  font-style: normal;
+}
+
+/* color css start */
+
+.color-primary {
+  background: linear-gradient(90.06deg, #0023ff 0.02%, #00ebff 76.15%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.primary-text-color {
+  color: #000048 !important;
+}
+.secondry-text-color {
+  color: #676767 !important;
+}
+.primary-heading-color {
+  color: #0028ff !important;
+}
+.secondry-heading-color {
+  color: #3b4ef7 !important;
+}
+.bg-primary {
+  background-color: #000048 !important;
+  background: #000048 !important;
+}
+.bg-linear {
+  background: linear-gradient(180deg, #f4feff 0%, #ffffff 100%);
+}
+.bg-titan-white {
+  background: linear-gradient(180deg, #e8e8ff 0%, #ffffff 100%);
+}
+.bg-levender-mist {
+  background-color: #e8e9f2 !important;
+  background: #e8e9f2 !important;
+}
+.bg-snow-white {
+  background-color: #f9f9f9 !important;
+  background: #f9f9f9 !important;
+}
+.bg-linen {
+  background-color: #ffecec !important;
+  background: #ffecec !important;
+}
+.bg-honeydew {
+  background-color: #f0ffec !important;
+  background: #f0ffec !important;
+}
+.bg-purple-white {
+  background-color: #f1ecff !important;
+  background: #f1ecff !important;
+}
+
+/* border css start */
+
+.bdr {
+  position: relative;
+}
+
+.bdr::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 143px;
+  height: 3px;
+  background-color: #000048;
+}
+
+/* btn css start */
+
+.btn {
+  padding: 16px 43px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  border: none;
+  transition: 0.3s;
+}
+
+.btn-primary {
+  background: linear-gradient(269deg, #00f8ff 0%, #001dff 100%);
+  border-radius: 30px;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(90deg, #00f8ff 0%, #001dff 100%);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #ffffff;
+  border-radius: 25px;
+  padding: 13px 68px;
+}
+.btn-secondary:hover {
+  background-color: #1d3bfb;
+  border-color: transparent;
+}
+.btn-check:focus + .btn,
+.btn:focus,
+.btn-check:active + .btn:focus,
+.btn-check:checked + .btn:focus,
+.btn.active:focus,
+.btn.show:focus,
+.btn:active:focus {
+  box-shadow: none;
+  color: #fff;
+  background: linear-gradient(269deg, #00f8ff 0%, #001dff 100%);
+  border-color: #0028ff;
+}
+
+/* font css start */
+.font-bold {
+  font-weight: bold !important;
+}
+.font-600 {
+  font-weight: 600 !important;
+}
+.font-500 {
+  font-weight: 500 !important;
+}
+.font-400 {
+  font-weight: normal !important;
+}
+
+.font-14 {
+  font-size: 14px !important;
+}
+h1,
+.h1 {
+  font-size: 48px;
+  line-height: 52px;
+  letter-spacing: 0.005em;
+}
+
+h2,
+.h2 {
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: 0.005em;
+}
+h3,
+.h3 {
+  font-size: 35px;
+  line-height: 42px;
+  letter-spacing: 0.005em;
+}
+h4,
+.h4 {
+  font-size: 30px;
+  line-height: 42px;
+  letter-spacing: 0.005em;
+}
+h5,
+.h5 {
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: 0.005em;
+}
+
+h6,
+.h6 {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.005em;
+}
+
+p,
+.p {
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.005em;
+  margin-bottom: 0;
+}
+
+/* padding css start */
+
+.p-l-78 {
+  padding-left: 78px;
+}
+
+.p-r-78 {
+  padding-right: 78px;
+}
+.p-l-126 {
+  padding-left: 126px;
+}
+
+.p-r-126 {
+  padding-right: 126px;
+}
+.p-l-133 {
+  padding-left: 133px;
+}
+
+.p-r-133 {
+  padding-right: 133px;
+}
+
+/* padding css end */
+
+/* margin css start */
+
+.mb-133 {
+  margin-bottom: 133px;
+}
+.mb-118 {
+  margin-bottom: 118px;
+}
+/* margin css end */
+
+/* common heading css */
+
+.common-heading h2 {
+  font-weight: bold;
+  color: #0028ff;
+  margin-bottom: 30px;
+}
+
+.common-heading p,
+.cms-development .commitment-section .commitment-box.common-heading p {
+  font-weight: 600;
+  color: #000048;
+  width: 100%;
+  max-width: 766px;
+  margin: 0 auto;
+}
+
+ul.common-list li::before {
+  content: "";
+  position: absolute;
+  background: url(https://dreamcyberinfoway.sfo3.cdn.digitaloceanspaces.com/images/check-img.svg)
+    no-repeat;
+  left: 0;
+  top: 10px;
+  width: 16px;
+  height: 16px;
+  display: block;
+}
+
+/* header css start */
+.navbar-brand {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 28px;
+}
+.header {
+  position: absolute;
+  top: 39px;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+  transform: translateY(30px);
+  background-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.fixed-header {
+  position: fixed !important;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 9999;
+  padding-top: 28px;
+  padding-left: 78px;
+  padding-right: 78px;
+  padding-bottom: 0;
+  background-color: #fff;
+  border-radius: 0;
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.05);
+  transform: translateY(0px);
+}
+.header-top {
+  background-color: #000048;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.header-top ul li {
+  margin-right: 24px;
+}
+
+.header-top a span {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.005em;
+  position: relative;
+  padding-bottom: 3px;
+}
+header .header-logo {
+  width: 100%;
+  height: 36px;
+}
+header nav.navbar {
+  padding-top: 28px;
+  padding-bottom: 0px;
+  background-color: #fff !important;
+  border-bottom: 1px solid #ebebeb;
+}
+
+header ul.navbar-nav .nav-item {
+  margin-right: 32px;
+  position: relative;
+  padding-bottom: 28px;
+}
+
+header ul.navbar-nav .nav-item:last-child {
+  margin-right: 0px;
+}
+
+header .navbar-nav .nav-item a.nav-link {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21.11px;
+  letter-spacing: 0.005em;
+  color: #000048;
+  transition: all 0.3s ease-in;
+  position: relative;
+  padding: 0;
+  padding-bottom: 2px;
+}
+
+header .navbar-nav .nav-item a.nav-link:hover {
+  color: #0023ff;
+}
+
+header .navbar-nav .nav-item a.nav-link::before,
+.header-top a span::before,
+.footer-top .footer-list li a::before,
+.footer-middle .footer-content a::before,
+.social-media-mail a::before,
+.footer-bottom ul li a::before,
+.dropdown-container .dropdown-menu li a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  border-radius: 4px;
+  background: linear-gradient(90.06deg, #0023ff 0.02%, #00ebff 76.15%);
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+header .navbar-nav .nav-item a.nav-link:hover::before,
+.header-top a span:hover::before,
+.footer-top .footer-list li a:hover::before,
+.footer-middle .footer-content a:hover::before,
+.social-media-mail a:hover::before,
+.footer-bottom ul li a:hover::before,
+.dropdown-container .dropdown-menu li a:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+.navbar-nav .nav-item .nav-link.dropdown-toggle::after {
+  border: none;
+  content: "";
+  background-image: url(https://dreamcyberinfoway.sfo3.cdn.digitaloceanspaces.com/images/chevron-down.svg);
+  background-repeat: no-repeat;
+  width: 8px;
+  position: absolute;
+  height: 11px;
+  top: 40%;
+}
+
+.navbar-nav
+  .nav-item.dropdown-container.dropdown-open
+  .nav-link.dropdown-toggle::after {
+  transform: rotate(180deg);
+  top: 4px;
+}
+
+/* Dropdown menu css */
+
+.dropdown-container .dropdown-menu {
+  width: 549px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 50px 0px #00000040;
+  position: absolute;
+  left: -200px;
+  top: 100%;
+  display: none;
+  opacity: 0;
+  background-color: #ffffff;
+  z-index: 10;
+  overflow: hidden;
+  padding: 30px 26px 33px 17px;
+  animation: downOut 300ms ease-in-out forwards;
+  transform-origin: center center;
+  --bs-dropdown-border-width: 0;
+}
+.dropdown-container .dropdown-menu.first-dropdown {
+  width: 100%;
+  left: 0;
+  padding: 3px;
+}
+
+.dropdown-container .dropdown-menu li::before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 0;
+  background: url(https://dreamcyberinfoway.sfo3.cdn.digitaloceanspaces.com/images/typcn_arrow-up.png)
+    no-repeat;
+  width: 14px;
+  height: 14px;
+}
+.dropdown-item {
+  font-size: 16px;
+  line-height: 16.42px;
+  font-weight: 600;
+  color: #000048;
+  white-space: unset;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.dropdown-container .dropdown-menu a:hover {
+  background-color: transparent;
+  color: #000048;
+}
+
+.dropdown-container .dropdown-menu a:active,
+.dropdown-container .dropdown-menu a:focus {
+  background-color: transparent;
+  color: #000048;
+}
+
+.dropdown-menu,
+.dropdown-toggle {
+  position: relative;
+}
+
+.dropdown-open .dropdown-menu.dropdown-active {
+  display: block;
+  opacity: 1;
+}
+
+.dropdown-menu > li > a {
+  text-transform: capitalize;
+}
+
+.dropdown-menu > li:last-child {
+  border-bottom: none;
+}
+@keyframes downOut {
+  0% {
+    transform: translateZ(200px) transLateY(40px);
+  }
+  80% {
+    transform: translateZ(-10px) transLateY(0px);
+  }
+  100% {
+    transform: translateZ(0px) transLateY(0px);
+  }
+}
+/* home page css start */
+.home-page .hero-banner {
+  padding-bottom: 74px;
+}
+.home-page .hero-banner-image .hero-banner-img {
+  height: 461px;
+}
+.home-page .hero-banner .hero-banner-content h1 {
+  font-size: 40px;
+  padding-bottom: 28px;
+}
+.home-page .hero-banner .hero-banner-content h1.bdr::after {
+  background: #ffffff;
+}
+.home-page .hero-banner .hero-banner-content p {
+  max-width: 452px;
+  margin-bottom: 28px;
+}
+.home-page .home-about-sec {
+  padding-top: 174px;
+  padding-bottom: 113px;
+}
+.home-page .home-about-img {
+  position: absolute;
+  right: 20px;
+  bottom: 0;
+  width: 540px;
+  height: 571px;
+  overflow: hidden;
+}
+.home-about-content h3 {
+  font-size: 18px;
+  line-height: 48px;
+}
+.home-about-content h4 {
+  width: 100%;
+  max-width: 541px;
+  line-height: 45px;
+}
+.home-about-content p {
+  width: 100%;
+  max-width: 532px;
+  font-size: 16px;
+}
+.home-page .crm-service-section {
+  padding-top: 136px;
+  padding-bottom: 126px;
+}
+.home-page .crm-service-heading h2,
+.home-page .php-devlp-plateform-section .quick-fact-content h2 {
+  line-height: 27px;
+}
+.home-page .php-devlop-services-sec .service-box {
+  min-height: 309px;
+  margin-bottom: 41px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.home-page .php-devlop-services-sec .service-box:hover {
+  background-color: #eff1ff;
+}
+.home-page .our-technical-sec .service-box {
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 16px 0;
+  transition: all 0.3s;
+  min-height: 241px;
+  margin-bottom: 77px;
+  box-shadow: none;
+}
+.home-page .crm-service-section .service-box:hover {
+  background-color: #eff1ff;
+  box-shadow: 0px 4px 43px rgba(0, 0, 0, 0.07);
+}
+.home-page .nodejs-service-link {
+  margin-top: 84px;
+}
+.home-page .php-devlp-plateform-section,
+.home-page .request-form-section .request-main-box {
+  background-color: #000048;
+}
+.home-page .php-devlp-plateform-section {
+  margin-bottom: 0;
+}
+.home-page .form-box .form-control {
+  background-color: #000061;
+}
+.quick-fact-content p {
+  font-size: 16px;
+  width: 100%;
+  max-width: 331px;
+}
+.quick-fact-list {
+  padding: 25px 14px;
+  box-shadow: 0px 4px 43px 0px #00000012;
+  background: #00005e;
+  border-radius: 16px;
+  text-align: center;
+  margin-bottom: 33px;
+}
+.quick-fact-list h4,
+.quick-fact-list span.plus {
+  font-family: "Inter";
+  font-size: 60px;
+  line-height: 80px;
+  letter-spacing: 0.005rem;
+  color: #ebebeb;
+  font-weight: bold;
+}
+.quick-fact-list span.p {
+  color: #697cff;
+  line-height: 23px;
+  min-height: 46px;
+}
+.home-page .experience-list ul li {
+  max-width: 516px;
+  margin-bottom: 38px;
+  font-size: 16px;
+}
+.home-page .experience-list ul li:last-child {
+  margin-bottom: 0px;
+}
+.mvp-content {
+  margin-top: 48px;
+}
+.mvp-content p {
+  font-size: 16px;
+  text-align: left;
+  margin-bottom: 48px;
+}
+.home-page .trends-sec {
+  padding-bottom: 92px;
+}
+.home-page .trends-sec .card {
+  border: none;
+}
+.trends-sec .crm-service-heading {
+  margin-bottom: 70px;
+}
+.trends-sec .trend-img-box .trend-img {
+  border-radius: 16px;
+}
+.home-page .trends-sec .card .card-title {
+  font-size: 16.73px;
+  line-height: 27.18px;
+  color: #121212;
+  margin-bottom: 15px;
+}
+.home-page .trends-sec .card span.date {
+  font-size: 12px;
+  line-height: 16px;
+  color: #949494;
+}
+.home-page .trends-sec .card .card-text {
+  font-size: 14.64px;
+  line-height: 27.18px;
+  color: #949494;
+  margin-bottom: 15px;
+}
+
+.home-page .trends-sec .card .btn-secondary {
+  position: relative;
+  color: #3b4ef7;
+  border-radius: 20px;
+  padding: 8px 16px;
+}
+.home-page .trends-sec .card .btn-secondary:hover {
+  background: transparent;
+}
+.home-page .trends-sec .card .btn-secondary::before {
+  content: "";
+  inset: 0;
+  position: absolute;
+  background: linear-gradient(90deg, #3b4ef7 1.79%, #00f8ff 100%);
+  border-radius: 20px;
+  padding: 1.5px;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+.home-page .trends-sec .card .btn-secondary:active,
+.home-page .trends-sec .card .btn-secondary:focus {
+  border-color: transparent;
+  background: transparent;
+}
+.home-page .trends-sec .card .btn-secondary img {
+  transition: transform 0.3s ease-out;
+}
+.home-page .trends-sec .card .btn-secondary:hover img {
+  transform: translateX(4px);
+}
+.trend-img-box::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+  border-radius: 10px;
+}
+.home-page .hire-section {
+  margin-bottom: 104px;
+}
+.home-page .hire-main-box {
+  padding: 59px 68px 51px 78px;
+}
+.home-page .hire-content-left h2 {
+  margin-bottom: 57px;
+}
+.home-page .hire-content-left img.client-img {
+  margin-bottom: 27px;
+}
+
+/* .home-page .swiper-button-next {
+  right: 45%;
+  left: auto;
+  bottom: 0;
+  top: auto;
+}
+.home-page .swiper-button-prev {
+  right: auto;
+  top: auto;
+  left: 45%;
+  bottom: 0;
+}
+.home-page .swiper-button-next:after,
+.home-page .swiper-button-prev::after {
+  content: " ";
+}
+.home-page .swiper-button-next .round-img,
+.home-page .swiper-button-prev .round-img {
+  margin-top: 23px;
+} */
+
+.home-page .plateform-list {
+  border-bottom: none;
+}
+.home-page .profile-heading {
+  margin-bottom: 25px;
+}
+
+/* home page css end */
+/* hero banner css start */
+
+.hero-banner {
+  padding-top: 150px;
+  padding-bottom: 124px;
+}
+
+.hero-banner .hero-banner-content h1 {
+  padding-bottom: 17px;
+  margin-bottom: 17px;
+  color: #000048;
+}
+
+.hero-banner .hero-banner-content h1.bdr::after {
+  top: auto;
+  bottom: 0;
+}
+
+.hero-banner .hero-banner-content p {
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #000048;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 407px;
+}
+
+.hero-banner-image .hero-banner-img {
+  height: 409px;
+}
+
+/* crm section css start */
+
+.crm-section {
+  padding-top: 54px;
+  padding-bottom: 168px;
+}
+
+.crm-heading {
+  margin-bottom: 96px;
+}
+.crm-heading h2 {
+  line-height: 27px;
+}
+.crm-middle-box {
+  margin-bottom: 115px;
+}
+
+.crm-content-left {
+  background: #ffffff;
+  box-shadow: 0px 4px 43px rgba(0, 0, 0, 0.07);
+  border-radius: 30px;
+  padding: 52px 23px 30px 32px;
+  min-height: 427px;
+}
+
+.crm-content-left h6 {
+  font-weight: 600;
+  color: #000048;
+  line-height: 27px;
+}
+
+.crm-content-left p {
+  font-weight: 600;
+  color: #000048;
+  width: 100%;
+  max-width: 460px;
+  margin-bottom: 12px;
+  font-size: 16px;
+  line-height: 27px;
+}
+
+.crm-content-left ul li {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 27px;
+  letter-spacing: 0.005em;
+  color: #000048;
+  padding-left: 23px;
+  margin-bottom: 14px;
+  width: 100%;
+  max-width: 445px;
+}
+.crm-content-left ul.common-list li::before {
+  top: 6px;
+}
+.crm-content-right {
+  background: #eff1ff;
+  box-shadow: 0px 4px 43px rgba(0, 0, 0, 0.07);
+  padding-bottom: 35px;
+}
+
+.development-box h5 {
+  color: #000048;
+}
+
+.development-box p {
+  font-weight: 500;
+  color: #000048;
+  width: 100%;
+  max-width: 393px;
+  margin-bottom: 16px;
+}
+
+.crm-img {
+  object-fit: cover;
+  height: 329px;
+}
+
+/* crm service section css start */
+
+.crm-service-section {
+  padding-top: 48px;
+  padding-bottom: 68px;
+}
+
+.crm-service-section .crm-service-heading {
+  margin-bottom: 103px;
+}
+
+.service-box {
+  margin-bottom: 110px;
+}
+
+.service-box .service-img-box {
+  margin-bottom: 12px;
+}
+
+.service-body h6 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 9px;
+}
+
+.service-body p {
+  font-weight: 500;
+}
+
+/* functionality section css start */
+
+.functionality-section {
+  padding-top: 70px;
+  padding-bottom: 145px;
+}
+
+.functionality-heading {
+  margin-bottom: 112px;
+}
+
+.functionality-heading h2,
+.crm-development h2 {
+  line-height: 55px;
+  margin-bottom: 20px;
+}
+
+.functionality-box {
+  margin-bottom: 119px;
+}
+
+.functionality-img-box {
+  margin-bottom: 35px;
+}
+
+.functionality-img {
+  height: 165px;
+  width: 228px;
+  object-fit: contain;
+}
+
+.functionality-body p {
+  font-weight: 500;
+  margin-bottom: 29px;
+}
+
+.functionality-body ul li {
+  padding-left: 30px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.005em;
+  margin-bottom: 11px;
+  max-width: 392px;
+}
+
+.functionality-body ul li::before {
+  top: 2px;
+  margin-bottom: 10px;
+}
+
+.functionality-section .request-quote {
+  margin-top: 40px;
+}
+
+/* crm development section css start */
+.crm-development-section {
+  padding-top: 57px;
+}
+.crm-development {
+  margin-bottom: 92px;
+}
+.crm-development h2 {
+  width: 100%;
+  max-width: 957px;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+.crm-development p {
+  font-weight: 500;
+  max-width: 805px;
+}
+
+.crm-development-right h3 {
+  color: #000048;
+}
+.crm-development-right p {
+  font-weight: 500;
+}
+
+/* custom crm css start */
+.custom-crm-section {
+  padding-top: 98px;
+  padding-bottom: 125px;
+}
+.custom-box {
+  margin-bottom: 71px;
+}
+.custom-box h2 {
+  line-height: 48px;
+  width: 100%;
+  max-width: 896px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.custom-box p {
+  font-weight: 500;
+  width: 100%;
+  max-width: 860px;
+}
+
+.custom-body h3 {
+  margin-bottom: 21px;
+  width: 100%;
+  max-width: 411px;
+}
+.custom-img-box {
+  margin-bottom: 66px;
+}
+.custom-img {
+  height: 171px;
+  object-fit: contain;
+}
+
+.custom-crm-section .custom-bottom {
+  padding: 0 218px;
+}
+
+/* following seciton css start */
+.following-crm-service {
+  padding-top: 64px;
+  padding-bottom: 38px;
+}
+.following-content {
+  background: #ffffff;
+  box-shadow: 0px 4px 43px rgba(0, 0, 0, 0.07);
+  border-radius: 16px;
+  padding: 18px 27px 9px;
+  transition: all 0.3s ease-in-out;
+  transform: translateY(0%);
+  margin-bottom: 52px;
+}
+.following-content:hover {
+  transform: translateY(-5%);
+}
+.following-content .following-img {
+  display: block;
+  width: 48px;
+  height: 48px;
+  margin: 0 auto;
+}
+.following-content .following-descr {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.005em;
+  min-height: 40px;
+}
+.request-quote {
+  margin-top: 30px;
+}
+/* commitment section css start*/
+.commitment-section {
+  padding-top: 53px;
+  padding-bottom: 73px;
+}
+.commitment-section .commitment-box.common-heading p {
+  max-width: 580px;
+  font-weight: 500;
+}
+.commitment-section .commitment-box {
+  margin-bottom: 80px;
+}
+.commitment-list {
+  border-bottom: 1px solid #000;
+  padding-bottom: 24px;
+  margin-bottom: 42px;
+}
+.commitment-section .row .col-12:last-child .commitment-list {
+  margin-bottom: 0;
+}
+.commitment-list h6 {
+  line-height: 42px;
+  margin-bottom: 16px;
+}
+.commitment-list p {
+  font-weight: 500;
+}
+
+/* hire section */
+.hire-heading {
+  margin-bottom: 89px;
+}
+.hire-heading a.h4 {
+  background: linear-gradient(180deg, #002aff 0%, #00ecff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -text-fill-color: transparent;
+  text-transform: capitalize;
+}
+/* .hire-heading a.h4 span:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(180deg, #002aff 0%, #00ecff 100%);
+  width: 100%;
+  height: 2px;
+} */
+.hire-main-box {
+  background: #ffffff;
+  box-shadow: 0px 4px 43px rgba(0, 0, 0, 0.07);
+  border-radius: 30px;
+  padding: 62px 109px 116px 78px;
+}
+.hire-content-left p {
+  font-weight: 500;
+}
+.hire-content-left p:first-child {
+  margin-bottom: 32px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.hire-main-box .check-img-1 {
+  width: 20px;
+  height: 20px;
+  margin-top: 4px;
+}
+.hire-content-left p:nth-of-type(2) {
+  margin-bottom: 42px;
+  line-height: 32px;
+}
+
+.hire-content-right h4 {
+  line-height: 48px;
+  margin-bottom: 16px;
+}
+.hire-content-right .card {
+  border-radius: 26px;
+  margin-bottom: 32px;
+}
+
+.embed-responsive-item {
+  border-radius: 27px;
+}
+.hire-content-right .card .card-body::before {
+  display: block;
+  content: "";
+  padding-top: 73%;
+  border-radius: 27px;
+}
+
+.hire-content-right h5 {
+  font-size: 25px;
+  line-height: 30px;
+}
+.hire-content-right span.p.designation {
+  line-height: 25px;
+}
+
+/* frequently question css start */
+.frequently-section {
+  padding-top: 48px;
+  padding-bottom: 117px;
+}
+.frequently-heading {
+  margin-bottom: 108px;
+}
+.frequently-section .frequently-heading h6 {
+  font-weight: 700;
+  line-height: 48px;
+}
+.frequently-section .accordion .accordion-item {
+  background: #feffff;
+  box-shadow: 0px 4px 43px rgba(0, 0, 0, 0.07);
+  border-radius: 20px;
+  padding: 30px 34px 20px 38px;
+  margin-bottom: 40px;
+  border: none;
+}
+.frequently-section .accordion .accordion-item:first-of-type .accordion-button,
+.frequently-section
+  .accordion
+  .accordion-item:last-of-type
+  .accordion-button.collapsed,
+.frequently-section .accordion .accordion-button:not(.collapsed),
+.frequently-section .accordion .accordion-item .accordion-button {
+  border-radius: 0;
+  background-color: #ffffff;
+  color: #000048;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  box-shadow: none;
+  align-items: start;
+  margin-bottom: 6px;
+  min-height: 44px;
+}
+
+.frequently-section
+  .accordion
+  .accordion-item
+  .accordion-button:not(.collapsed)::after {
+  background-image: url(https://dreamcyberinfoway.sfo3.cdn.digitaloceanspaces.com/images/accordian-open.svg);
+}
+
+.frequently-section .accordion .accordion-item .accordion-button::after {
+  background-image: url(https://dreamcyberinfoway.sfo3.cdn.digitaloceanspaces.com/images/accordian-close.svg);
+}
+
+.frequently-section .accordion .accordion-item .accordion-body p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 0.005em;
+}
+/* request form section css start */
+.request-form-section {
+  margin-bottom: 100px;
+}
+.request-form-section .request-main-box {
+  background: url(https://dreamcyberinfoway.sfo3.cdn.digitaloceanspaces.com/images/form-transparent-bg.png),
+    #0028ff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 100%;
+  position: relative;
+  border-radius: 20px;
+  padding: 57px 57px 40px 85px;
+}
+.nodejs-development .request-form-section .request-main-box .request-content p,
+.laravel-development .request-form-section .request-main-box .request-content p,
+.codeigniter-development
+  .request-form-section
+  .request-main-box
+  .request-content
+  p,
+.python-development .request-form-section .request-main-box .request-content p,
+.sass-development .request-form-section .request-main-box .request-content p {
+  width: 100%;
+  max-width: 349px;
+  font-size: 20px;
+  line-height: 25px;
+}
+.request-form-section .request-main-box .request-content h6,
+.request-form-section .request-main-box .request-content h2 {
+  color: #fff;
+  line-height: 54px;
+}
+
+.form-box .form-control {
+  background: #1d3bfb;
+  border-radius: 30px;
+  margin-bottom: 14px;
+  border: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0.005em;
+  color: #fff;
+  padding: 20px 30px;
+  resize: none;
+}
+.form-control:focus {
+  color: #000061;
+  background-color: #fff !important;
+  border: none;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 1);
+}
+.form-box .form-control::placeholder {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0.005em;
+  color: #6378ff;
+}
+.form-control:focus .form-box .form-control::placeholder {
+  background-color: #ffffff;
+}
+.form-box textarea.form-control {
+  margin-bottom: 37px;
+}
+/* php-development page css start */
+.php-dev-company-section {
+  padding-bottom: 46px;
+}
+.php-development-banner {
+  padding-bottom: 131px;
+}
+.php-dev-company-image .php-dev-banner-img {
+  height: 290px;
+  margin: 0;
+}
+.php-dev-company-content {
+  width: 100%;
+  max-width: 488px;
+}
+.php-dev-company-content h5 {
+  margin-bottom: 19px;
+}
+.php-dev-company-content p:first-of-type {
+  margin-bottom: 20px;
+}
+.php-advant-img-box {
+  width: 208px;
+  margin-bottom: 28px;
+}
+.php-advantage-img {
+  height: 185px;
+  width: 208px;
+  margin-left: -26px;
+}
+.php-advant-body h3 {
+  margin-bottom: 35px;
+}
+.php-company-advantage {
+  width: 100%;
+  max-width: 485px;
+  margin-bottom: 46px;
+}
+.php-service-section {
+  padding-top: 112px;
+  padding-bottom: 174px;
+}
+.php-service-section .crm-service-heading.common-heading p,
+.mern-development .crm-service-section .crm-service-heading.common-heading p,
+.nodejs-development .crm-service-section .crm-service-heading.common-heading p,
+.python-development .crm-service-section .crm-service-heading.common-heading p,
+.python-development
+  .python-client-section.php-devlop-services-sec
+  .crm-service-heading.common-heading
+  p,
+.python-development
+  .commitment-section.php-develop-partner-sec
+  .commitment-box.common-heading
+  p.mobile-app-development
+  .crm-development
+  p,
+.mern-development .commitment-section .commitment-box.common-heading p,
+.mobile-app-development .crm-development p,
+.mobile-app-development .common-heading p,
+.custom-software-development
+  .crm-service-section
+  .crm-service-heading.common-heading
+  p,
+.custom-software-development
+  .python-client-section
+  .crm-service-heading.common-heading
+  p,
+.social-network-development
+  .commitment-section
+  .commitment-box.common-heading
+  p {
+  max-width: 889px !important;
+}
+.php-service-section .crm-service-heading.common-heading p:first-of-type {
+  margin-bottom: 35px;
+}
+.php-devlp-plateform-section {
+  background: url(https://dreamcyberinfoway.sfo3.cdn.digitaloceanspaces.com/images/plateform-transparent-bg.png),
+    rgba(0, 40, 255, 1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 100%;
+  position: relative;
+  padding: 112px 0;
+  margin-bottom: 92px;
+}
+.php-plateform-content h4 {
+  margin-bottom: 22px;
+}
+.php-develop-partner-sec .common-heading h2 {
+  margin-bottom: 20px !important;
+}
+.commitment-section.php-develop-partner-sec .commitment-box.common-heading p,
+.php-devlop-services-sec .crm-service-heading.common-heading p {
+  max-width: 714px;
+}
+.commitment-section.php-develop-partner-sec .commitment-box {
+  margin-bottom: 75px;
+}
+.commitment-section .hire-heading {
+  margin-bottom: 0;
+  margin-top: 60px;
+}
+.php-project-devlop-sec .crm-development h2 {
+  margin-bottom: 25px;
+}
+.php-project-devlop-sec .crm-development {
+  margin-bottom: 95px;
+}
+.php-project-devlop-sec .crm-development p {
+  max-width: 824px;
+}
+
+.php-project-devlop-sec .crm-development-right {
+  max-width: 521px;
+}
+.php-project-devlop-sec .crm-development-right > p:first-of-type {
+  margin-bottom: 30px;
+}
+
+.php-dev-advantage-sec .crm-service-heading.common-heading p {
+  max-width: 922px;
+}
+.php-devlop-services-sec .crm-service-heading {
+  margin-bottom: 113px;
+}
+.php-devlop-services-sec .service-box {
+  padding: 36px;
+  background: #fff;
+  box-shadow: 0px 4px 43px rgba(0, 0, 0, 0.07);
+  border-radius: 16px;
+}
+.php-development .hire-main-box {
+  padding: 86px 66px 70px 78px;
+}
+.php-development .hire-content-left ul li,
+.nodejs-development .hire-content-left ul li,
+.vuejs-development .hire-content-left ul li,
+.reactjs-development .hire-content-left ul li,
+.wordpress-development .hire-content-left ul li,
+.mern-development .hire-content-left ul li,
+.laravel-development .hire-content-left ul li,
+.angular-development .hire-content-left ul li,
+.codeigniter-development .hire-content-left ul li,
+.python-development .hire-content-left ul li,
+.api-development .hire-content-left ul li,
+.fantasy-development .hire-content-left ul li,
+.hotel-web-design .hire-content-left ul li,
+.cms-development .hire-content-left ul li,
+.mobile-app-development .hire-content-left ul li,
+.law-firm-development .hire-content-left ul li,
+.custom-software-development .hire-content-left ul li,
+.frontend-development .hire-content-left ul li,
+.social-network-development .hire-content-left ul li {
+  padding: 16px 40px;
+  background-color: #fff;
+  box-shadow: 0px 4px 43px 0px #00000012;
+  border-radius: 16px;
+  margin-bottom: 34px;
+}
+.php-development .hire-content-left ul li:last-child,
+.nodejs-development .hire-content-left ul li:last-child,
+.vuejs-development .hire-content-left ul li:last-child,
+.reactjs-development .hire-content-left ul li:last-child,
+.wordpress-development .hire-content-left ul li:last-child,
+.mern-development .hire-content-left ul li:last-child,
+.laravel-development .hire-content-left ul li:last-child,
+.angular-development .hire-content-left ul li:last-child,
+.codeigniter-development .hire-content-left ul li:last-child,
+.python-development .hire-content-left ul li:last-child,
+.api-development .hire-content-left ul li:last-child,
+.fantasy-development .hire-content-left ul li:last-child,
+.hotel-web-design .hire-content-left ul li:last-child,
+.cms-development .hire-content-left ul li:last-child,
+.mobile-app-development .hire-content-left ul li:last-child,
+.law-firm-development .hire-content-left ul li:last-child,
+.custom-software-development .hire-content-left ul li:last-child,
+.frontend-development .hire-content-left ul li:last-child,
+.social-network-development .hire-content-left ul li:last-child {
+  margin-bottom: 0;
+}
+.hire-content-left ul li span {
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.0005em;
+}
+.php-development .hire-content-left ul li span {
+  display: inline-block;
+  margin-left: 40px;
+}
+.hire-content-right .video-poster {
+  height: 498px;
+  width: 100%;
+}
+.php-development .php-testimonial-box {
+  margin-top: 97px;
+}
+.php-development .php-testimonial-box p {
+  margin-bottom: 20px;
+}
+.php-dev-advantage-sec .php-advantage-link {
+  margin-top: 72px;
+}
+.php-development-hire-sec {
+  background-color: #0028ff;
+  position: relative;
+  padding-top: 65px;
+  padding-bottom: 41px;
+  overflow: hidden;
+  z-index: 99;
+  margin-bottom: 60px;
+}
+.php-development-hire-sec::before {
+  content: "";
+  position: absolute;
+  bottom: -155px;
+  right: -60px;
+  width: 414px;
+  height: 414px;
+  background-color: #f8b00f;
+  border-top-left-radius: 340px;
+}
+.php-development-hire-sec .hire-content-left,
+.php-development-hire-sec .php-dev-hire-box {
+  z-index: 99;
+  position: relative;
+}
+.php-development-hire-sec .hire-content-left h5 {
+  line-height: 48px;
+  margin-bottom: 22px;
+}
+.php-development-hire-sec .hire-content-left p {
+  margin-bottom: 36px;
+}
+.php-development-hire-sec .hire-content-left p:last-child {
+  margin-bottom: 0;
+}
+.php-development-hire-sec .php-dev-hire-img {
+  margin-right: 16px;
+}
+/* php-development page css end */
+/* node-js development page css start */
+.nodejs-development .nodejs-banner {
+  padding-bottom: 81px;
+}
+.hero-banner-image .nodejs-banner-img {
+  height: 367px;
+  width: 100%;
+}
+.nodejs-banner .hero-banner-content p {
+  max-width: 453px;
+}
+
+.nodejs-development .common-heading h2 {
+  margin-bottom: 35px;
+}
+.nodejs-development .crm-service-section .crm-service-heading {
+  margin-bottom: 82px;
+}
+.nodejs-development .crm-service-section {
+  padding-top: 109px;
+  padding-bottom: 119px;
+}
+
+.nodejs-development .php-devlp-plateform-section {
+  padding-top: 48px;
+  padding-bottom: 30px;
+}
+.nodejs-development .php-project-devlop-sec .crm-development {
+  margin-bottom: 75px;
+}
+.nodejs-development .crm-devevlopment-img {
+  height: 202px;
+}
+
+.nodejs-development .service-body h3 {
+  margin-bottom: 14px;
+  width: 100%;
+  max-width: 450px;
+}
+
+.nodejs-development .service-box {
+  margin-bottom: 44px;
+}
+.nodejs-development .nodejs-service-link {
+  margin-top: 44px;
+}
+.nodejs-development .php-devlop-services-sec .service-box {
+  min-height: 311px;
+}
+.nodejs-development .node-hire-content,
+.vuejs-development .node-hire-content,
+.reactjs-development .node-hire-content,
+.wordpress-development .node-hire-content,
+.mern-development .node-hire-content,
+.laravel-development .node-hire-content,
+.angular-development .node-hire-content,
+.codeigniter-development .node-hire-content,
+.python-development .node-hire-content,
+.api-development .node-hire-content,
+.fantasy-development .node-hire-content,
+.hotel-web-design .node-hire-content,
+.cms-development .node-hire-content,
+.mobile-app-development .node-hire-content,
+.law-firm-development .node-hire-content,
+.custom-software-development .node-hire-content,
+.frontend-development .node-hire-content,
+.social-network-development .node-hire-content {
+  margin-left: 17px;
+}
+.nodejs-development .nodejs-testimonial-link,
+.reactjs-development .nodejs-testimonial-link,
+.wordpress-development .nodejs-testimonial-link,
+.mern-development .nodejs-testimonial-link,
+.laravel-development .nodejs-testimonial-link,
+.angular-development .nodejs-testimonial-link,
+.codeigniter-development .nodejs-testimonial-link,
+.python-development .nodejs-testimonial-link,
+.api-development .nodejs-testimonial-link,
+.fantasy-development .nodejs-testimonial-link,
+.hotel-web-design .nodejs-testimonial-link,
+.cms-development .nodejs-testimonial-link,
+.mobile-app-development .nodejs-testimonial-link,
+.law-firm-development .nodejs-testimonial-link,
+.custom-software-development .nodejs-testimonial-link,
+.frontend-development .nodejs-testimonial-link,
+.social-network-development .nodejs-testimonial-link {
+  margin-top: 70px;
+}
+/* node-js development page css end */
+
+/* vue-js development page css start */
+.hero-banner-image .vuejs-banner-img {
+  height: 348px;
+}
+.vuejs-development .crm-service-section .common-heading h2 {
+  margin-bottom: 22px;
+  line-height: 54px;
+}
+.vuejs-development .crm-service-section .common-heading p,
+.custom-web-development
+  .php-devlop-services-sec
+  .crm-service-heading.common-heading
+  p {
+  max-width: 848px;
+}
+.vuejs-development .crm-development h2 {
+  line-height: 58px;
+}
+.vuejs-development .php-devlp-plateform-section {
+  margin-bottom: 50px;
+}
+.vuejs-development .commitment-section .commitment-box.common-heading h2 {
+  line-height: 60px;
+}
+
+.vuejs-experience-sec {
+  padding-bottom: 100px;
+}
+.vuejs-experience-sec .experience-heading {
+  margin-bottom: 89px;
+}
+.vuejs-development .crm-development-section {
+  padding-bottom: 80px;
+}
+.experience-list ul {
+  margin-bottom: 48px !important;
+  margin-left: 40px;
+}
+.experience-list ul li {
+  padding-left: 26px;
+  margin-bottom: 10px;
+  width: 100%;
+  font-size: 16px;
+  line-height: 30px;
+  color: #676767;
+  font-weight: 500;
+  letter-spacing: 0.005em;
+}
+.experience-list .btn {
+  padding: 16px 22px;
+  width: 180px;
+  height: 55px;
+}
+.experience-image-box .experience-img {
+  border-radius: 10px;
+  height: 533px;
+  width: 100%;
+}
+.vuejs-development .hire-content-left p:nth-child(3) {
+  margin-bottom: 38px;
+}
+.vuejs-development .request-content p,
+.wordpress-development .request-content p {
+  line-height: 24px;
+  max-width: 385px;
+}
+.vuejs-development .nodejs-testimonial-link {
+  margin-top: 58px;
+}
+/* vue-js development page css start */
+/* react-js development page css start */
+.reactjs-development .crm-development-section,
+.nodejs-development .crm-development-section {
+  padding-top: 120px;
+  padding-bottom: 83px;
+}
+.reactjs-development .crm-service-heading h2 {
+  line-height: 64px;
+}
+.reactjs-development .service-body p {
+  max-width: 485px;
+}
+.reactjs-development .vuejs-experience-sec {
+  padding-bottom: 30px;
+}
+.reactjs-development .vuejs-experience-sec .experience-image-box {
+  margin-bottom: 78px;
+}
+.reactjs-development .vuejs-experience-sec .experience-list ul {
+  margin-top: 0 !important;
+  margin-bottom: 64px !important;
+}
+.reactjs-development .vuejs-experience-sec .experience-list ul li {
+  margin-bottom: 38px;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.005em;
+}
+.reactjs-development .vuejs-experience-sec .experience-list ul li:last-child {
+  margin-bottom: 0;
+}
+.coding-standards-list {
+  box-shadow: 0px 4px 43px 0px #00000012;
+  background-color: #fff;
+  padding: 30px 36px;
+  border-radius: 16px;
+  margin-bottom: 30px;
+}
+.coding-standards-list .coding-header {
+  margin-bottom: 10px;
+}
+.coding-standards-list span {
+  font-size: 25px;
+  line-height: 42px;
+  letter-spacing: 0.005em;
+}
+.coding-standards-list p {
+  font-size: 16px;
+}
+.reactjs-development .commitment-section .commitment-box.common-heading p {
+  max-width: 1049px;
+}
+.reactjs-development .php-devlop-services-sec .service-box {
+  background: #fff;
+  box-shadow: none;
+  max-width: 273px;
+  padding: 0;
+  min-height: auto;
+}
+/* react-js development page css end */
+
+/* wordpress development page css start */
+.wordpress-development .crm-service-heading h2 {
+  line-height: 54px;
+  margin-bottom: 22px;
+}
+.wordpress-development
+  .php-service-section
+  .crm-service-heading.common-heading
+  p:first-of-type {
+  margin-bottom: 12px;
+}
+.wordpress-development .crm-service-section .crm-service-heading {
+  margin-bottom: 65px;
+}
+.wordpress-development .wordpress-choose-sec .crm-service-heading p,
+.custom-software-development
+  .sass-dev-service-sec
+  .crm-service-heading.common-heading
+  p,
+.frontend-development .frontend-service-section .crm-service-heading p {
+  max-width: 1070px;
+}
+.wordpress-development .wordpress-plateform-sec .crm-service-heading h2 {
+  width: 100%;
+  max-width: 671px;
+  margin: auto auto 10px auto;
+}
+.wordpress-development .wordpress-plateform-sec .crm-service-heading p {
+  width: 100%;
+  max-width: 913px;
+  margin: auto;
+}
+.wordpress-development .wordpress-advantage-sec .commitment-box h2 {
+  line-height: 60px;
+}
+.wordpress-development .wordpress-advantage-sec .commitment-box p {
+  width: 100%;
+  max-width: 1049px;
+}
+.wordpress-development .wordpress-experience-box {
+  margin-top: 170px;
+}
+.wordpress-development .crm-development-section.php-project-devlop-sec {
+  padding-bottom: 97px;
+}
+/* wordpress development page css end */
+/* mern-stack development page css start */
+.mern-development .php-service-section {
+  padding-top: 0;
+  padding-bottom: 134px;
+}
+.mern-development .crm-service-section .crm-service-heading {
+  margin-bottom: 47px;
+}
+.mern-development .coding-standards-list {
+  padding: 18px;
+  min-height: 294px;
+}
+.mern-development .php-service-section .crm-service-heading.common-heading p {
+  max-width: 977px;
+}
+.mern-development .crm-service-section .service-box {
+  margin-bottom: 47px !important;
+}
+
+.mern-development .request-form-section p,
+.api-development .request-main-box .request-content h2 {
+  max-width: 383px;
+}
+.mern-development .crm-middle-box {
+  margin-bottom: 0;
+}
+.mern-development .crm-service-section {
+  padding-bottom: 110px;
+}
+.mern-development .commitment-section {
+  padding-bottom: 150px;
+}
+/* mern-stack development page css end */
+/* mean-stack development page css end */
+.mean-development .coding-standards-list {
+  min-height: 235px;
+}
+/* mean-stack development page css end */
+
+/* laravel developmetn page css start */
+.laravel-development .crm-development-section {
+  padding-top: 139px;
+  padding-bottom: 116px;
+}
+.laravel-development .hire-main-box {
+  padding: 62px 109px 46px 78px;
+}
+.laravel-devlp-service .service-box {
+  margin-bottom: 78px;
+}
+.laravel-development .php-devlop-services-sec .service-box {
+  min-height: 404px;
+  margin-bottom: 90px;
+}
+.laravel-development
+  .request-form-section
+  .request-main-box
+  .request-content
+  h3 {
+  font-size: 48px;
+  line-height: 54px;
+}
+/* laravel developmetn page css end */
+/* codeigniter development  page css start */
+.codeigniter-development
+  .commitment-section.php-develop-partner-sec
+  .commitment-box.common-heading
+  p {
+  max-width: 854px;
+}
+.codeigniter-development .php-devlop-services-sec .service-box,
+.python-development .php-devlop-services-sec .service-box {
+  min-height: 462px;
+  margin-bottom: 40px;
+}
+.python-development .php-devlop-services-sec .service-box {
+  min-height: 310px;
+}
+.codeigniter-development .commitment-section {
+  padding-top: 116px;
+}
+/* codeigniter development page css end */
+/* python deveopment page css start */
+.python-development .crm-development-section {
+  padding-bottom: 159px;
+}
+.python-development
+  .python-client-section.php-devlop-services-sec
+  .crm-service-heading {
+  margin-bottom: 50px;
+}
+
+.python-development
+  .python-client-section.php-devlop-services-sec
+  .service-box {
+  min-height: 422px;
+}
+.python-development .vuejs-experience-sec {
+  padding-top: 64px;
+}
+.python-development .experience-list ul li,
+.api-development .experience-list ul li,
+.fantasy-development .experience-list ul li,
+.hotel-web-design .experience-list ul li,
+.cms-development .experience-list ul li,
+.mobile-app-development .experience-list ul li,
+.law-firm-development .experience-list ul li,
+.custom-software-development .experience-list ul li,
+.frontend-development .experience-list ul li,
+.social-network-development .experience-list ul li {
+  margin-bottom: 50px;
+  font-size: 20px;
+  line-height: 34px;
+}
+.python-development .experience-list ul li:last-child {
+  margin-bottom: 00px;
+}
+.python-development .python-client-section {
+  padding-top: 39px;
+}
+.python-development .hire-content-left p:nth-of-type(2) {
+  margin-bottom: 16px;
+}
+.python-development .hire-content-left p:nth-of-type(3) {
+  margin-bottom: 16px;
+}
+/* python deveopment page css end */
+/* sass development page css start */
+.sass-development .hero-banner {
+  padding-bottom: 108px;
+}
+
+.sass-development .hero-banner-image .hero-banner-img {
+  height: 333px;
+}
+.sass-development .crm-content-right {
+  padding: 52px 23px 58px 32px;
+}
+.sass-development .crm-section {
+  padding-bottom: 78px;
+}
+.sass-development .sass-dev-service-sec .service-box .service-body p,
+.real-estate-development .real-web-devlop-sec .service-box .service-body p {
+  font-size: 14px;
+  line-height: 27px;
+}
+.sass-development .sass-dev-service-sec .service-box,
+.sass-development .saas-offer-sec .service-box {
+  min-height: 404px;
+  margin-bottom: 24px;
+  box-shadow: none;
+}
+.sass-development .service-body h6 {
+  font-size: 20px;
+}
+.saas-offer-sec .crm-service-heading.common-heading p {
+  max-width: 919px;
+}
+.sass-development .crm-development-section {
+  padding-bottom: 57px;
+}
+.sass-development .crm-development h2 {
+  max-width: 846px;
+}
+.sass-development .crm-development p {
+  max-width: 1019px;
+}
+.sass-development .commitment-section .commitment-box.common-heading p {
+  max-width: 957px;
+}
+.sass-development .commitment-section .service-box {
+  min-height: 316px;
+}
+.sass-development .hire-section .hire-content-left h3 {
+  font-size: 65px;
+  line-height: 48px;
+  letter-spacing: 0.0005em;
+}
+.sass-development .hire-section .hire-content-left p {
+  max-width: 388px;
+}
+.sass-development .hire-section .hire-main-box {
+  padding: 62px 109px 116px 126px;
+  margin-bottom: 80px;
+}
+/* sass development page css end */
+/* real-estate development page css start */
+.real-estate-development .crm-content-left {
+  min-height: 686px;
+}
+.real-estate-development
+  .php-devlop-services-sec
+  .crm-service-heading.common-heading
+  p {
+  max-width: 969px;
+}
+.real-estate-development .sass-dev-service-sec {
+  padding-bottom: 100px;
+}
+.real-estate-development .sass-dev-service-sec .service-box {
+  min-height: 370px !important;
+}
+.real-estate-development
+  .sass-dev-service-sec
+  .row
+  .col-md-6.col-lg-4.col-xl-4:nth-child(4)
+  .service-box,
+.real-estate-development
+  .sass-dev-service-sec
+  .row
+  .col-md-6.col-lg-4.col-xl-4:nth-child(5)
+  .service-box,
+.real-estate-development
+  .sass-dev-service-sec
+  .row
+  .col-md-6.col-lg-4.col-xl-4:nth-child(6)
+  .service-box {
+  min-height: 430px !important;
+}
+.real-estate-development
+  .sass-dev-service-sec
+  .row
+  .col-md-6.col-lg-4.col-xl-4:last-child
+  .service-box,
+.hotel-web-design .crm-service-section .row .service-box {
+  margin-bottom: 78px;
+}
+.real-estate-development .sass-dev-service-sec .mb-100 {
+  margin-bottom: 100px;
+}
+.real-estate-development .real-estate-section h2 {
+  width: 100%;
+  max-width: 962px;
+  margin: 0 auto;
+}
+.real-estate-section .service-box ul li {
+  list-style: disc;
+}
+.real-estate-development
+  .real-web-devlop-sec
+  .row
+  .col-md-6.col-lg-4.col-xl-4:nth-child(4)
+  .service-box,
+.real-estate-development
+  .real-web-devlop-sec
+  .row
+  .col-md-6.col-lg-4.col-xl-4:nth-child(5)
+  .service-box,
+.real-estate-development
+  .real-web-devlop-sec
+  .row
+  .col-md-6.col-lg-4.col-xl-4:last-child
+  .service-box {
+  min-height: 510px;
+}
+.real-estate-development .frequently-section {
+  padding-bottom: 62px;
+}
+/* real-estate development page css end */
+/* ecommerce development page css start */
+.ecommerce-development .hero-banner-image .hero-banner-img {
+  height: 450px;
+}
+.ecommerce-development .hero-banner-content h1 {
+  max-width: 565px;
+}
+.ecommerce-development
+  .php-devlop-services-sec
+  .crm-service-heading.common-heading
+  p,
+.ecommerce-development .commitment-section .commitment-box.common-heading p,
+.fantasy-development .crm-development p,
+.fantasy-development .crm-service-section .crm-service-heading p,
+.hotel-web-design .crm-service-section .crm-service-heading p,
+.hotel-web-design .crm-development-section .crm-development p,
+.social-network-development .crm-service-section .crm-service-heading p {
+  max-width: 1066px;
+}
+.ecommerce-development .php-devlop-services-sec .crm-service-heading {
+  margin-bottom: 55px;
+}
+.ecommerce-development .ecommerce-application-sec .crm-development-right ul li {
+  font-size: 14px;
+  list-style: disc;
+  line-height: 30px;
+}
+.ecommerce-application-sec .mb-133 {
+  margin-bottom: 80px;
+}
+.ecommerce-development .sass-dev-service-sec .service-box {
+  min-height: 486px;
+}
+/* ecommerce development page css end */
+/* api development page css start  */
+.api-development .vuejs-experience-sec,
+.fantasy-development .vuejs-experience-sec,
+.hotel-web-design .vuejs-experience-sec,
+.mobile-app-development .vuejs-experience-sec,
+.law-firm-development .vuejs-experience-sec,
+.custom-software-development .vuejs-experience-sec,
+.frontend-development .vuejs-experience-sec,
+.social-network-development .vuejs-experience-sec {
+  padding-bottom: 55px;
+  padding-top: 64px;
+}
+.api-development .hire-section .hire-content-left p:nth-of-type(3) {
+  margin-bottom: 80px;
+}
+.api-development .php-devlp-plateform-section {
+  margin-bottom: 64px;
+}
+/* api development page css end  */
+/* fantasy development page css start */
+.fantasy-development .hero-banner {
+  padding-bottom: 33px;
+}
+.fantasy-development .hero-banner-image .hero-banner-img {
+  height: 370px;
+}
+.fantasy-development .crm-section {
+  padding-bottom: 53px;
+}
+.sass-development .crm-development-section {
+  padding-bottom: 76px;
+}
+.fantasy-development
+  .crm-service-section
+  .crm-middle-box
+  .row
+  .col-md-6.col-lg-6:nth-child(3)
+  .service-box,
+.fantasy-development
+  .crm-service-section
+  .crm-middle-box
+  .row
+  .col-md-6.col-lg-6:nth-child(4)
+  .service-box {
+  margin-bottom: 72px;
+}
+.fantasy-development .vuejs-experience-sec .experience-heading,
+.custom-software-development .crm-service-section .crm-service-heading {
+  margin-bottom: 62px;
+}
+.fantasy-development .crm-service-section {
+  padding-bottom: 60px;
+}
+/* fantasy development page css end */
+/* hotel restaurant website design css start */
+.hotel-web-design .crm-section .crm-development {
+  margin-bottom: 26px;
+}
+.hotel-web-design .crm-development p {
+  max-width: 920px;
+}
+.hotel-web-design .crm-development-section .mb-133 {
+  margin-bottom: 56px;
+}
+/* hotel restaurant website design css end */
+/* cms development css start */
+.cms-development .hero-banner-image .hero-banner-img {
+  height: 441px;
+}
+.cms-development .crm-development-section .mb-133 {
+  margin-bottom: 68px;
+}
+.cms-development
+  .cms-offering-sec
+  .row
+  .col-md-6.col-lg-6:nth-child(1)
+  .service-box,
+.cms-development
+  .cms-offering-sec
+  .row
+  .col-md-6.col-lg-6:nth-child(2)
+  .service-box {
+  margin-bottom: 87px;
+}
+.cms-development
+  .cms-offering-sec
+  .row
+  .col-md-6.col-lg-6:nth-child(3)
+  .service-box,
+.cms-development
+  .cms-offering-sec
+  .row
+  .col-md-6.col-lg-6:nth-child(4)
+  .service-box {
+  margin-bottom: 87px;
+}
+.cms-development .commitment-section .commitment-box.common-heading p {
+  max-width: 580px;
+}
+.cms-development .cms-development-process-sec {
+  padding-top: 44px;
+  padding-bottom: 125px;
+}
+.cms-development
+  .cms-development-process-sec
+  .row
+  .col-md-6.col-lg-4.col-xl-4:nth-child(1)
+  .service-box,
+.cms-development
+  .cms-development-process-sec
+  .row
+  .col-md-6.col-lg-4.col-xl-4:nth-child(2)
+  .service-box,
+.cms-development
+  .cms-development-process-sec
+  .row
+  .col-md-6.col-lg-4.col-xl-4:nth-child(3)
+  .service-box {
+  margin-bottom: 54px;
+}
+
+/* cms development css end */
+/* mobile app development css start */
+.mobile-app-development .hero-banner-content h1,
+.social-network-development .hero-banner-content h1 {
+  max-width: 541px;
+}
+.mobile-app-development .hero-banner-content p,
+.law-firm-development .hero-banner .hero-banner-content p,
+.custom-software-development .hero-banner .hero-banner-content p,
+.frontend-development .hero-banner .hero-banner-content p,
+.social-network-development .hero-banner .hero-banner-content p {
+  max-width: 514px;
+}
+.mobile-app-development .python-client-section,
+.law-firm-development .python-client-section,
+.custom-software-development .python-client-section {
+  padding-top: 34px;
+  padding-bottom: 70px;
+}
+
+/* mobile app development css end */
+/* law firm development css start */
+
+.law-firm-development .hero-banner-image .hero-banner-img {
+  height: 395px;
+}
+/* law firm development css end */
+
+/* custom software development css start */
+.custom-software-development .hero-banner {
+  padding-bottom: 40px;
+}
+.custom-software-development .custom-advant-soft-sec {
+  padding-top: 64px;
+  padding-bottom: 110px;
+}
+.custom-software-development
+  .custom-advant-soft-sec
+  .crm-middle-box
+  .service-box {
+  border-radius: 30px;
+  box-shadow: 0px 4px 43px 0px #00000012;
+  transition: all 0.3s;
+  min-height: auto;
+}
+.custom-software-development
+  .custom-advant-soft-sec
+  .crm-middle-box
+  .service-box:hover {
+  background-color: #e8e9f2 !important;
+}
+.custom-software-development
+  .custom-advant-soft-sec
+  .crm-middle-box
+  .col-md-6.col-lg-6.col-xl-6:nth-child(3)
+  .service-box {
+  min-height: 295px;
+}
+.custom-software-development
+  .custom-choose-sec
+  .crm-middle-box
+  .col-md-6.col-lg-6.col-xl-6:nth-child(2)
+  .service-box {
+  min-height: 295px;
+}
+.custom-software-development
+  .custom-choose-sec
+  .crm-middle-box
+  .col-md-6.col-lg-6.col-xl-6:nth-child(5)
+  .service-box,
+.custom-software-development
+  .custom-choose-sec
+  .crm-middle-box
+  .col-md-6.col-lg-6.col-xl-6:nth-child(7)
+  .service-box {
+  min-height: 324px;
+}
+
+/* custom software development css end */
+
+/* frontend development css start */
+.frontend-service-section {
+  padding-bottom: 104px;
+}
+.frontend-development .frontend-service-section .service-box {
+  border-radius: 30px;
+}
+/* frontend development css end */
+/* social network development css start */
+.social-network-development .crm-section {
+  padding-bottom: 160px;
+}
+.social-network-development .crm-development-section .mb-133 {
+  margin-bottom: 106px;
+}
+/* social network development css end */
+/* custom web development css start */
+.custom-web-development .hero-banner .hero-banner-content p {
+  max-width: 528px;
+}
+/* custom web development css end */
+
+/* footer css start */
+.footer .footer-top {
+  padding-top: 47px;
+  padding-bottom: 63px;
+  border-top: 1px solid #000048;
+  border-bottom: 1px solid #000048;
+}
+.footer-top .footer-heading h6 {
+  margin-bottom: 26px;
+  line-height: 22px;
+}
+.footer-top .footer-list {
+  margin-bottom: 38px !important;
+}
+.footer-top .footer-list.mb-0 {
+  margin-bottom: 0 !important;
+}
+.footer-top .footer-list li {
+  margin-bottom: 13px;
+}
+.footer-top .footer-list li:last-child {
+  margin-bottom: 0;
+}
+.footer-top .footer-list li a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  position: relative;
+  padding-bottom: 4px;
+}
+
+.footer .footer-middle {
+  padding: 60px 0;
+  border-bottom: 1px solid #000048;
+}
+.footer .footer-middle .footer-logo-img {
+  height: 56px;
+}
+.footer .footer-middle .about-us,
+.footer-middle .footer-content span.addresst-text,
+.social-media-mail a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  width: 100%;
+  max-width: 327px;
+  letter-spacing: 0.005em;
+  padding-bottom: 4px;
+}
+.footer-middle .footer-content h6,
+.social-media-link h6,
+.social-media-mail h6 {
+  font-weight: bold;
+  line-height: 22px;
+}
+.footer-middle .footer-content span.addresst-text {
+  line-height: 26px;
+}
+.footer-middle .footer-content a,
+.footer-bottom ul li a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.005em;
+  padding-bottom: 4px;
+}
+.social-media-link a {
+  margin-right: 12px;
+}
+.social-media-link a img {
+  width: 20px;
+  height: 20px;
+}
+.social-media-link {
+  margin-bottom: 24px;
+}
+.social-media-link a:first-of-type img {
+  width: 30px;
+  height: 30px;
+}
+.plateform-list {
+  padding: 48px 0;
+  border-bottom: 1px solid #000048;
+}
+
+.footer-bottom {
+  padding-top: 34px;
+  padding-bottom: 16px;
+}
+.footer-bottom ul li a {
+  line-height: 20px;
+}
+.footer-bottom ul li {
+  padding: 0 4px;
+  border-right: 1.5px solid #676767;
+}
+.footer-bottom ul li:last-child {
+  border-right: none;
+}
+.footer span.copyright {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.005em;
+  color: #ffffff;
+}
+
+/* footer css end */
